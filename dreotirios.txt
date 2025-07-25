@@ -1,0 +1,51 @@
+ARWpost
+Build
+Compilers
+Data
+ESM
+fortran
+gnuplot
+grads
+InWave
+IOmod
+IOmod.bckup
+Lib
+Master
+Projects
+ROMS
+SWAN
+Tools
+User
+Work
+WPS
+WRF
+WRFPLUSV3
+WW3
+WW3_old
+
+
+11	         IOmod/      ---OK---
+37	         gnuplot/    ---OK---
+37	         IOmod.bckup/---OK---
+387	      Master/     ---OK---
+397	      Compilers/  ---OK---
+577	      ESM/        ---OK---
+817	      InWave/     ---OK---
+1080	      grads/      ---OK---
+2938	      User/       ---OK---
+3831	      ARWpost/    ---OK---
+10128	      SWAN/       ---OK---
+11053	      Data/       ========
+20064	      Build/      ---OK---
+25877	      Tools/      ========
+35037	      ROMS/       ---OK---
+103647	   WPS/        ---OK---
+312057	   WRFPLUSV3/  ---OK---
+360192	   Lib/        ---OK---
+579299	   WW3/        ---OK---
+632348	   WRF/        ---OK---
+743104	   WW3_old/    ========
+7730876	   fortran/    ---OK---
+37791814	   Projects/   ---OK---
+346240225   Work/
+

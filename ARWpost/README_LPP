@@ -1,0 +1,14 @@
+
+TO COMPILE
+       1  source ./setup.sh LPP (compile with PGI)
+       2 ./configure  --- to get a list of compile options for your computer
+		         If your computer is not listed, you will need to add it under
+			 arch/configure.defaults
+       3 ./compile    --- compile the code
+
+       4 ./clean -a   --- clean 
+
+
+TO RUN:
+       1  source ./setup_pgi.sh
+       2  ./ARWpost.exe > wr_29112022.txt 2>&1 &

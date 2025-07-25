@@ -1,0 +1,4 @@
+ATM - Media dos ranks: DInit:   44.74 s (DP:    0.00s) | DRun: 5467.15 s (DP:    0.04s) | DFina:    0.01 s (DP:    0.00s) | DTOTAL: 5511.90 s (DP:    0.04s)
+ATM - Media dos ranks: DTWaits:   14.38 s (DP:    0.01s),   0.26 %
+ATM - Media dos ranks: DTWaitr:    1.88 s (DP:    1.37s),   0.03 %
+ATM - Media dos ranks: DTTodosWait:   16.26 s (DP:    1.37s),   0.30 %

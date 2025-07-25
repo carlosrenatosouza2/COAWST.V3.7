@@ -1,0 +1,5 @@
+To compile:     (https://forum.mmm.ucar.edu/phpBB3/viewtopic.php?t=5218)
+https://www2.mmm.ucar.edu/wrf/users/docs/user_guide_v4/v4.4/users_guide_chap6.html#_Compile_WRFDA_and_1 
+
+./configure wrfplus
+ ./compile wrf

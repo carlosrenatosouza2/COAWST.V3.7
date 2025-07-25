@@ -1,0 +1,5 @@
+>source ./setup_pgi.sh
+>cp Makefile.conf.lpp Makefile.conf
+>make clean
+>make
+>make install

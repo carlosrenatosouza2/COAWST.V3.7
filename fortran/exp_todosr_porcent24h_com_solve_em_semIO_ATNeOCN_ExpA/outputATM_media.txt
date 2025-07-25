@@ -1,0 +1,11 @@
+ATM - Media dos ranks:
+
+Funcoes principais:
+DInit:       44.42 s (DP:    0.00s)
+DRun:      1776.73 s (DP:    0.01s)
+DFina:        0.00 s (DP:    0.00s)
+DTOTAL:    1821.15 s (DP:    0.01s)
+
+DTWaitS:      4.72 s (DP:   10.98s) %:   0.26
+DTWaitR:     29.38 s (DP:   10.50s) %:   1.61
+TodosWait:   34.10 s (DP:    0.95s) %:   1.87

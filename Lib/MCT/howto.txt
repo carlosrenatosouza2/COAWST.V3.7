@@ -1,0 +1,9 @@
+# HOw to compile MCT (Carlos Renato)
+
+./configure
+alterar o makefile.conf:
+   libdir          = /mnt/beegfs/carlos.souza/Doutorado/COAWST.V3.7/Lib/MCT/intel/lib
+   includedir      = /mnt/beegfs/carlos.souza/Doutorado/COAWST.V3.7/Lib/MCT/intel/include
+
+make clean
+make install

@@ -1,0 +1,42 @@
+#!/bin/ksh
+
+rm -f calc.x
+
+echo "compilando"
+gfortran calc.f90 -o calc.x
+echo "compilado"
+sleep 3
+
+if [ -s calc.x ] 
+then
+   echo "executando"
+   ./calc.x
+   echo "executado"
+else
+   echo "deu ruim"
+fi
+
+exit
+
+cat > graf3.gnu <<EOF
+
+reset
+
+set title 'Tempos Wall Time COAWST v3.7'
+
+
+set terminal png    
+set output 'graf3.gnu.png'
+
+set xlabel 'Wall clock (s)'
+set ylabel 'Fases das Componentes'
+set yrange [-10:700.0]
+set xrange [0:350.0]
+
+plot  'graf3.gnu.input1'  using 3:1    with line linecolor rgb 'black'          title 'WRF Run', \
+      'graf3.gnu.input2'  using 3:1    with line linecolor rgb 'blue'           title 'OCN Run'
+
+EOF
+
+gnuplot graf3.gnu
+display graf3.gnu.png

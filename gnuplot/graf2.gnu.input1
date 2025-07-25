@@ -1,0 +1,4 @@
+# Tempos master.f90:
+col1  ATM_initI   col3  ATM_run  col5  ATM_fin  col7 ATM_ISend1   col9  ATM_Waits1  col11 ATM_ISend2  col13 ATM_Waits2  col15 ATM_ISend3  col17 ATM_Waits3  
+0.5   283.29      1.00  327.73   1.5   585.99   0.1   364.83      0.15   364.83      0.1   481.73      0.15   481.73      0.1   585.84      0.15   585.84
+0.5   358.99      1.00  617.25   1.5   617.26   0.1   396.13      0.15   410.45      0.1   513.13      0.15   513.13      0.1   617.23      0.15   617.23

@@ -1,0 +1,4 @@
+OCN - Media dos ranks: DInit:   94,51 s (DP:    0,00s) | DRun: 3405,72 s (DP:    0,02s) | DFina:    0,03 s (DP:    0,00s) | DTOTAL: 3500,25 s (DP:    0,02s)
+OCN - Media dos ranks: DTWaits:    0,00 s (DP:    0,00s),   0,00 %
+OCN - Media dos ranks: DTWaitr: 1986,51 s (DP:    0,55s),  56,75 %
+OCN - Media dos ranks: DTTodosWait: 1986,51 s (DP:    0,55s),  56,75 %2

@@ -1,0 +1,24 @@
+#!/bin/ksh
+
+rm -f calc.x
+
+echo "compilando"
+gfortran calc.f90 -o calc.x
+echo "compilado"
+sleep 3
+
+if [ -s calc.x ] 
+then
+   echo "executando"
+   ./calc.x
+   echo "executado"
+
+   
+   gnuplot graf3.gnu
+   display graf3.gnu.png
+else
+   echo "deu ruim"
+fi
+
+exit
+

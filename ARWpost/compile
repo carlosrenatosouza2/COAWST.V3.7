@@ -1,0 +1,32 @@
+#!/bin/csh -f
+
+if ( ! -e configure.arwp ) then
+	echo "Do 'configure' first"
+	exit ( 1 ) 
+endif
+
+if  ( ( ! $?NETCDF ) && ( -d netcdf_links ) ) then
+	setenv NETCDF `pwd`/netcdf_links
+	setenv temp_netcdf 1
+else
+	setenv temp_netcdf 0
+endif
+
+set DEV_TOP = `pwd`
+
+
+echo " "
+echo "**** Compiling ARWpost ****"
+echo " "
+
+( cd src ; make -i -r all )
+     if ( -e src/ARWpost.exe ) then
+             ln -sf src/ARWpost.exe .
+     endif
+
+
+if ( $temp_netcdf == 1 ) then
+	unsetenv NETCDF
+endif
+
+exit(0)

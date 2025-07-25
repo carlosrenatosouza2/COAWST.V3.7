@@ -1,0 +1,146 @@
+
+!!!!!!!!!!!!!!!!
+  ARWpost v3.1
+!!!!!!!!!!!!!!!!
+
+FOUND the following input files:
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-11-29_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-11-29_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-11-30_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-11-30_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-11.ctl
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-01_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-01_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-02_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-02_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-03_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-03_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-04_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-04_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-05_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-05_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-06_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-06_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-07_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-07_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-08_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-08_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-09_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-09_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-10_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-10_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-11_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-11_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-12_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12-12_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12.ctl
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_20211129/wrfout_d01_2021-12.dat
+
+START PROCESSING DATA
+   Interpolating to PRESSURE levels
+
+
+ Processing  time --- 2021-12-01_00:00:00
+   Date not in this file - see if there are more files
+   Date not in this file - see if there are more files
+   Date not in this file - see if there are more files
+   Date not in this file - see if there are more files
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-01_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-02_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-02_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-03_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-03_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-04_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-04_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-05_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-05_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-06_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-06_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-07_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-07_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-08_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-08_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-09_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-09_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-10_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-10_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-11_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-11_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2021-12-12_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+DONE Processing Data
+
+CREATING .ctl file
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!  Successful completion of ARWpost  !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+

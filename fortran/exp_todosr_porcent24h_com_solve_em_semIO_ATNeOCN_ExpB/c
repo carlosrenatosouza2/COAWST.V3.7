@@ -1,0 +1,29 @@
+#!/bin/ksh
+
+#codename="calc3"  # so solve_em i
+codename="calc2"  # so init, run, fina, waits, waitr, atm e ocn
+
+
+
+rm -f ${codename}.x
+
+echo "compilando"
+
+gfortran -ffree-line-length-none ${codename}.f90 -o ${codename}.x
+
+echo "compilado"
+sleep 3
+
+if [ -s ${codename}.x ] 
+then
+   echo "executando"
+   time ./${codename}.x
+   echo "executado"
+
+   
+else
+   echo "deu ruim"
+fi
+
+exit
+

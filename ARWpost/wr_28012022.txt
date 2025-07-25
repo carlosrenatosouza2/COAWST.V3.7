@@ -1,0 +1,83 @@
+
+!!!!!!!!!!!!!!!!
+  ARWpost v3.1
+!!!!!!!!!!!!!!!!
+
+FOUND the following input files:
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_28012022/wrfout_d01_2022-01-28_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_28012022/wrfout_d01_2022-01-28_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_28012022/wrfout_d01_2022-01-29_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_28012022/wrfout_d01_2022-01-29_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_28012022/wrfout_d01_2022-01-30_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_28012022/wrfout_d01_2022-01-30_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_28012022/wrfout_d01_2022-01-31_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_28012022/wrfout_d01_2022-01-31_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_28012022/wrfout_d01_2022-02-01_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_28012022/wrfout_d01_2022-02-01_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_28012022/wrfout_d01_2022-02-02_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_28012022/wrfout_d01_2022-02-02_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_28012022/wrfout_d01_2022-02-03_00:00:00
+
+START PROCESSING DATA
+   Interpolating to PRESSURE levels
+
+
+ Processing  time --- 2022-01-28_00:00:00
+   Found the right date - continue
+
+ Processing  time --- 2022-01-28_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-29_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-29_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-30_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-30_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-31_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-31_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-02-01_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-02-01_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-02-02_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-02-02_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-02-03_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+DONE Processing Data
+
+CREATING .ctl file
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!  Successful completion of ARWpost  !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+

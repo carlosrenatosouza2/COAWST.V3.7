@@ -1,0 +1,49 @@
+Notes:
+mod_scalars.f90:        integer :: iTvdif          ! Tracer, vertical diffusion
+
+Aonde é definido: pre_step3d.f90:              DiaTwrk(i,j,k,itrc,iTvdif)=cff2
+
+mod_ncparam.F            CASE ('idDtrc(iTvadv)')
+
+luciano.pezzi@login1:~/COAWST3.5/Build> grep DiaTwrk *
+mod_diags.f90:!  DiaTwrk    Diagnostics work array for tracer terms.                 !
+mod_diags.f90:          real(r8), pointer :: DiaTwrk(:,:,:,:,:)
+mod_diags.f90:      allocate ( DIAGS(ng) % DiaTwrk(LBi:UBi,LBj:UBj,N(ng),NT(ng),NDT) )
+mod_diags.f90:                DIAGS(ng) % DiaTwrk(i,j,k,itrc,idiag) = IniVal
+pre_step3d.f90:     &                      DIAGS(ng) % DiaTwrk,                        &
+pre_step3d.f90:     &                            DiaTwrk,                              &
+pre_step3d.f90:      real(r8), intent(inout) :: DiaTwrk(LBi:,LBj:,:,:,:)
+pre_step3d.f90:              DiaTwrk(i,j,k,itrc,iTrate)=cff1
+pre_step3d.f90:              DiaTwrk(i,j,k,itrc,iTvdif)=cff2
+set_diags.f90:     &                      DIAGS(ng)%DiaTwrk(i,j,k,it,idiag)
+set_diags.f90:     &                      DIAGS(ng)%DiaTwrk(i,j,k,it,idiag)
+step3d_t.f90:     &                    DIAGS(ng) % DiaTwrk,                          &
+step3d_t.f90:     &                          DiaTwrk,                                &
+step3d_t.f90:      real(r8), intent(inout) :: DiaTwrk(LBi:,LBj:,:,:,:)
+step3d_t.f90:              DiaTwrk(i,j,k,itrc,iTxadv)=-cff1
+step3d_t.f90:              DiaTwrk(i,j,k,itrc,iTyadv)=-cff2
+step3d_t.f90:              DiaTwrk(i,j,k,itrc,iThadv)=-cff3
+step3d_t.f90:              DiaTwrk(i,j,k,itrc,iTvadv)=-cff1
+step3d_t.f90:                DiaTwrk(i,j,k,itrc,idiag)=DiaTwrk(i,j,k,itrc,idiag)*    &
+step3d_t.f90:              DiaTwrk(i,j,k,itrc,iTvdif)=DiaTwrk(i,j,k,itrc,iTvdif)+    &
+step3d_t.f90:              DiaTwrk(i,j,k,itrc,iTrate)=t(i,j,k,nnew,itrc)-            &
+step3d_t.f90:     &                                   DiaTwrk(i,j,k,itrc,iTrate)
+t3dmix.f90:     &                   DIAGS(ng) % DiaTwrk,                           &
+t3dmix.f90:     &                         DiaTwrk,                                 &
+t3dmix.f90:      real(r8), intent(inout) :: DiaTwrk(LBi:,LBj:,:,:,:)
+t3dmix.f90:                DiaTwrk(i,j,k,itrc,iTxdif)=cff1
+t3dmix.f90:                DiaTwrk(i,j,k,itrc,iTydif)=cff2
+t3dmix.f90:                DiaTwrk(i,j,k,itrc,iTsdif)=cff3
+t3dmix.f90:                DiaTwrk(i,j,k,itrc,iThdif)=cff4
+
+
+
+
+pre_step3d.f90 (acho que é aqui)
+
+!  Apply bottom and surface tracer flux conditions.
+!
+          DO i=Istr,Iend
+            FC(i,0)=dt(ng)*btflx(i,j,itrc)
+            FC(i,N(ng))=dt(ng)*stflx(i,j,itrc)
+          END DO

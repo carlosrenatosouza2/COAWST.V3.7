@@ -1,0 +1,3600 @@
+ATM - Rank: 320 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 320 DTWaits:  239.10 s,   7.09 %
+ATM - Rank: 320 DTWaitr:    1.91 s,   0.06 %
+ATM - Rank: 320 DTTodosWait:  241.01 s,   7.15 %
+ 
+ATM - Rank: 321 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 321 DTWaits:  239.07 s,   7.09 %
+ATM - Rank: 321 DTWaitr:    1.71 s,   0.05 %
+ATM - Rank: 321 DTTodosWait:  240.78 s,   7.14 %
+ 
+ATM - Rank: 322 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 322 DTWaits:  239.05 s,   7.09 %
+ATM - Rank: 322 DTWaitr:    1.58 s,   0.05 %
+ATM - Rank: 322 DTTodosWait:  240.64 s,   7.13 %
+ 
+ATM - Rank: 323 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 323 DTWaits:  239.03 s,   7.09 %
+ATM - Rank: 323 DTWaitr:    1.38 s,   0.04 %
+ATM - Rank: 323 DTTodosWait:  240.41 s,   7.13 %
+ 
+ATM - Rank: 324 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 324 DTWaits:  239.02 s,   7.09 %
+ATM - Rank: 324 DTWaitr:    1.24 s,   0.04 %
+ATM - Rank: 324 DTTodosWait:  240.26 s,   7.12 %
+ 
+ATM - Rank: 325 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 325 DTWaits:  239.01 s,   7.09 %
+ATM - Rank: 325 DTWaitr:    1.16 s,   0.03 %
+ATM - Rank: 325 DTTodosWait:  240.17 s,   7.12 %
+ 
+ATM - Rank: 326 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 326 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 326 DTWaitr:    1.08 s,   0.03 %
+ATM - Rank: 326 DTTodosWait:  240.08 s,   7.12 %
+ 
+ATM - Rank: 327 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 327 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 327 DTWaitr:    1.05 s,   0.03 %
+ATM - Rank: 327 DTTodosWait:  240.05 s,   7.12 %
+ 
+ATM - Rank: 328 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 328 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 328 DTWaitr:    1.08 s,   0.03 %
+ATM - Rank: 328 DTTodosWait:  240.08 s,   7.12 %
+ 
+ATM - Rank: 329 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 329 DTWaits:  238.97 s,   7.09 %
+ATM - Rank: 329 DTWaitr:    1.18 s,   0.03 %
+ATM - Rank: 329 DTTodosWait:  240.15 s,   7.12 %
+ 
+ATM - Rank: 330 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 330 DTWaits:  238.99 s,   7.09 %
+ATM - Rank: 330 DTWaitr:    1.21 s,   0.04 %
+ATM - Rank: 330 DTTodosWait:  240.20 s,   7.12 %
+ 
+ATM - Rank: 331 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 331 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 331 DTWaitr:    1.29 s,   0.04 %
+ATM - Rank: 331 DTTodosWait:  240.29 s,   7.12 %
+ 
+ATM - Rank: 332 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 332 DTWaits:  239.01 s,   7.09 %
+ATM - Rank: 332 DTWaitr:    1.30 s,   0.04 %
+ATM - Rank: 332 DTTodosWait:  240.30 s,   7.12 %
+ 
+ATM - Rank: 333 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 333 DTWaits:  239.01 s,   7.09 %
+ATM - Rank: 333 DTWaitr:    1.27 s,   0.04 %
+ATM - Rank: 333 DTTodosWait:  240.28 s,   7.12 %
+ 
+ATM - Rank: 334 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 334 DTWaits:  239.01 s,   7.09 %
+ATM - Rank: 334 DTWaitr:    1.28 s,   0.04 %
+ATM - Rank: 334 DTTodosWait:  240.29 s,   7.12 %
+ 
+ATM - Rank: 335 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 335 DTWaits:  239.01 s,   7.09 %
+ATM - Rank: 335 DTWaitr:    1.29 s,   0.04 %
+ATM - Rank: 335 DTTodosWait:  240.30 s,   7.12 %
+ 
+ATM - Rank: 336 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 336 DTWaits:  239.02 s,   7.09 %
+ATM - Rank: 336 DTWaitr:    1.40 s,   0.04 %
+ATM - Rank: 336 DTTodosWait:  240.43 s,   7.13 %
+ 
+ATM - Rank: 337 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 337 DTWaits:  239.03 s,   7.09 %
+ATM - Rank: 337 DTWaitr:    1.53 s,   0.05 %
+ATM - Rank: 337 DTTodosWait:  240.56 s,   7.13 %
+ 
+ATM - Rank: 338 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 338 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 338 DTWaitr:    1.72 s,   0.05 %
+ATM - Rank: 338 DTTodosWait:  240.78 s,   7.14 %
+ 
+ATM - Rank: 339 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 339 DTWaits:  239.08 s,   7.09 %
+ATM - Rank: 339 DTWaitr:    1.80 s,   0.05 %
+ATM - Rank: 339 DTTodosWait:  240.88 s,   7.14 %
+ 
+ATM - Rank: 340 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 340 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 340 DTWaitr:    2.13 s,   0.06 %
+ATM - Rank: 340 DTTodosWait:  241.29 s,   7.15 %
+ 
+ATM - Rank: 341 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 341 DTWaits:  239.23 s,   7.09 %
+ATM - Rank: 341 DTWaitr:    2.62 s,   0.08 %
+ATM - Rank: 341 DTTodosWait:  241.85 s,   7.17 %
+ 
+ATM - Rank: 342 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 342 DTWaits:  239.36 s,   7.10 %
+ATM - Rank: 342 DTWaitr:    3.34 s,   0.10 %
+ATM - Rank: 342 DTTodosWait:  242.69 s,   7.20 %
+ 
+ATM - Rank: 343 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 343 DTWaits:  239.42 s,   7.10 %
+ATM - Rank: 343 DTWaitr:    3.69 s,   0.11 %
+ATM - Rank: 343 DTTodosWait:  243.11 s,   7.21 %
+ 
+ATM - Rank: 344 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 344 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 344 DTWaitr:    1.93 s,   0.06 %
+ATM - Rank: 344 DTTodosWait:  240.99 s,   7.14 %
+ 
+ATM - Rank: 345 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 345 DTWaits:  239.02 s,   7.09 %
+ATM - Rank: 345 DTWaitr:    1.73 s,   0.05 %
+ATM - Rank: 345 DTTodosWait:  240.75 s,   7.14 %
+ 
+ATM - Rank: 346 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 346 DTWaits:  238.99 s,   7.09 %
+ATM - Rank: 346 DTWaitr:    1.46 s,   0.04 %
+ATM - Rank: 346 DTTodosWait:  240.45 s,   7.13 %
+ 
+ATM - Rank: 347 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 347 DTWaits:  238.98 s,   7.09 %
+ATM - Rank: 347 DTWaitr:    1.31 s,   0.04 %
+ATM - Rank: 347 DTTodosWait:  240.29 s,   7.12 %
+ 
+ATM - Rank: 348 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 348 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 348 DTWaitr:    1.26 s,   0.04 %
+ATM - Rank: 348 DTTodosWait:  240.22 s,   7.12 %
+ 
+ATM - Rank: 349 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 349 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 349 DTWaitr:    1.15 s,   0.03 %
+ATM - Rank: 349 DTTodosWait:  240.10 s,   7.12 %
+ 
+ATM - Rank: 350 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 350 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 350 DTWaitr:    1.02 s,   0.03 %
+ATM - Rank: 350 DTTodosWait:  239.96 s,   7.11 %
+ 
+ATM - Rank: 351 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 351 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 351 DTWaitr:    1.00 s,   0.03 %
+ATM - Rank: 351 DTTodosWait:  239.94 s,   7.11 %
+ 
+ATM - Rank: 352 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 352 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 352 DTWaitr:    0.92 s,   0.03 %
+ATM - Rank: 352 DTTodosWait:  239.84 s,   7.11 %
+ 
+ATM - Rank: 353 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 353 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 353 DTWaitr:    0.99 s,   0.03 %
+ATM - Rank: 353 DTTodosWait:  239.93 s,   7.11 %
+ 
+ATM - Rank: 354 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 354 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 354 DTWaitr:    0.99 s,   0.03 %
+ATM - Rank: 354 DTTodosWait:  239.95 s,   7.11 %
+ 
+ATM - Rank: 355 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 355 DTWaits:  238.98 s,   7.09 %
+ATM - Rank: 355 DTWaitr:    1.07 s,   0.03 %
+ATM - Rank: 355 DTTodosWait:  240.04 s,   7.12 %
+ 
+ATM - Rank: 356 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 356 DTWaits:  238.98 s,   7.09 %
+ATM - Rank: 356 DTWaitr:    1.08 s,   0.03 %
+ATM - Rank: 356 DTTodosWait:  240.06 s,   7.12 %
+ 
+ATM - Rank: 357 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.00 s | DTOTAL: 3372.83 s
+ATM - Rank: 357 DTWaits:  238.98 s,   7.09 %
+ATM - Rank: 357 DTWaitr:    1.14 s,   0.03 %
+ATM - Rank: 357 DTTodosWait:  240.12 s,   7.12 %
+ 
+ATM - Rank: 358 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 358 DTWaits:  238.98 s,   7.09 %
+ATM - Rank: 358 DTWaitr:    1.11 s,   0.03 %
+ATM - Rank: 358 DTTodosWait:  240.09 s,   7.12 %
+ 
+ATM - Rank: 359 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 359 DTWaits:  238.99 s,   7.09 %
+ATM - Rank: 359 DTWaitr:    1.12 s,   0.03 %
+ATM - Rank: 359 DTTodosWait:  240.11 s,   7.12 %
+ 
+ATM - Rank: 360 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 360 DTWaits:  239.01 s,   7.09 %
+ATM - Rank: 360 DTWaitr:    1.31 s,   0.04 %
+ATM - Rank: 360 DTTodosWait:  240.31 s,   7.13 %
+ 
+ATM - Rank: 361 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 361 DTWaits:  239.01 s,   7.09 %
+ATM - Rank: 361 DTWaitr:    1.35 s,   0.04 %
+ATM - Rank: 361 DTTodosWait:  240.36 s,   7.13 %
+ 
+ATM - Rank: 362 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 362 DTWaits:  239.03 s,   7.09 %
+ATM - Rank: 362 DTWaitr:    1.50 s,   0.04 %
+ATM - Rank: 362 DTTodosWait:  240.53 s,   7.13 %
+ 
+ATM - Rank: 363 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 363 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 363 DTWaitr:    1.64 s,   0.05 %
+ATM - Rank: 363 DTTodosWait:  240.70 s,   7.14 %
+ 
+ATM - Rank: 364 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 364 DTWaits:  239.15 s,   7.09 %
+ATM - Rank: 364 DTWaitr:    2.17 s,   0.06 %
+ATM - Rank: 364 DTTodosWait:  241.33 s,   7.16 %
+ 
+ATM - Rank: 365 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 365 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 365 DTWaitr:    2.63 s,   0.08 %
+ATM - Rank: 365 DTTodosWait:  241.85 s,   7.17 %
+ 
+ATM - Rank: 366 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 366 DTWaits:  239.35 s,   7.10 %
+ATM - Rank: 366 DTWaitr:    3.31 s,   0.10 %
+ATM - Rank: 366 DTTodosWait:  242.66 s,   7.19 %
+ 
+ATM - Rank: 367 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 367 DTWaits:  239.41 s,   7.10 %
+ATM - Rank: 367 DTWaitr:    3.71 s,   0.11 %
+ATM - Rank: 367 DTTodosWait:  243.12 s,   7.21 %
+ 
+ATM - Rank: 368 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 368 DTWaits:  239.04 s,   7.09 %
+ATM - Rank: 368 DTWaitr:    1.85 s,   0.05 %
+ATM - Rank: 368 DTTodosWait:  240.88 s,   7.14 %
+ 
+ATM - Rank: 369 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 369 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 369 DTWaitr:    1.65 s,   0.05 %
+ATM - Rank: 369 DTTodosWait:  240.65 s,   7.13 %
+ 
+ATM - Rank: 370 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 370 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 370 DTWaitr:    1.37 s,   0.04 %
+ATM - Rank: 370 DTTodosWait:  240.33 s,   7.13 %
+ 
+ATM - Rank: 371 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 371 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 371 DTWaitr:    1.21 s,   0.04 %
+ATM - Rank: 371 DTTodosWait:  240.16 s,   7.12 %
+ 
+ATM - Rank: 372 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 372 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 372 DTWaitr:    1.16 s,   0.03 %
+ATM - Rank: 372 DTTodosWait:  240.11 s,   7.12 %
+ 
+ATM - Rank: 373 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 373 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 373 DTWaitr:    1.06 s,   0.03 %
+ATM - Rank: 373 DTTodosWait:  239.99 s,   7.12 %
+ 
+ATM - Rank: 374 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 374 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 374 DTWaitr:    0.99 s,   0.03 %
+ATM - Rank: 374 DTTodosWait:  239.91 s,   7.11 %
+ 
+ATM - Rank: 375 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 375 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 375 DTWaitr:    0.94 s,   0.03 %
+ATM - Rank: 375 DTTodosWait:  239.86 s,   7.11 %
+ 
+ATM - Rank: 376 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 376 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 376 DTWaitr:    0.91 s,   0.03 %
+ATM - Rank: 376 DTTodosWait:  239.83 s,   7.11 %
+ 
+ATM - Rank: 377 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 377 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 377 DTWaitr:    0.94 s,   0.03 %
+ATM - Rank: 377 DTTodosWait:  239.88 s,   7.11 %
+ 
+ATM - Rank: 378 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 378 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 378 DTWaitr:    1.00 s,   0.03 %
+ATM - Rank: 378 DTTodosWait:  239.95 s,   7.11 %
+ 
+ATM - Rank: 379 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 379 DTWaits:  238.97 s,   7.09 %
+ATM - Rank: 379 DTWaitr:    1.10 s,   0.03 %
+ATM - Rank: 379 DTTodosWait:  240.07 s,   7.12 %
+ 
+ATM - Rank: 380 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 380 DTWaits:  238.97 s,   7.09 %
+ATM - Rank: 380 DTWaitr:    1.10 s,   0.03 %
+ATM - Rank: 380 DTTodosWait:  240.07 s,   7.12 %
+ 
+ATM - Rank: 381 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 381 DTWaits:  238.97 s,   7.09 %
+ATM - Rank: 381 DTWaitr:    1.07 s,   0.03 %
+ATM - Rank: 381 DTTodosWait:  240.04 s,   7.12 %
+ 
+ATM - Rank: 382 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 382 DTWaits:  238.97 s,   7.09 %
+ATM - Rank: 382 DTWaitr:    1.10 s,   0.03 %
+ATM - Rank: 382 DTTodosWait:  240.08 s,   7.12 %
+ 
+ATM - Rank: 383 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 383 DTWaits:  238.98 s,   7.09 %
+ATM - Rank: 383 DTWaitr:    1.12 s,   0.03 %
+ATM - Rank: 383 DTTodosWait:  240.09 s,   7.12 %
+ 
+ATM - Rank: 384 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 384 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 384 DTWaitr:    1.34 s,   0.04 %
+ATM - Rank: 384 DTTodosWait:  240.34 s,   7.13 %
+ 
+ATM - Rank: 385 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 385 DTWaits:  239.01 s,   7.09 %
+ATM - Rank: 385 DTWaitr:    1.35 s,   0.04 %
+ATM - Rank: 385 DTTodosWait:  240.36 s,   7.13 %
+ 
+ATM - Rank: 386 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 386 DTWaits:  239.04 s,   7.09 %
+ATM - Rank: 386 DTWaitr:    1.50 s,   0.04 %
+ATM - Rank: 386 DTTodosWait:  240.54 s,   7.13 %
+ 
+ATM - Rank: 387 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 387 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 387 DTWaitr:    1.70 s,   0.05 %
+ATM - Rank: 387 DTTodosWait:  240.76 s,   7.14 %
+ 
+ATM - Rank: 388 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 388 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 388 DTWaitr:    2.20 s,   0.07 %
+ATM - Rank: 388 DTTodosWait:  241.36 s,   7.16 %
+ 
+ATM - Rank: 389 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 389 DTWaits:  239.23 s,   7.09 %
+ATM - Rank: 389 DTWaitr:    2.65 s,   0.08 %
+ATM - Rank: 389 DTTodosWait:  241.87 s,   7.17 %
+ 
+ATM - Rank: 390 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 390 DTWaits:  239.35 s,   7.10 %
+ATM - Rank: 390 DTWaitr:    3.33 s,   0.10 %
+ATM - Rank: 390 DTTodosWait:  242.69 s,   7.20 %
+ 
+ATM - Rank: 391 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 391 DTWaits:  239.41 s,   7.10 %
+ATM - Rank: 391 DTWaitr:    3.72 s,   0.11 %
+ATM - Rank: 391 DTTodosWait:  243.13 s,   7.21 %
+ 
+ATM - Rank: 392 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 392 DTWaits:  239.04 s,   7.09 %
+ATM - Rank: 392 DTWaitr:    1.79 s,   0.05 %
+ATM - Rank: 392 DTTodosWait:  240.84 s,   7.14 %
+ 
+ATM - Rank: 393 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 393 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 393 DTWaitr:    1.61 s,   0.05 %
+ATM - Rank: 393 DTTodosWait:  240.61 s,   7.13 %
+ 
+ATM - Rank: 394 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 394 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 394 DTWaitr:    1.33 s,   0.04 %
+ATM - Rank: 394 DTTodosWait:  240.28 s,   7.12 %
+ 
+ATM - Rank: 395 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 395 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 395 DTWaitr:    1.18 s,   0.04 %
+ATM - Rank: 395 DTTodosWait:  240.13 s,   7.12 %
+ 
+ATM - Rank: 396 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 396 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 396 DTWaitr:    1.13 s,   0.03 %
+ATM - Rank: 396 DTTodosWait:  240.07 s,   7.12 %
+ 
+ATM - Rank: 397 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 397 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 397 DTWaitr:    1.01 s,   0.03 %
+ATM - Rank: 397 DTTodosWait:  239.93 s,   7.11 %
+ 
+ATM - Rank: 398 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 398 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 398 DTWaitr:    0.94 s,   0.03 %
+ATM - Rank: 398 DTTodosWait:  239.85 s,   7.11 %
+ 
+ATM - Rank: 399 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 399 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 399 DTWaitr:    0.96 s,   0.03 %
+ATM - Rank: 399 DTTodosWait:  239.87 s,   7.11 %
+ 
+ATM - Rank: 400 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 400 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 400 DTWaitr:    0.90 s,   0.03 %
+ATM - Rank: 400 DTTodosWait:  239.80 s,   7.11 %
+ 
+ATM - Rank: 401 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 401 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 401 DTWaitr:    0.93 s,   0.03 %
+ATM - Rank: 401 DTTodosWait:  239.85 s,   7.11 %
+ 
+ATM - Rank: 402 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 402 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 402 DTWaitr:    0.98 s,   0.03 %
+ATM - Rank: 402 DTTodosWait:  239.91 s,   7.11 %
+ 
+ATM - Rank: 403 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 403 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 403 DTWaitr:    0.99 s,   0.03 %
+ATM - Rank: 403 DTTodosWait:  239.94 s,   7.11 %
+ 
+ATM - Rank: 404 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 404 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 404 DTWaitr:    1.00 s,   0.03 %
+ATM - Rank: 404 DTTodosWait:  239.94 s,   7.11 %
+ 
+ATM - Rank: 405 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 405 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 405 DTWaitr:    1.00 s,   0.03 %
+ATM - Rank: 405 DTTodosWait:  239.94 s,   7.11 %
+ 
+ATM - Rank: 406 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 406 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 406 DTWaitr:    1.04 s,   0.03 %
+ATM - Rank: 406 DTTodosWait:  239.99 s,   7.12 %
+ 
+ATM - Rank: 407 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 407 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 407 DTWaitr:    1.05 s,   0.03 %
+ATM - Rank: 407 DTTodosWait:  240.00 s,   7.12 %
+ 
+ATM - Rank: 408 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 408 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 408 DTWaitr:    1.13 s,   0.03 %
+ATM - Rank: 408 DTTodosWait:  240.09 s,   7.12 %
+ 
+ATM - Rank: 409 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 409 DTWaits:  238.99 s,   7.09 %
+ATM - Rank: 409 DTWaitr:    1.24 s,   0.04 %
+ATM - Rank: 409 DTTodosWait:  240.22 s,   7.12 %
+ 
+ATM - Rank: 410 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 410 DTWaits:  239.02 s,   7.09 %
+ATM - Rank: 410 DTWaitr:    1.38 s,   0.04 %
+ATM - Rank: 410 DTTodosWait:  240.40 s,   7.13 %
+ 
+ATM - Rank: 411 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 411 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 411 DTWaitr:    1.67 s,   0.05 %
+ATM - Rank: 411 DTTodosWait:  240.73 s,   7.14 %
+ 
+ATM - Rank: 412 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 412 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 412 DTWaitr:    2.18 s,   0.06 %
+ATM - Rank: 412 DTTodosWait:  241.34 s,   7.16 %
+ 
+ATM - Rank: 413 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 413 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 413 DTWaitr:    2.57 s,   0.08 %
+ATM - Rank: 413 DTTodosWait:  241.80 s,   7.17 %
+ 
+ATM - Rank: 414 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 414 DTWaits:  239.35 s,   7.10 %
+ATM - Rank: 414 DTWaitr:    3.30 s,   0.10 %
+ATM - Rank: 414 DTTodosWait:  242.65 s,   7.19 %
+ 
+ATM - Rank: 415 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 415 DTWaits:  239.41 s,   7.10 %
+ATM - Rank: 415 DTWaitr:    3.65 s,   0.11 %
+ATM - Rank: 415 DTTodosWait:  243.06 s,   7.21 %
+ 
+ATM - Rank: 416 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 416 DTWaits:  239.04 s,   7.09 %
+ATM - Rank: 416 DTWaitr:    1.81 s,   0.05 %
+ATM - Rank: 416 DTTodosWait:  240.85 s,   7.14 %
+ 
+ATM - Rank: 417 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 417 DTWaits:  238.99 s,   7.09 %
+ATM - Rank: 417 DTWaitr:    1.57 s,   0.05 %
+ATM - Rank: 417 DTTodosWait:  240.56 s,   7.13 %
+ 
+ATM - Rank: 418 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 418 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 418 DTWaitr:    1.30 s,   0.04 %
+ATM - Rank: 418 DTTodosWait:  240.24 s,   7.12 %
+ 
+ATM - Rank: 419 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 419 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 419 DTWaitr:    1.12 s,   0.03 %
+ATM - Rank: 419 DTTodosWait:  240.05 s,   7.12 %
+ 
+ATM - Rank: 420 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 420 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 420 DTWaitr:    1.09 s,   0.03 %
+ATM - Rank: 420 DTTodosWait:  240.02 s,   7.12 %
+ 
+ATM - Rank: 421 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 421 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 421 DTWaitr:    0.98 s,   0.03 %
+ATM - Rank: 421 DTTodosWait:  239.89 s,   7.11 %
+ 
+ATM - Rank: 422 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 422 DTWaits:  238.89 s,   7.08 %
+ATM - Rank: 422 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 422 DTTodosWait:  239.72 s,   7.11 %
+ 
+ATM - Rank: 423 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 423 DTWaits:  238.89 s,   7.08 %
+ATM - Rank: 423 DTWaitr:    0.81 s,   0.02 %
+ATM - Rank: 423 DTTodosWait:  239.70 s,   7.11 %
+ 
+ATM - Rank: 424 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 424 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 424 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 424 DTTodosWait:  239.72 s,   7.11 %
+ 
+ATM - Rank: 425 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 425 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 425 DTWaitr:    0.85 s,   0.03 %
+ATM - Rank: 425 DTTodosWait:  239.76 s,   7.11 %
+ 
+ATM - Rank: 426 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 426 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 426 DTWaitr:    0.95 s,   0.03 %
+ATM - Rank: 426 DTTodosWait:  239.87 s,   7.11 %
+ 
+ATM - Rank: 427 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 427 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 427 DTWaitr:    0.90 s,   0.03 %
+ATM - Rank: 427 DTTodosWait:  239.84 s,   7.11 %
+ 
+ATM - Rank: 428 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 428 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 428 DTWaitr:    0.92 s,   0.03 %
+ATM - Rank: 428 DTTodosWait:  239.86 s,   7.11 %
+ 
+ATM - Rank: 429 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 429 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 429 DTWaitr:    0.95 s,   0.03 %
+ATM - Rank: 429 DTTodosWait:  239.88 s,   7.11 %
+ 
+ATM - Rank: 430 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 430 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 430 DTWaitr:    1.00 s,   0.03 %
+ATM - Rank: 430 DTTodosWait:  239.95 s,   7.11 %
+ 
+ATM - Rank: 431 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 431 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 431 DTWaitr:    0.98 s,   0.03 %
+ATM - Rank: 431 DTTodosWait:  239.93 s,   7.11 %
+ 
+ATM - Rank: 432 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 432 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 432 DTWaitr:    1.03 s,   0.03 %
+ATM - Rank: 432 DTTodosWait:  239.98 s,   7.12 %
+ 
+ATM - Rank: 433 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 433 DTWaits:  238.97 s,   7.08 %
+ATM - Rank: 433 DTWaitr:    1.08 s,   0.03 %
+ATM - Rank: 433 DTTodosWait:  240.05 s,   7.12 %
+ 
+ATM - Rank: 434 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 434 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 434 DTWaitr:    1.33 s,   0.04 %
+ATM - Rank: 434 DTTodosWait:  240.33 s,   7.13 %
+ 
+ATM - Rank: 435 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 435 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 435 DTWaitr:    1.63 s,   0.05 %
+ATM - Rank: 435 DTTodosWait:  240.69 s,   7.14 %
+ 
+ATM - Rank: 436 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 436 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 436 DTWaitr:    2.17 s,   0.06 %
+ATM - Rank: 436 DTTodosWait:  241.33 s,   7.15 %
+ 
+ATM - Rank: 437 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 437 DTWaits:  239.23 s,   7.09 %
+ATM - Rank: 437 DTWaitr:    2.57 s,   0.08 %
+ATM - Rank: 437 DTTodosWait:  241.80 s,   7.17 %
+ 
+ATM - Rank: 438 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 438 DTWaits:  239.35 s,   7.10 %
+ATM - Rank: 438 DTWaitr:    3.28 s,   0.10 %
+ATM - Rank: 438 DTTodosWait:  242.64 s,   7.19 %
+ 
+ATM - Rank: 439 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 439 DTWaits:  239.41 s,   7.10 %
+ATM - Rank: 439 DTWaitr:    3.60 s,   0.11 %
+ATM - Rank: 439 DTTodosWait:  243.01 s,   7.20 %
+ 
+ATM - Rank: 440 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 440 DTWaits:  239.04 s,   7.09 %
+ATM - Rank: 440 DTWaitr:    1.82 s,   0.05 %
+ATM - Rank: 440 DTTodosWait:  240.85 s,   7.14 %
+ 
+ATM - Rank: 441 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 441 DTWaits:  238.99 s,   7.09 %
+ATM - Rank: 441 DTWaitr:    1.58 s,   0.05 %
+ATM - Rank: 441 DTTodosWait:  240.57 s,   7.13 %
+ 
+ATM - Rank: 442 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 442 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 442 DTWaitr:    1.32 s,   0.04 %
+ATM - Rank: 442 DTTodosWait:  240.27 s,   7.12 %
+ 
+ATM - Rank: 443 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 443 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 443 DTWaitr:    1.13 s,   0.03 %
+ATM - Rank: 443 DTTodosWait:  240.06 s,   7.12 %
+ 
+ATM - Rank: 444 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 444 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 444 DTWaitr:    1.12 s,   0.03 %
+ATM - Rank: 444 DTTodosWait:  240.05 s,   7.12 %
+ 
+ATM - Rank: 445 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 445 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 445 DTWaitr:    1.04 s,   0.03 %
+ATM - Rank: 445 DTTodosWait:  239.95 s,   7.11 %
+ 
+ATM - Rank: 446 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 446 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 446 DTWaitr:    0.88 s,   0.03 %
+ATM - Rank: 446 DTTodosWait:  239.77 s,   7.11 %
+ 
+ATM - Rank: 447 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 447 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 447 DTWaitr:    0.84 s,   0.02 %
+ATM - Rank: 447 DTTodosWait:  239.74 s,   7.11 %
+ 
+ATM - Rank: 448 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 448 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 448 DTWaitr:    0.99 s,   0.03 %
+ATM - Rank: 448 DTTodosWait:  239.90 s,   7.11 %
+ 
+ATM - Rank: 449 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 449 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 449 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 449 DTTodosWait:  239.72 s,   7.11 %
+ 
+ATM - Rank: 450 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 450 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 450 DTWaitr:    0.86 s,   0.03 %
+ATM - Rank: 450 DTTodosWait:  239.77 s,   7.11 %
+ 
+ATM - Rank: 451 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 451 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 451 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 451 DTTodosWait:  239.74 s,   7.11 %
+ 
+ATM - Rank: 452 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 452 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 452 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 452 DTTodosWait:  239.74 s,   7.11 %
+ 
+ATM - Rank: 453 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 453 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 453 DTWaitr:    0.87 s,   0.03 %
+ATM - Rank: 453 DTTodosWait:  239.79 s,   7.11 %
+ 
+ATM - Rank: 454 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 454 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 454 DTWaitr:    0.86 s,   0.03 %
+ATM - Rank: 454 DTTodosWait:  239.78 s,   7.11 %
+ 
+ATM - Rank: 455 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 455 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 455 DTWaitr:    0.88 s,   0.03 %
+ATM - Rank: 455 DTTodosWait:  239.81 s,   7.11 %
+ 
+ATM - Rank: 456 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 456 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 456 DTWaitr:    1.03 s,   0.03 %
+ATM - Rank: 456 DTTodosWait:  239.98 s,   7.12 %
+ 
+ATM - Rank: 457 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 457 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 457 DTWaitr:    1.06 s,   0.03 %
+ATM - Rank: 457 DTTodosWait:  240.02 s,   7.12 %
+ 
+ATM - Rank: 458 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 458 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 458 DTWaitr:    1.31 s,   0.04 %
+ATM - Rank: 458 DTTodosWait:  240.31 s,   7.12 %
+ 
+ATM - Rank: 459 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 459 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 459 DTWaitr:    1.64 s,   0.05 %
+ATM - Rank: 459 DTTodosWait:  240.70 s,   7.14 %
+ 
+ATM - Rank: 460 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 460 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 460 DTWaitr:    2.22 s,   0.07 %
+ATM - Rank: 460 DTTodosWait:  241.37 s,   7.16 %
+ 
+ATM - Rank: 461 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 461 DTWaits:  239.23 s,   7.09 %
+ATM - Rank: 461 DTWaitr:    2.60 s,   0.08 %
+ATM - Rank: 461 DTTodosWait:  241.82 s,   7.17 %
+ 
+ATM - Rank: 462 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 462 DTWaits:  239.35 s,   7.10 %
+ATM - Rank: 462 DTWaitr:    3.31 s,   0.10 %
+ATM - Rank: 462 DTTodosWait:  242.66 s,   7.19 %
+ 
+ATM - Rank: 463 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 463 DTWaits:  239.41 s,   7.10 %
+ATM - Rank: 463 DTWaitr:    3.67 s,   0.11 %
+ATM - Rank: 463 DTTodosWait:  243.07 s,   7.21 %
+ 
+ATM - Rank: 464 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 464 DTWaits:  239.03 s,   7.09 %
+ATM - Rank: 464 DTWaitr:    1.80 s,   0.05 %
+ATM - Rank: 464 DTTodosWait:  240.83 s,   7.14 %
+ 
+ATM - Rank: 465 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 465 DTWaits:  238.99 s,   7.09 %
+ATM - Rank: 465 DTWaitr:    1.55 s,   0.05 %
+ATM - Rank: 465 DTTodosWait:  240.53 s,   7.13 %
+ 
+ATM - Rank: 466 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 466 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 466 DTWaitr:    1.28 s,   0.04 %
+ATM - Rank: 466 DTTodosWait:  240.22 s,   7.12 %
+ 
+ATM - Rank: 467 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 467 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 467 DTWaitr:    1.12 s,   0.03 %
+ATM - Rank: 467 DTTodosWait:  240.05 s,   7.12 %
+ 
+ATM - Rank: 468 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 468 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 468 DTWaitr:    1.08 s,   0.03 %
+ATM - Rank: 468 DTTodosWait:  240.01 s,   7.12 %
+ 
+ATM - Rank: 469 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 469 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 469 DTWaitr:    1.03 s,   0.03 %
+ATM - Rank: 469 DTTodosWait:  239.94 s,   7.11 %
+ 
+ATM - Rank: 470 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 470 DTWaits:  238.89 s,   7.08 %
+ATM - Rank: 470 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 470 DTTodosWait:  239.72 s,   7.11 %
+ 
+ATM - Rank: 471 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 471 DTWaits:  238.89 s,   7.08 %
+ATM - Rank: 471 DTWaitr:    0.80 s,   0.02 %
+ATM - Rank: 471 DTTodosWait:  239.69 s,   7.11 %
+ 
+ATM - Rank: 472 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 472 DTWaits:  238.89 s,   7.08 %
+ATM - Rank: 472 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 472 DTTodosWait:  239.70 s,   7.11 %
+ 
+ATM - Rank: 473 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 473 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 473 DTWaitr:    0.84 s,   0.02 %
+ATM - Rank: 473 DTTodosWait:  239.74 s,   7.11 %
+ 
+ATM - Rank: 474 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 474 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 474 DTWaitr:    0.81 s,   0.02 %
+ATM - Rank: 474 DTTodosWait:  239.72 s,   7.11 %
+ 
+ATM - Rank: 475 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 475 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 475 DTWaitr:    0.86 s,   0.03 %
+ATM - Rank: 475 DTTodosWait:  239.79 s,   7.11 %
+ 
+ATM - Rank: 476 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 476 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 476 DTWaitr:    0.83 s,   0.02 %
+ATM - Rank: 476 DTTodosWait:  239.75 s,   7.11 %
+ 
+ATM - Rank: 477 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 477 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 477 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 477 DTTodosWait:  239.75 s,   7.11 %
+ 
+ATM - Rank: 478 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 478 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 478 DTWaitr:    0.85 s,   0.03 %
+ATM - Rank: 478 DTTodosWait:  239.78 s,   7.11 %
+ 
+ATM - Rank: 479 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.01 s | DTOTAL: 3372.86 s
+ATM - Rank: 479 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 479 DTWaitr:    0.87 s,   0.03 %
+ATM - Rank: 479 DTTodosWait:  239.81 s,   7.11 %
+ 
+ATM - Rank: 480 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 480 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 480 DTWaitr:    1.02 s,   0.03 %
+ATM - Rank: 480 DTTodosWait:  239.96 s,   7.11 %
+ 
+ATM - Rank: 481 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 481 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 481 DTWaitr:    1.05 s,   0.03 %
+ATM - Rank: 481 DTTodosWait:  240.01 s,   7.12 %
+ 
+ATM - Rank: 482 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 482 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 482 DTWaitr:    1.29 s,   0.04 %
+ATM - Rank: 482 DTTodosWait:  240.29 s,   7.12 %
+ 
+ATM - Rank: 483 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 483 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 483 DTWaitr:    1.60 s,   0.05 %
+ATM - Rank: 483 DTTodosWait:  240.66 s,   7.14 %
+ 
+ATM - Rank: 484 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 484 DTWaits:  239.15 s,   7.09 %
+ATM - Rank: 484 DTWaitr:    2.13 s,   0.06 %
+ATM - Rank: 484 DTTodosWait:  241.28 s,   7.15 %
+ 
+ATM - Rank: 485 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 485 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 485 DTWaitr:    2.57 s,   0.08 %
+ATM - Rank: 485 DTTodosWait:  241.79 s,   7.17 %
+ 
+ATM - Rank: 486 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 486 DTWaits:  239.35 s,   7.10 %
+ATM - Rank: 486 DTWaitr:    3.28 s,   0.10 %
+ATM - Rank: 486 DTTodosWait:  242.63 s,   7.19 %
+ 
+ATM - Rank: 487 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 487 DTWaits:  239.40 s,   7.10 %
+ATM - Rank: 487 DTWaitr:    3.58 s,   0.11 %
+ATM - Rank: 487 DTTodosWait:  242.99 s,   7.20 %
+ 
+ATM - Rank: 488 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 488 DTWaits:  239.04 s,   7.09 %
+ATM - Rank: 488 DTWaitr:    1.82 s,   0.05 %
+ATM - Rank: 488 DTTodosWait:  240.85 s,   7.14 %
+ 
+ATM - Rank: 489 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 489 DTWaits:  238.99 s,   7.09 %
+ATM - Rank: 489 DTWaitr:    1.59 s,   0.05 %
+ATM - Rank: 489 DTTodosWait:  240.58 s,   7.13 %
+ 
+ATM - Rank: 490 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 490 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 490 DTWaitr:    1.34 s,   0.04 %
+ATM - Rank: 490 DTTodosWait:  240.28 s,   7.12 %
+ 
+ATM - Rank: 491 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 491 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 491 DTWaitr:    1.18 s,   0.04 %
+ATM - Rank: 491 DTTodosWait:  240.11 s,   7.12 %
+ 
+ATM - Rank: 492 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 492 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 492 DTWaitr:    1.09 s,   0.03 %
+ATM - Rank: 492 DTTodosWait:  240.02 s,   7.12 %
+ 
+ATM - Rank: 493 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 493 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 493 DTWaitr:    1.00 s,   0.03 %
+ATM - Rank: 493 DTTodosWait:  239.92 s,   7.11 %
+ 
+ATM - Rank: 494 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 494 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 494 DTWaitr:    0.92 s,   0.03 %
+ATM - Rank: 494 DTTodosWait:  239.82 s,   7.11 %
+ 
+ATM - Rank: 495 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 495 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 495 DTWaitr:    0.86 s,   0.03 %
+ATM - Rank: 495 DTTodosWait:  239.76 s,   7.11 %
+ 
+ATM - Rank: 496 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 496 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 496 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 496 DTTodosWait:  239.71 s,   7.11 %
+ 
+ATM - Rank: 497 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 497 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 497 DTWaitr:    0.86 s,   0.03 %
+ATM - Rank: 497 DTTodosWait:  239.77 s,   7.11 %
+ 
+ATM - Rank: 498 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 498 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 498 DTWaitr:    0.91 s,   0.03 %
+ATM - Rank: 498 DTTodosWait:  239.82 s,   7.11 %
+ 
+ATM - Rank: 499 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 499 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 499 DTWaitr:    0.95 s,   0.03 %
+ATM - Rank: 499 DTTodosWait:  239.87 s,   7.11 %
+ 
+ATM - Rank: 500 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 500 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 500 DTWaitr:    0.91 s,   0.03 %
+ATM - Rank: 500 DTTodosWait:  239.84 s,   7.11 %
+ 
+ATM - Rank: 501 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 501 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 501 DTWaitr:    0.91 s,   0.03 %
+ATM - Rank: 501 DTTodosWait:  239.84 s,   7.11 %
+ 
+ATM - Rank: 502 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 502 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 502 DTWaitr:    0.92 s,   0.03 %
+ATM - Rank: 502 DTTodosWait:  239.86 s,   7.11 %
+ 
+ATM - Rank: 503 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 503 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 503 DTWaitr:    0.94 s,   0.03 %
+ATM - Rank: 503 DTTodosWait:  239.88 s,   7.11 %
+ 
+ATM - Rank: 504 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 504 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 504 DTWaitr:    1.03 s,   0.03 %
+ATM - Rank: 504 DTTodosWait:  239.97 s,   7.11 %
+ 
+ATM - Rank: 505 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 505 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 505 DTWaitr:    1.06 s,   0.03 %
+ATM - Rank: 505 DTTodosWait:  240.01 s,   7.12 %
+ 
+ATM - Rank: 506 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 506 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 506 DTWaitr:    1.27 s,   0.04 %
+ATM - Rank: 506 DTTodosWait:  240.27 s,   7.12 %
+ 
+ATM - Rank: 507 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 507 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 507 DTWaitr:    1.68 s,   0.05 %
+ATM - Rank: 507 DTTodosWait:  240.74 s,   7.14 %
+ 
+ATM - Rank: 508 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 508 DTWaits:  239.15 s,   7.09 %
+ATM - Rank: 508 DTWaitr:    2.16 s,   0.06 %
+ATM - Rank: 508 DTTodosWait:  241.31 s,   7.15 %
+ 
+ATM - Rank: 509 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 509 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 509 DTWaitr:    2.59 s,   0.08 %
+ATM - Rank: 509 DTTodosWait:  241.82 s,   7.17 %
+ 
+ATM - Rank: 510 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 510 DTWaits:  239.35 s,   7.10 %
+ATM - Rank: 510 DTWaitr:    3.31 s,   0.10 %
+ATM - Rank: 510 DTTodosWait:  242.66 s,   7.19 %
+ 
+ATM - Rank: 511 DInit:   43.51 s | DRun: 3329.34 s | DFina:    0.00 s | DTOTAL: 3372.86 s
+ATM - Rank: 511 DTWaits:  239.40 s,   7.10 %
+ATM - Rank: 511 DTWaitr:    3.61 s,   0.11 %
+ATM - Rank: 511 DTTodosWait:  243.01 s,   7.20 %
+ 
+ATM - Rank: 512 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 512 DTWaits:  239.02 s,   7.09 %
+ATM - Rank: 512 DTWaitr:    1.84 s,   0.05 %
+ATM - Rank: 512 DTTodosWait:  240.86 s,   7.14 %
+ 
+ATM - Rank: 513 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 513 DTWaits:  238.98 s,   7.09 %
+ATM - Rank: 513 DTWaitr:    1.56 s,   0.05 %
+ATM - Rank: 513 DTTodosWait:  240.54 s,   7.13 %
+ 
+ATM - Rank: 514 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 514 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 514 DTWaitr:    1.30 s,   0.04 %
+ATM - Rank: 514 DTTodosWait:  240.23 s,   7.12 %
+ 
+ATM - Rank: 515 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 515 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 515 DTWaitr:    1.09 s,   0.03 %
+ATM - Rank: 515 DTTodosWait:  240.01 s,   7.12 %
+ 
+ATM - Rank: 516 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 516 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 516 DTWaitr:    1.06 s,   0.03 %
+ATM - Rank: 516 DTTodosWait:  239.98 s,   7.12 %
+ 
+ATM - Rank: 517 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 517 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 517 DTWaitr:    0.99 s,   0.03 %
+ATM - Rank: 517 DTTodosWait:  239.89 s,   7.11 %
+ 
+ATM - Rank: 518 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 518 DTWaits:  238.88 s,   7.08 %
+ATM - Rank: 518 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 518 DTTodosWait:  239.71 s,   7.11 %
+ 
+ATM - Rank: 519 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 519 DTWaits:  238.88 s,   7.08 %
+ATM - Rank: 519 DTWaitr:    0.81 s,   0.02 %
+ATM - Rank: 519 DTTodosWait:  239.69 s,   7.11 %
+ 
+ATM - Rank: 520 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 520 DTWaits:  238.89 s,   7.08 %
+ATM - Rank: 520 DTWaitr:    0.81 s,   0.02 %
+ATM - Rank: 520 DTTodosWait:  239.70 s,   7.11 %
+ 
+ATM - Rank: 521 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 521 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 521 DTWaitr:    0.84 s,   0.02 %
+ATM - Rank: 521 DTTodosWait:  239.74 s,   7.11 %
+ 
+ATM - Rank: 522 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 522 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 522 DTWaitr:    0.89 s,   0.03 %
+ATM - Rank: 522 DTTodosWait:  239.80 s,   7.11 %
+ 
+ATM - Rank: 523 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 523 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 523 DTWaitr:    0.85 s,   0.03 %
+ATM - Rank: 523 DTTodosWait:  239.77 s,   7.11 %
+ 
+ATM - Rank: 524 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 524 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 524 DTWaitr:    0.85 s,   0.03 %
+ATM - Rank: 524 DTTodosWait:  239.78 s,   7.11 %
+ 
+ATM - Rank: 525 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 525 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 525 DTWaitr:    0.85 s,   0.03 %
+ATM - Rank: 525 DTTodosWait:  239.78 s,   7.11 %
+ 
+ATM - Rank: 526 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 526 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 526 DTWaitr:    0.87 s,   0.03 %
+ATM - Rank: 526 DTTodosWait:  239.79 s,   7.11 %
+ 
+ATM - Rank: 527 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 527 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 527 DTWaitr:    0.91 s,   0.03 %
+ATM - Rank: 527 DTTodosWait:  239.84 s,   7.11 %
+ 
+ATM - Rank: 528 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 528 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 528 DTWaitr:    1.02 s,   0.03 %
+ATM - Rank: 528 DTTodosWait:  239.96 s,   7.11 %
+ 
+ATM - Rank: 529 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 529 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 529 DTWaitr:    1.02 s,   0.03 %
+ATM - Rank: 529 DTTodosWait:  239.97 s,   7.11 %
+ 
+ATM - Rank: 530 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 530 DTWaits:  238.99 s,   7.09 %
+ATM - Rank: 530 DTWaitr:    1.27 s,   0.04 %
+ATM - Rank: 530 DTTodosWait:  240.26 s,   7.12 %
+ 
+ATM - Rank: 531 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 531 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 531 DTWaitr:    1.62 s,   0.05 %
+ATM - Rank: 531 DTTodosWait:  240.68 s,   7.14 %
+ 
+ATM - Rank: 532 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 532 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 532 DTWaitr:    2.15 s,   0.06 %
+ATM - Rank: 532 DTTodosWait:  241.31 s,   7.15 %
+ 
+ATM - Rank: 533 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 533 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 533 DTWaitr:    2.63 s,   0.08 %
+ATM - Rank: 533 DTTodosWait:  241.85 s,   7.17 %
+ 
+ATM - Rank: 534 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 534 DTWaits:  239.35 s,   7.10 %
+ATM - Rank: 534 DTWaitr:    3.28 s,   0.10 %
+ATM - Rank: 534 DTTodosWait:  242.62 s,   7.19 %
+ 
+ATM - Rank: 535 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 535 DTWaits:  239.40 s,   7.10 %
+ATM - Rank: 535 DTWaitr:    3.58 s,   0.11 %
+ATM - Rank: 535 DTTodosWait:  242.98 s,   7.20 %
+ 
+ATM - Rank: 536 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 536 DTWaits:  239.03 s,   7.09 %
+ATM - Rank: 536 DTWaitr:    1.80 s,   0.05 %
+ATM - Rank: 536 DTTodosWait:  240.83 s,   7.14 %
+ 
+ATM - Rank: 537 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 537 DTWaits:  238.98 s,   7.09 %
+ATM - Rank: 537 DTWaitr:    1.55 s,   0.05 %
+ATM - Rank: 537 DTTodosWait:  240.53 s,   7.13 %
+ 
+ATM - Rank: 538 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 538 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 538 DTWaitr:    1.30 s,   0.04 %
+ATM - Rank: 538 DTTodosWait:  240.24 s,   7.12 %
+ 
+ATM - Rank: 539 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 539 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 539 DTWaitr:    1.16 s,   0.03 %
+ATM - Rank: 539 DTTodosWait:  240.09 s,   7.12 %
+ 
+ATM - Rank: 540 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 540 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 540 DTWaitr:    1.10 s,   0.03 %
+ATM - Rank: 540 DTTodosWait:  240.02 s,   7.12 %
+ 
+ATM - Rank: 541 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 541 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 541 DTWaitr:    0.99 s,   0.03 %
+ATM - Rank: 541 DTTodosWait:  239.90 s,   7.11 %
+ 
+ATM - Rank: 542 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 542 DTWaits:  238.89 s,   7.08 %
+ATM - Rank: 542 DTWaitr:    0.84 s,   0.02 %
+ATM - Rank: 542 DTTodosWait:  239.73 s,   7.11 %
+ 
+ATM - Rank: 543 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 543 DTWaits:  238.89 s,   7.08 %
+ATM - Rank: 543 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 543 DTTodosWait:  239.71 s,   7.11 %
+ 
+ATM - Rank: 544 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 544 DTWaits:  238.86 s,   7.08 %
+ATM - Rank: 544 DTWaitr:    0.71 s,   0.02 %
+ATM - Rank: 544 DTTodosWait:  239.57 s,   7.10 %
+ 
+ATM - Rank: 545 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 545 DTWaits:  238.89 s,   7.08 %
+ATM - Rank: 545 DTWaitr:    0.77 s,   0.02 %
+ATM - Rank: 545 DTTodosWait:  239.66 s,   7.11 %
+ 
+ATM - Rank: 546 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 546 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 546 DTWaitr:    0.74 s,   0.02 %
+ATM - Rank: 546 DTTodosWait:  239.63 s,   7.10 %
+ 
+ATM - Rank: 547 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 547 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 547 DTWaitr:    0.75 s,   0.02 %
+ATM - Rank: 547 DTTodosWait:  239.65 s,   7.11 %
+ 
+ATM - Rank: 548 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 548 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 548 DTWaitr:    0.79 s,   0.02 %
+ATM - Rank: 548 DTTodosWait:  239.70 s,   7.11 %
+ 
+ATM - Rank: 549 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 549 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 549 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 549 DTTodosWait:  239.73 s,   7.11 %
+ 
+ATM - Rank: 550 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 550 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 550 DTWaitr:    0.80 s,   0.02 %
+ATM - Rank: 550 DTTodosWait:  239.71 s,   7.11 %
+ 
+ATM - Rank: 551 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 551 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 551 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 551 DTTodosWait:  239.73 s,   7.11 %
+ 
+ATM - Rank: 552 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 552 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 552 DTWaitr:    0.95 s,   0.03 %
+ATM - Rank: 552 DTTodosWait:  239.88 s,   7.11 %
+ 
+ATM - Rank: 553 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 553 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 553 DTWaitr:    1.02 s,   0.03 %
+ATM - Rank: 553 DTTodosWait:  239.97 s,   7.11 %
+ 
+ATM - Rank: 554 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 554 DTWaits:  238.99 s,   7.09 %
+ATM - Rank: 554 DTWaitr:    1.27 s,   0.04 %
+ATM - Rank: 554 DTTodosWait:  240.26 s,   7.12 %
+ 
+ATM - Rank: 555 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 555 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 555 DTWaitr:    1.67 s,   0.05 %
+ATM - Rank: 555 DTTodosWait:  240.72 s,   7.14 %
+ 
+ATM - Rank: 556 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 556 DTWaits:  239.15 s,   7.09 %
+ATM - Rank: 556 DTWaitr:    2.16 s,   0.06 %
+ATM - Rank: 556 DTTodosWait:  241.32 s,   7.15 %
+ 
+ATM - Rank: 557 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 557 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 557 DTWaitr:    2.63 s,   0.08 %
+ATM - Rank: 557 DTTodosWait:  241.85 s,   7.17 %
+ 
+ATM - Rank: 558 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 558 DTWaits:  239.35 s,   7.10 %
+ATM - Rank: 558 DTWaitr:    3.33 s,   0.10 %
+ATM - Rank: 558 DTTodosWait:  242.67 s,   7.19 %
+ 
+ATM - Rank: 559 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 559 DTWaits:  239.40 s,   7.10 %
+ATM - Rank: 559 DTWaitr:    3.66 s,   0.11 %
+ATM - Rank: 559 DTTodosWait:  243.06 s,   7.21 %
+ 
+ATM - Rank: 560 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 560 DTWaits:  239.04 s,   7.09 %
+ATM - Rank: 560 DTWaitr:    1.81 s,   0.05 %
+ATM - Rank: 560 DTTodosWait:  240.85 s,   7.14 %
+ 
+ATM - Rank: 561 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 561 DTWaits:  238.99 s,   7.09 %
+ATM - Rank: 561 DTWaitr:    1.54 s,   0.05 %
+ATM - Rank: 561 DTTodosWait:  240.53 s,   7.13 %
+ 
+ATM - Rank: 562 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 562 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 562 DTWaitr:    1.30 s,   0.04 %
+ATM - Rank: 562 DTTodosWait:  240.24 s,   7.12 %
+ 
+ATM - Rank: 563 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 563 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 563 DTWaitr:    1.15 s,   0.03 %
+ATM - Rank: 563 DTTodosWait:  240.08 s,   7.12 %
+ 
+ATM - Rank: 564 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 564 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 564 DTWaitr:    1.12 s,   0.03 %
+ATM - Rank: 564 DTTodosWait:  240.05 s,   7.12 %
+ 
+ATM - Rank: 565 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 565 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 565 DTWaitr:    1.03 s,   0.03 %
+ATM - Rank: 565 DTTodosWait:  239.94 s,   7.11 %
+ 
+ATM - Rank: 566 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 566 DTWaits:  238.89 s,   7.08 %
+ATM - Rank: 566 DTWaitr:    0.86 s,   0.03 %
+ATM - Rank: 566 DTTodosWait:  239.75 s,   7.11 %
+ 
+ATM - Rank: 567 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 567 DTWaits:  238.89 s,   7.08 %
+ATM - Rank: 567 DTWaitr:    0.88 s,   0.03 %
+ATM - Rank: 567 DTTodosWait:  239.77 s,   7.11 %
+ 
+ATM - Rank: 568 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 568 DTWaits:  238.89 s,   7.08 %
+ATM - Rank: 568 DTWaitr:    0.78 s,   0.02 %
+ATM - Rank: 568 DTTodosWait:  239.66 s,   7.11 %
+ 
+ATM - Rank: 569 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 569 DTWaits:  238.89 s,   7.08 %
+ATM - Rank: 569 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 569 DTTodosWait:  239.71 s,   7.11 %
+ 
+ATM - Rank: 570 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 570 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 570 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 570 DTTodosWait:  239.72 s,   7.11 %
+ 
+ATM - Rank: 571 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 571 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 571 DTWaitr:    0.83 s,   0.02 %
+ATM - Rank: 571 DTTodosWait:  239.74 s,   7.11 %
+ 
+ATM - Rank: 572 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 572 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 572 DTWaitr:    0.85 s,   0.03 %
+ATM - Rank: 572 DTTodosWait:  239.76 s,   7.11 %
+ 
+ATM - Rank: 573 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 573 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 573 DTWaitr:    0.85 s,   0.03 %
+ATM - Rank: 573 DTTodosWait:  239.76 s,   7.11 %
+ 
+ATM - Rank: 574 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 574 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 574 DTWaitr:    0.86 s,   0.03 %
+ATM - Rank: 574 DTTodosWait:  239.79 s,   7.11 %
+ 
+ATM - Rank: 575 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank: 575 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 575 DTWaitr:    0.89 s,   0.03 %
+ATM - Rank: 575 DTTodosWait:  239.81 s,   7.11 %
+ 
+ATM - Rank: 576 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 576 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 576 DTWaitr:    1.07 s,   0.03 %
+ATM - Rank: 576 DTTodosWait:  240.01 s,   7.12 %
+ 
+ATM - Rank: 577 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 577 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 577 DTWaitr:    1.03 s,   0.03 %
+ATM - Rank: 577 DTTodosWait:  239.98 s,   7.12 %
+ 
+ATM - Rank: 578 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 578 DTWaits:  238.99 s,   7.09 %
+ATM - Rank: 578 DTWaitr:    1.31 s,   0.04 %
+ATM - Rank: 578 DTTodosWait:  240.31 s,   7.12 %
+ 
+ATM - Rank: 579 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 579 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 579 DTWaitr:    1.68 s,   0.05 %
+ATM - Rank: 579 DTTodosWait:  240.74 s,   7.14 %
+ 
+ATM - Rank: 580 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 580 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 580 DTWaitr:    2.16 s,   0.06 %
+ATM - Rank: 580 DTTodosWait:  241.32 s,   7.15 %
+ 
+ATM - Rank: 581 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 581 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 581 DTWaitr:    2.58 s,   0.08 %
+ATM - Rank: 581 DTTodosWait:  241.81 s,   7.17 %
+ 
+ATM - Rank: 582 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 582 DTWaits:  239.35 s,   7.10 %
+ATM - Rank: 582 DTWaitr:    3.32 s,   0.10 %
+ATM - Rank: 582 DTTodosWait:  242.67 s,   7.19 %
+ 
+ATM - Rank: 583 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 583 DTWaits:  239.40 s,   7.10 %
+ATM - Rank: 583 DTWaitr:    3.65 s,   0.11 %
+ATM - Rank: 583 DTTodosWait:  243.05 s,   7.21 %
+ 
+ATM - Rank: 584 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 584 DTWaits:  239.05 s,   7.09 %
+ATM - Rank: 584 DTWaitr:    1.85 s,   0.05 %
+ATM - Rank: 584 DTTodosWait:  240.91 s,   7.14 %
+ 
+ATM - Rank: 585 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 585 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 585 DTWaitr:    1.63 s,   0.05 %
+ATM - Rank: 585 DTTodosWait:  240.62 s,   7.13 %
+ 
+ATM - Rank: 586 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 586 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 586 DTWaitr:    1.30 s,   0.04 %
+ATM - Rank: 586 DTTodosWait:  240.26 s,   7.12 %
+ 
+ATM - Rank: 587 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 587 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 587 DTWaitr:    1.22 s,   0.04 %
+ATM - Rank: 587 DTTodosWait:  240.16 s,   7.12 %
+ 
+ATM - Rank: 588 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 588 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 588 DTWaitr:    1.17 s,   0.03 %
+ATM - Rank: 588 DTTodosWait:  240.10 s,   7.12 %
+ 
+ATM - Rank: 589 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 589 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 589 DTWaitr:    1.05 s,   0.03 %
+ATM - Rank: 589 DTTodosWait:  239.98 s,   7.12 %
+ 
+ATM - Rank: 590 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 590 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 590 DTWaitr:    0.91 s,   0.03 %
+ATM - Rank: 590 DTTodosWait:  239.82 s,   7.11 %
+ 
+ATM - Rank: 591 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 591 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 591 DTWaitr:    0.90 s,   0.03 %
+ATM - Rank: 591 DTTodosWait:  239.81 s,   7.11 %
+ 
+ATM - Rank: 592 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 592 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 592 DTWaitr:    0.89 s,   0.03 %
+ATM - Rank: 592 DTTodosWait:  239.80 s,   7.11 %
+ 
+ATM - Rank: 593 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 593 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 593 DTWaitr:    0.89 s,   0.03 %
+ATM - Rank: 593 DTTodosWait:  239.80 s,   7.11 %
+ 
+ATM - Rank: 594 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 594 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 594 DTWaitr:    0.85 s,   0.03 %
+ATM - Rank: 594 DTTodosWait:  239.77 s,   7.11 %
+ 
+ATM - Rank: 595 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 595 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 595 DTWaitr:    0.89 s,   0.03 %
+ATM - Rank: 595 DTTodosWait:  239.81 s,   7.11 %
+ 
+ATM - Rank: 596 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 596 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 596 DTWaitr:    0.90 s,   0.03 %
+ATM - Rank: 596 DTTodosWait:  239.82 s,   7.11 %
+ 
+ATM - Rank: 597 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 597 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 597 DTWaitr:    0.93 s,   0.03 %
+ATM - Rank: 597 DTTodosWait:  239.85 s,   7.11 %
+ 
+ATM - Rank: 598 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 598 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 598 DTWaitr:    0.93 s,   0.03 %
+ATM - Rank: 598 DTTodosWait:  239.85 s,   7.11 %
+ 
+ATM - Rank: 599 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 599 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 599 DTWaitr:    0.94 s,   0.03 %
+ATM - Rank: 599 DTTodosWait:  239.87 s,   7.11 %
+ 
+ATM - Rank: 600 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 600 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 600 DTWaitr:    1.02 s,   0.03 %
+ATM - Rank: 600 DTTodosWait:  239.96 s,   7.11 %
+ 
+ATM - Rank: 601 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 601 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 601 DTWaitr:    1.07 s,   0.03 %
+ATM - Rank: 601 DTTodosWait:  240.02 s,   7.12 %
+ 
+ATM - Rank: 602 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 602 DTWaits:  238.99 s,   7.09 %
+ATM - Rank: 602 DTWaitr:    1.31 s,   0.04 %
+ATM - Rank: 602 DTTodosWait:  240.30 s,   7.12 %
+ 
+ATM - Rank: 603 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 603 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 603 DTWaitr:    1.70 s,   0.05 %
+ATM - Rank: 603 DTTodosWait:  240.75 s,   7.14 %
+ 
+ATM - Rank: 604 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 604 DTWaits:  239.15 s,   7.09 %
+ATM - Rank: 604 DTWaitr:    2.20 s,   0.07 %
+ATM - Rank: 604 DTTodosWait:  241.36 s,   7.16 %
+ 
+ATM - Rank: 605 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 605 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 605 DTWaitr:    2.66 s,   0.08 %
+ATM - Rank: 605 DTTodosWait:  241.88 s,   7.17 %
+ 
+ATM - Rank: 606 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 606 DTWaits:  239.35 s,   7.10 %
+ATM - Rank: 606 DTWaitr:    3.30 s,   0.10 %
+ATM - Rank: 606 DTTodosWait:  242.65 s,   7.19 %
+ 
+ATM - Rank: 607 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 607 DTWaits:  239.40 s,   7.10 %
+ATM - Rank: 607 DTWaitr:    3.60 s,   0.11 %
+ATM - Rank: 607 DTTodosWait:  243.00 s,   7.20 %
+ 
+ATM - Rank: 608 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 608 DTWaits:  239.05 s,   7.09 %
+ATM - Rank: 608 DTWaitr:    1.80 s,   0.05 %
+ATM - Rank: 608 DTTodosWait:  240.85 s,   7.14 %
+ 
+ATM - Rank: 609 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 609 DTWaits:  239.01 s,   7.09 %
+ATM - Rank: 609 DTWaitr:    1.53 s,   0.05 %
+ATM - Rank: 609 DTTodosWait:  240.54 s,   7.13 %
+ 
+ATM - Rank: 610 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 610 DTWaits:  238.96 s,   7.09 %
+ATM - Rank: 610 DTWaitr:    1.22 s,   0.04 %
+ATM - Rank: 610 DTTodosWait:  240.19 s,   7.12 %
+ 
+ATM - Rank: 611 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 611 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 611 DTWaitr:    1.11 s,   0.03 %
+ATM - Rank: 611 DTTodosWait:  240.05 s,   7.12 %
+ 
+ATM - Rank: 612 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 612 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 612 DTWaitr:    1.08 s,   0.03 %
+ATM - Rank: 612 DTTodosWait:  240.03 s,   7.12 %
+ 
+ATM - Rank: 613 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 613 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 613 DTWaitr:    1.04 s,   0.03 %
+ATM - Rank: 613 DTTodosWait:  239.97 s,   7.11 %
+ 
+ATM - Rank: 614 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 614 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 614 DTWaitr:    0.91 s,   0.03 %
+ATM - Rank: 614 DTTodosWait:  239.81 s,   7.11 %
+ 
+ATM - Rank: 615 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 615 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 615 DTWaitr:    0.86 s,   0.03 %
+ATM - Rank: 615 DTTodosWait:  239.76 s,   7.11 %
+ 
+ATM - Rank: 616 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 616 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 616 DTWaitr:    0.89 s,   0.03 %
+ATM - Rank: 616 DTTodosWait:  239.80 s,   7.11 %
+ 
+ATM - Rank: 617 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 617 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 617 DTWaitr:    0.86 s,   0.03 %
+ATM - Rank: 617 DTTodosWait:  239.76 s,   7.11 %
+ 
+ATM - Rank: 618 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 618 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 618 DTWaitr:    0.90 s,   0.03 %
+ATM - Rank: 618 DTTodosWait:  239.81 s,   7.11 %
+ 
+ATM - Rank: 619 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 619 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 619 DTWaitr:    0.88 s,   0.03 %
+ATM - Rank: 619 DTTodosWait:  239.80 s,   7.11 %
+ 
+ATM - Rank: 620 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 620 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 620 DTWaitr:    0.89 s,   0.03 %
+ATM - Rank: 620 DTTodosWait:  239.82 s,   7.11 %
+ 
+ATM - Rank: 621 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 621 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 621 DTWaitr:    0.87 s,   0.03 %
+ATM - Rank: 621 DTTodosWait:  239.79 s,   7.11 %
+ 
+ATM - Rank: 622 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 622 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 622 DTWaitr:    0.94 s,   0.03 %
+ATM - Rank: 622 DTTodosWait:  239.86 s,   7.11 %
+ 
+ATM - Rank: 623 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 623 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 623 DTWaitr:    0.90 s,   0.03 %
+ATM - Rank: 623 DTTodosWait:  239.83 s,   7.11 %
+ 
+ATM - Rank: 624 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 624 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 624 DTWaitr:    1.01 s,   0.03 %
+ATM - Rank: 624 DTTodosWait:  239.94 s,   7.11 %
+ 
+ATM - Rank: 625 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 625 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 625 DTWaitr:    1.06 s,   0.03 %
+ATM - Rank: 625 DTTodosWait:  240.02 s,   7.12 %
+ 
+ATM - Rank: 626 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 626 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 626 DTWaitr:    1.34 s,   0.04 %
+ATM - Rank: 626 DTTodosWait:  240.34 s,   7.13 %
+ 
+ATM - Rank: 627 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 627 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 627 DTWaitr:    1.67 s,   0.05 %
+ATM - Rank: 627 DTTodosWait:  240.73 s,   7.14 %
+ 
+ATM - Rank: 628 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 628 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 628 DTWaitr:    2.25 s,   0.07 %
+ATM - Rank: 628 DTTodosWait:  241.41 s,   7.16 %
+ 
+ATM - Rank: 629 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 629 DTWaits:  239.23 s,   7.09 %
+ATM - Rank: 629 DTWaitr:    2.61 s,   0.08 %
+ATM - Rank: 629 DTTodosWait:  241.85 s,   7.17 %
+ 
+ATM - Rank: 630 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 630 DTWaits:  239.36 s,   7.10 %
+ATM - Rank: 630 DTWaitr:    3.33 s,   0.10 %
+ATM - Rank: 630 DTTodosWait:  242.69 s,   7.20 %
+ 
+ATM - Rank: 631 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 631 DTWaits:  239.41 s,   7.10 %
+ATM - Rank: 631 DTWaitr:    3.65 s,   0.11 %
+ATM - Rank: 631 DTTodosWait:  243.07 s,   7.21 %
+ 
+ATM - Rank: 632 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 632 DTWaits:  239.09 s,   7.09 %
+ATM - Rank: 632 DTWaitr:    1.91 s,   0.06 %
+ATM - Rank: 632 DTTodosWait:  241.00 s,   7.15 %
+ 
+ATM - Rank: 633 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 633 DTWaits:  239.04 s,   7.09 %
+ATM - Rank: 633 DTWaitr:    1.64 s,   0.05 %
+ATM - Rank: 633 DTTodosWait:  240.68 s,   7.14 %
+ 
+ATM - Rank: 634 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 634 DTWaits:  238.97 s,   7.09 %
+ATM - Rank: 634 DTWaitr:    1.35 s,   0.04 %
+ATM - Rank: 634 DTTodosWait:  240.32 s,   7.13 %
+ 
+ATM - Rank: 635 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 635 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 635 DTWaitr:    1.22 s,   0.04 %
+ATM - Rank: 635 DTTodosWait:  240.18 s,   7.12 %
+ 
+ATM - Rank: 636 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 636 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 636 DTWaitr:    1.19 s,   0.04 %
+ATM - Rank: 636 DTTodosWait:  240.14 s,   7.12 %
+ 
+ATM - Rank: 637 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 637 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 637 DTWaitr:    1.09 s,   0.03 %
+ATM - Rank: 637 DTTodosWait:  240.03 s,   7.12 %
+ 
+ATM - Rank: 638 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 638 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 638 DTWaitr:    0.98 s,   0.03 %
+ATM - Rank: 638 DTTodosWait:  239.89 s,   7.11 %
+ 
+ATM - Rank: 639 DInit:   43.51 s | DRun: 3329.27 s | DFina:    0.01 s | DTOTAL: 3372.79 s
+ATM - Rank: 639 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 639 DTWaitr:    0.97 s,   0.03 %
+ATM - Rank: 639 DTTodosWait:  239.88 s,   7.11 %
+ 
+ATM - Rank: 640 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 640 DTWaits:  238.89 s,   7.08 %
+ATM - Rank: 640 DTWaitr:    0.92 s,   0.03 %
+ATM - Rank: 640 DTTodosWait:  239.80 s,   7.11 %
+ 
+ATM - Rank: 641 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 641 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 641 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 641 DTTodosWait:  239.72 s,   7.11 %
+ 
+ATM - Rank: 642 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 642 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 642 DTWaitr:    0.81 s,   0.02 %
+ATM - Rank: 642 DTTodosWait:  239.71 s,   7.11 %
+ 
+ATM - Rank: 643 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 643 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 643 DTWaitr:    0.81 s,   0.02 %
+ATM - Rank: 643 DTTodosWait:  239.72 s,   7.11 %
+ 
+ATM - Rank: 644 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 644 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 644 DTWaitr:    0.81 s,   0.02 %
+ATM - Rank: 644 DTTodosWait:  239.72 s,   7.11 %
+ 
+ATM - Rank: 645 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 645 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 645 DTWaitr:    0.81 s,   0.02 %
+ATM - Rank: 645 DTTodosWait:  239.73 s,   7.11 %
+ 
+ATM - Rank: 646 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 646 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 646 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 646 DTTodosWait:  239.74 s,   7.11 %
+ 
+ATM - Rank: 647 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 647 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 647 DTWaitr:    0.88 s,   0.03 %
+ATM - Rank: 647 DTTodosWait:  239.79 s,   7.11 %
+ 
+ATM - Rank: 648 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 648 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 648 DTWaitr:    1.00 s,   0.03 %
+ATM - Rank: 648 DTTodosWait:  239.94 s,   7.11 %
+ 
+ATM - Rank: 649 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 649 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 649 DTWaitr:    1.13 s,   0.03 %
+ATM - Rank: 649 DTTodosWait:  240.09 s,   7.12 %
+ 
+ATM - Rank: 650 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 650 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 650 DTWaitr:    1.36 s,   0.04 %
+ATM - Rank: 650 DTTodosWait:  240.36 s,   7.13 %
+ 
+ATM - Rank: 651 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 651 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 651 DTWaitr:    1.68 s,   0.05 %
+ATM - Rank: 651 DTTodosWait:  240.74 s,   7.14 %
+ 
+ATM - Rank: 652 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 652 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 652 DTWaitr:    2.27 s,   0.07 %
+ATM - Rank: 652 DTTodosWait:  241.43 s,   7.16 %
+ 
+ATM - Rank: 653 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 653 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 653 DTWaitr:    2.63 s,   0.08 %
+ATM - Rank: 653 DTTodosWait:  241.85 s,   7.17 %
+ 
+ATM - Rank: 654 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 654 DTWaits:  239.36 s,   7.10 %
+ATM - Rank: 654 DTWaitr:    3.40 s,   0.10 %
+ATM - Rank: 654 DTTodosWait:  242.76 s,   7.20 %
+ 
+ATM - Rank: 655 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 655 DTWaits:  239.41 s,   7.10 %
+ATM - Rank: 655 DTWaitr:    3.73 s,   0.11 %
+ATM - Rank: 655 DTTodosWait:  243.14 s,   7.21 %
+ 
+ATM - Rank: 656 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 656 DTWaits:  239.10 s,   7.09 %
+ATM - Rank: 656 DTWaitr:    1.93 s,   0.06 %
+ATM - Rank: 656 DTTodosWait:  241.04 s,   7.15 %
+ 
+ATM - Rank: 657 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 657 DTWaits:  239.05 s,   7.09 %
+ATM - Rank: 657 DTWaitr:    1.64 s,   0.05 %
+ATM - Rank: 657 DTTodosWait:  240.69 s,   7.14 %
+ 
+ATM - Rank: 658 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 658 DTWaits:  238.98 s,   7.09 %
+ATM - Rank: 658 DTWaitr:    1.33 s,   0.04 %
+ATM - Rank: 658 DTTodosWait:  240.30 s,   7.12 %
+ 
+ATM - Rank: 659 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 659 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 659 DTWaitr:    1.24 s,   0.04 %
+ATM - Rank: 659 DTTodosWait:  240.20 s,   7.12 %
+ 
+ATM - Rank: 660 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 660 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 660 DTWaitr:    1.19 s,   0.04 %
+ATM - Rank: 660 DTTodosWait:  240.14 s,   7.12 %
+ 
+ATM - Rank: 661 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 661 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 661 DTWaitr:    1.12 s,   0.03 %
+ATM - Rank: 661 DTTodosWait:  240.06 s,   7.12 %
+ 
+ATM - Rank: 662 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 662 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 662 DTWaitr:    0.91 s,   0.03 %
+ATM - Rank: 662 DTTodosWait:  239.82 s,   7.11 %
+ 
+ATM - Rank: 663 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 663 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 663 DTWaitr:    0.89 s,   0.03 %
+ATM - Rank: 663 DTTodosWait:  239.80 s,   7.11 %
+ 
+ATM - Rank: 664 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 664 DTWaits:  238.90 s,   7.08 %
+ATM - Rank: 664 DTWaitr:    0.83 s,   0.02 %
+ATM - Rank: 664 DTTodosWait:  239.73 s,   7.11 %
+ 
+ATM - Rank: 665 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 665 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 665 DTWaitr:    0.87 s,   0.03 %
+ATM - Rank: 665 DTTodosWait:  239.78 s,   7.11 %
+ 
+ATM - Rank: 666 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 666 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 666 DTWaitr:    0.81 s,   0.02 %
+ATM - Rank: 666 DTTodosWait:  239.72 s,   7.11 %
+ 
+ATM - Rank: 667 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 667 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 667 DTWaitr:    0.81 s,   0.02 %
+ATM - Rank: 667 DTTodosWait:  239.73 s,   7.11 %
+ 
+ATM - Rank: 668 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 668 DTWaits:  205.65 s,   6.10 %
+ATM - Rank: 668 DTWaitr:    0.83 s,   0.02 %
+ATM - Rank: 668 DTTodosWait:  206.47 s,   6.12 %
+ 
+ATM - Rank: 669 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 669 DTWaits:  205.65 s,   6.10 %
+ATM - Rank: 669 DTWaitr:    0.82 s,   0.02 %
+ATM - Rank: 669 DTTodosWait:  206.47 s,   6.12 %
+ 
+ATM - Rank: 670 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 670 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 670 DTWaitr:    0.85 s,   0.03 %
+ATM - Rank: 670 DTTodosWait:  239.77 s,   7.11 %
+ 
+ATM - Rank: 671 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 671 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 671 DTWaitr:    0.87 s,   0.03 %
+ATM - Rank: 671 DTTodosWait:  239.79 s,   7.11 %
+ 
+ATM - Rank: 672 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 672 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 672 DTWaitr:    1.02 s,   0.03 %
+ATM - Rank: 672 DTTodosWait:  239.94 s,   7.11 %
+ 
+ATM - Rank: 673 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 673 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 673 DTWaitr:    1.05 s,   0.03 %
+ATM - Rank: 673 DTTodosWait:  240.00 s,   7.12 %
+ 
+ATM - Rank: 674 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 674 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 674 DTWaitr:    1.33 s,   0.04 %
+ATM - Rank: 674 DTTodosWait:  240.32 s,   7.13 %
+ 
+ATM - Rank: 675 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 675 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 675 DTWaitr:    1.70 s,   0.05 %
+ATM - Rank: 675 DTTodosWait:  240.76 s,   7.14 %
+ 
+ATM - Rank: 676 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 676 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 676 DTWaitr:    2.25 s,   0.07 %
+ATM - Rank: 676 DTTodosWait:  241.41 s,   7.16 %
+ 
+ATM - Rank: 677 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 677 DTWaits:  239.23 s,   7.09 %
+ATM - Rank: 677 DTWaitr:    2.61 s,   0.08 %
+ATM - Rank: 677 DTTodosWait:  241.84 s,   7.17 %
+ 
+ATM - Rank: 678 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 678 DTWaits:  239.38 s,   7.10 %
+ATM - Rank: 678 DTWaitr:    3.43 s,   0.10 %
+ATM - Rank: 678 DTTodosWait:  242.81 s,   7.20 %
+ 
+ATM - Rank: 679 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 679 DTWaits:  239.44 s,   7.10 %
+ATM - Rank: 679 DTWaitr:    3.78 s,   0.11 %
+ATM - Rank: 679 DTTodosWait:  243.22 s,   7.21 %
+ 
+ATM - Rank: 680 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 680 DTWaits:  239.12 s,   7.09 %
+ATM - Rank: 680 DTWaitr:    1.99 s,   0.06 %
+ATM - Rank: 680 DTTodosWait:  241.12 s,   7.15 %
+ 
+ATM - Rank: 681 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 681 DTWaits:  239.07 s,   7.09 %
+ATM - Rank: 681 DTWaitr:    1.66 s,   0.05 %
+ATM - Rank: 681 DTTodosWait:  240.73 s,   7.14 %
+ 
+ATM - Rank: 682 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 682 DTWaits:  238.98 s,   7.09 %
+ATM - Rank: 682 DTWaitr:    1.33 s,   0.04 %
+ATM - Rank: 682 DTTodosWait:  240.32 s,   7.13 %
+ 
+ATM - Rank: 683 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 683 DTWaits:  238.97 s,   7.09 %
+ATM - Rank: 683 DTWaitr:    1.23 s,   0.04 %
+ATM - Rank: 683 DTTodosWait:  240.20 s,   7.12 %
+ 
+ATM - Rank: 684 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 684 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 684 DTWaitr:    1.25 s,   0.04 %
+ATM - Rank: 684 DTTodosWait:  240.21 s,   7.12 %
+ 
+ATM - Rank: 685 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 685 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 685 DTWaitr:    1.09 s,   0.03 %
+ATM - Rank: 685 DTTodosWait:  240.04 s,   7.12 %
+ 
+ATM - Rank: 686 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 686 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 686 DTWaitr:    0.98 s,   0.03 %
+ATM - Rank: 686 DTTodosWait:  239.91 s,   7.11 %
+ 
+ATM - Rank: 687 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 687 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 687 DTWaitr:    1.00 s,   0.03 %
+ATM - Rank: 687 DTTodosWait:  239.93 s,   7.11 %
+ 
+ATM - Rank: 688 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 688 DTWaits:  238.91 s,   7.08 %
+ATM - Rank: 688 DTWaitr:    0.90 s,   0.03 %
+ATM - Rank: 688 DTTodosWait:  239.82 s,   7.11 %
+ 
+ATM - Rank: 689 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 689 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 689 DTWaitr:    0.92 s,   0.03 %
+ATM - Rank: 689 DTTodosWait:  239.84 s,   7.11 %
+ 
+ATM - Rank: 690 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 690 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 690 DTWaitr:    0.96 s,   0.03 %
+ATM - Rank: 690 DTTodosWait:  239.88 s,   7.11 %
+ 
+ATM - Rank: 691 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 691 DTWaits:  238.92 s,   7.08 %
+ATM - Rank: 691 DTWaitr:    0.93 s,   0.03 %
+ATM - Rank: 691 DTTodosWait:  239.86 s,   7.11 %
+ 
+ATM - Rank: 692 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 692 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 692 DTWaitr:    0.94 s,   0.03 %
+ATM - Rank: 692 DTTodosWait:  239.86 s,   7.11 %
+ 
+ATM - Rank: 693 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 693 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 693 DTWaitr:    0.98 s,   0.03 %
+ATM - Rank: 693 DTTodosWait:  239.91 s,   7.11 %
+ 
+ATM - Rank: 694 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 694 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 694 DTWaitr:    0.95 s,   0.03 %
+ATM - Rank: 694 DTTodosWait:  239.88 s,   7.11 %
+ 
+ATM - Rank: 695 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 695 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 695 DTWaitr:    0.98 s,   0.03 %
+ATM - Rank: 695 DTTodosWait:  239.91 s,   7.11 %
+ 
+ATM - Rank: 696 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 696 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 696 DTWaitr:    1.05 s,   0.03 %
+ATM - Rank: 696 DTTodosWait:  240.00 s,   7.12 %
+ 
+ATM - Rank: 697 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 697 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 697 DTWaitr:    1.19 s,   0.04 %
+ATM - Rank: 697 DTTodosWait:  240.15 s,   7.12 %
+ 
+ATM - Rank: 698 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 698 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 698 DTWaitr:    1.40 s,   0.04 %
+ATM - Rank: 698 DTTodosWait:  240.40 s,   7.13 %
+ 
+ATM - Rank: 699 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 699 DTWaits:  239.07 s,   7.09 %
+ATM - Rank: 699 DTWaitr:    1.74 s,   0.05 %
+ATM - Rank: 699 DTTodosWait:  240.81 s,   7.14 %
+ 
+ATM - Rank: 700 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 700 DTWaits:  239.19 s,   7.09 %
+ATM - Rank: 700 DTWaitr:    2.37 s,   0.07 %
+ATM - Rank: 700 DTTodosWait:  241.56 s,   7.16 %
+ 
+ATM - Rank: 701 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 701 DTWaits:  239.26 s,   7.09 %
+ATM - Rank: 701 DTWaitr:    2.81 s,   0.08 %
+ATM - Rank: 701 DTTodosWait:  242.07 s,   7.18 %
+ 
+ATM - Rank: 702 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 702 DTWaits:  239.39 s,   7.10 %
+ATM - Rank: 702 DTWaitr:    3.54 s,   0.10 %
+ATM - Rank: 702 DTTodosWait:  242.93 s,   7.20 %
+ 
+ATM - Rank: 703 DInit:   43.51 s | DRun: 3329.32 s | DFina:    0.01 s | DTOTAL: 3372.84 s
+ATM - Rank: 703 DTWaits:  239.44 s,   7.10 %
+ATM - Rank: 703 DTWaitr:    3.86 s,   0.11 %
+ATM - Rank: 703 DTTodosWait:  243.30 s,   7.21 %
+ 
+ATM - Rank: 704 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 704 DTWaits:  239.14 s,   7.09 %
+ATM - Rank: 704 DTWaitr:    2.14 s,   0.06 %
+ATM - Rank: 704 DTTodosWait:  241.28 s,   7.15 %
+ 
+ATM - Rank: 705 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 705 DTWaits:  239.07 s,   7.09 %
+ATM - Rank: 705 DTWaitr:    1.67 s,   0.05 %
+ATM - Rank: 705 DTTodosWait:  240.75 s,   7.14 %
+ 
+ATM - Rank: 706 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 706 DTWaits:  238.99 s,   7.09 %
+ATM - Rank: 706 DTWaitr:    1.31 s,   0.04 %
+ATM - Rank: 706 DTTodosWait:  240.30 s,   7.12 %
+ 
+ATM - Rank: 707 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 707 DTWaits:  238.97 s,   7.09 %
+ATM - Rank: 707 DTWaitr:    1.21 s,   0.04 %
+ATM - Rank: 707 DTTodosWait:  240.18 s,   7.12 %
+ 
+ATM - Rank: 708 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 708 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 708 DTWaitr:    1.15 s,   0.03 %
+ATM - Rank: 708 DTTodosWait:  240.11 s,   7.12 %
+ 
+ATM - Rank: 709 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 709 DTWaits:  238.95 s,   7.08 %
+ATM - Rank: 709 DTWaitr:    1.06 s,   0.03 %
+ATM - Rank: 709 DTTodosWait:  240.01 s,   7.12 %
+ 
+ATM - Rank: 710 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 710 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 710 DTWaitr:    1.02 s,   0.03 %
+ATM - Rank: 710 DTTodosWait:  239.94 s,   7.11 %
+ 
+ATM - Rank: 711 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 711 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 711 DTWaitr:    0.98 s,   0.03 %
+ATM - Rank: 711 DTTodosWait:  239.91 s,   7.11 %
+ 
+ATM - Rank: 712 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 712 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 712 DTWaitr:    0.92 s,   0.03 %
+ATM - Rank: 712 DTTodosWait:  239.85 s,   7.11 %
+ 
+ATM - Rank: 713 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 713 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 713 DTWaitr:    0.93 s,   0.03 %
+ATM - Rank: 713 DTTodosWait:  239.86 s,   7.11 %
+ 
+ATM - Rank: 714 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 714 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 714 DTWaitr:    0.91 s,   0.03 %
+ATM - Rank: 714 DTTodosWait:  239.84 s,   7.11 %
+ 
+ATM - Rank: 715 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 715 DTWaits:  238.93 s,   7.08 %
+ATM - Rank: 715 DTWaitr:    0.90 s,   0.03 %
+ATM - Rank: 715 DTTodosWait:  239.84 s,   7.11 %
+ 
+ATM - Rank: 716 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 716 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 716 DTWaitr:    0.95 s,   0.03 %
+ATM - Rank: 716 DTTodosWait:  239.88 s,   7.11 %
+ 
+ATM - Rank: 717 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 717 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 717 DTWaitr:    0.95 s,   0.03 %
+ATM - Rank: 717 DTTodosWait:  239.89 s,   7.11 %
+ 
+ATM - Rank: 718 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 718 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 718 DTWaitr:    0.95 s,   0.03 %
+ATM - Rank: 718 DTTodosWait:  239.89 s,   7.11 %
+ 
+ATM - Rank: 719 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 719 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 719 DTWaitr:    0.95 s,   0.03 %
+ATM - Rank: 719 DTTodosWait:  239.89 s,   7.11 %
+ 
+ATM - Rank: 720 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 720 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 720 DTWaitr:    1.07 s,   0.03 %
+ATM - Rank: 720 DTTodosWait:  240.03 s,   7.12 %
+ 
+ATM - Rank: 721 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 721 DTWaits:  238.98 s,   7.09 %
+ATM - Rank: 721 DTWaitr:    1.22 s,   0.04 %
+ATM - Rank: 721 DTTodosWait:  240.19 s,   7.12 %
+ 
+ATM - Rank: 722 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 722 DTWaits:  239.01 s,   7.09 %
+ATM - Rank: 722 DTWaitr:    1.42 s,   0.04 %
+ATM - Rank: 722 DTTodosWait:  240.43 s,   7.13 %
+ 
+ATM - Rank: 723 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 723 DTWaits:  239.07 s,   7.09 %
+ATM - Rank: 723 DTWaitr:    1.74 s,   0.05 %
+ATM - Rank: 723 DTTodosWait:  240.81 s,   7.14 %
+ 
+ATM - Rank: 724 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 724 DTWaits:  239.24 s,   7.09 %
+ATM - Rank: 724 DTWaitr:    2.44 s,   0.07 %
+ATM - Rank: 724 DTTodosWait:  241.68 s,   7.17 %
+ 
+ATM - Rank: 725 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 725 DTWaits:  239.34 s,   7.10 %
+ATM - Rank: 725 DTWaitr:    3.07 s,   0.09 %
+ATM - Rank: 725 DTTodosWait:  242.41 s,   7.19 %
+ 
+ATM - Rank: 726 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 726 DTWaits:  239.40 s,   7.10 %
+ATM - Rank: 726 DTWaitr:    3.57 s,   0.11 %
+ATM - Rank: 726 DTTodosWait:  242.97 s,   7.20 %
+ 
+ATM - Rank: 727 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 727 DTWaits:  239.44 s,   7.10 %
+ATM - Rank: 727 DTWaitr:    3.85 s,   0.11 %
+ATM - Rank: 727 DTTodosWait:  243.28 s,   7.21 %
+ 
+ATM - Rank: 728 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 728 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 728 DTWaitr:    2.19 s,   0.06 %
+ATM - Rank: 728 DTTodosWait:  241.35 s,   7.16 %
+ 
+ATM - Rank: 729 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 729 DTWaits:  239.08 s,   7.09 %
+ATM - Rank: 729 DTWaitr:    1.77 s,   0.05 %
+ATM - Rank: 729 DTTodosWait:  240.85 s,   7.14 %
+ 
+ATM - Rank: 730 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 730 DTWaits:  239.01 s,   7.09 %
+ATM - Rank: 730 DTWaitr:    1.36 s,   0.04 %
+ATM - Rank: 730 DTTodosWait:  240.36 s,   7.13 %
+ 
+ATM - Rank: 731 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 731 DTWaits:  239.00 s,   7.09 %
+ATM - Rank: 731 DTWaitr:    1.29 s,   0.04 %
+ATM - Rank: 731 DTTodosWait:  240.28 s,   7.12 %
+ 
+ATM - Rank: 732 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 732 DTWaits:  238.99 s,   7.09 %
+ATM - Rank: 732 DTWaitr:    1.29 s,   0.04 %
+ATM - Rank: 732 DTTodosWait:  240.29 s,   7.12 %
+ 
+ATM - Rank: 733 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 733 DTWaits:  238.98 s,   7.09 %
+ATM - Rank: 733 DTWaitr:    1.18 s,   0.04 %
+ATM - Rank: 733 DTTodosWait:  240.17 s,   7.12 %
+ 
+ATM - Rank: 734 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 734 DTWaits:  238.97 s,   7.09 %
+ATM - Rank: 734 DTWaitr:    1.06 s,   0.03 %
+ATM - Rank: 734 DTTodosWait:  240.03 s,   7.12 %
+ 
+ATM - Rank: 735 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 735 DTWaits:  238.97 s,   7.09 %
+ATM - Rank: 735 DTWaitr:    1.04 s,   0.03 %
+ATM - Rank: 735 DTTodosWait:  240.01 s,   7.12 %
+ 
+ATM - Rank: 736 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 736 DTWaits:  238.94 s,   7.08 %
+ATM - Rank: 736 DTWaitr:    0.97 s,   0.03 %
+ATM - Rank: 736 DTTodosWait:  239.91 s,   7.11 %
+ 
+ATM - Rank: 737 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 737 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 737 DTWaitr:    0.97 s,   0.03 %
+ATM - Rank: 737 DTTodosWait:  239.93 s,   7.11 %
+ 
+ATM - Rank: 738 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 738 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 738 DTWaitr:    0.96 s,   0.03 %
+ATM - Rank: 738 DTTodosWait:  239.93 s,   7.11 %
+ 
+ATM - Rank: 739 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 739 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 739 DTWaitr:    1.04 s,   0.03 %
+ATM - Rank: 739 DTTodosWait:  240.01 s,   7.12 %
+ 
+ATM - Rank: 740 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 740 DTWaits:  238.96 s,   7.08 %
+ATM - Rank: 740 DTWaitr:    1.04 s,   0.03 %
+ATM - Rank: 740 DTTodosWait:  240.01 s,   7.12 %
+ 
+ATM - Rank: 741 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 741 DTWaits:  238.97 s,   7.09 %
+ATM - Rank: 741 DTWaitr:    1.01 s,   0.03 %
+ATM - Rank: 741 DTTodosWait:  239.97 s,   7.11 %
+ 
+ATM - Rank: 742 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 742 DTWaits:  238.97 s,   7.09 %
+ATM - Rank: 742 DTWaitr:    1.01 s,   0.03 %
+ATM - Rank: 742 DTTodosWait:  239.98 s,   7.12 %
+ 
+ATM - Rank: 743 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 743 DTWaits:  238.98 s,   7.09 %
+ATM - Rank: 743 DTWaitr:    1.08 s,   0.03 %
+ATM - Rank: 743 DTTodosWait:  240.05 s,   7.12 %
+ 
+ATM - Rank: 744 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 744 DTWaits:  239.02 s,   7.09 %
+ATM - Rank: 744 DTWaitr:    1.19 s,   0.04 %
+ATM - Rank: 744 DTTodosWait:  240.21 s,   7.12 %
+ 
+ATM - Rank: 745 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 745 DTWaits:  239.04 s,   7.09 %
+ATM - Rank: 745 DTWaitr:    1.36 s,   0.04 %
+ATM - Rank: 745 DTTodosWait:  240.40 s,   7.13 %
+ 
+ATM - Rank: 746 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 746 DTWaits:  239.09 s,   7.09 %
+ATM - Rank: 746 DTWaitr:    1.58 s,   0.05 %
+ATM - Rank: 746 DTTodosWait:  240.67 s,   7.14 %
+ 
+ATM - Rank: 747 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 747 DTWaits:  239.15 s,   7.09 %
+ATM - Rank: 747 DTWaitr:    1.88 s,   0.06 %
+ATM - Rank: 747 DTTodosWait:  241.03 s,   7.15 %
+ 
+ATM - Rank: 748 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 748 DTWaits:  239.31 s,   7.10 %
+ATM - Rank: 748 DTWaitr:    2.80 s,   0.08 %
+ATM - Rank: 748 DTTodosWait:  242.11 s,   7.18 %
+ 
+ATM - Rank: 749 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 749 DTWaits:  239.37 s,   7.10 %
+ATM - Rank: 749 DTWaitr:    3.22 s,   0.10 %
+ATM - Rank: 749 DTTodosWait:  242.59 s,   7.19 %
+ 
+ATM - Rank: 750 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 750 DTWaits:  239.40 s,   7.10 %
+ATM - Rank: 750 DTWaitr:    3.55 s,   0.11 %
+ATM - Rank: 750 DTTodosWait:  242.95 s,   7.20 %
+ 
+ATM - Rank: 751 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 751 DTWaits:  239.43 s,   7.10 %
+ATM - Rank: 751 DTWaitr:    3.80 s,   0.11 %
+ATM - Rank: 751 DTTodosWait:  243.23 s,   7.21 %
+ 
+ATM - Rank: 752 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 752 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 752 DTWaitr:    2.18 s,   0.06 %
+ATM - Rank: 752 DTTodosWait:  241.33 s,   7.16 %
+ 
+ATM - Rank: 753 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 753 DTWaits:  239.11 s,   7.09 %
+ATM - Rank: 753 DTWaitr:    1.82 s,   0.05 %
+ATM - Rank: 753 DTTodosWait:  240.93 s,   7.14 %
+ 
+ATM - Rank: 754 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 754 DTWaits:  239.06 s,   7.09 %
+ATM - Rank: 754 DTWaitr:    1.62 s,   0.05 %
+ATM - Rank: 754 DTTodosWait:  240.68 s,   7.14 %
+ 
+ATM - Rank: 755 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 755 DTWaits:  239.05 s,   7.09 %
+ATM - Rank: 755 DTWaitr:    1.59 s,   0.05 %
+ATM - Rank: 755 DTTodosWait:  240.64 s,   7.13 %
+ 
+ATM - Rank: 756 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 756 DTWaits:  239.05 s,   7.09 %
+ATM - Rank: 756 DTWaitr:    1.56 s,   0.05 %
+ATM - Rank: 756 DTTodosWait:  240.61 s,   7.13 %
+ 
+ATM - Rank: 757 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 757 DTWaits:  239.04 s,   7.09 %
+ATM - Rank: 757 DTWaitr:    1.54 s,   0.05 %
+ATM - Rank: 757 DTTodosWait:  240.58 s,   7.13 %
+ 
+ATM - Rank: 758 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 758 DTWaits:  239.03 s,   7.09 %
+ATM - Rank: 758 DTWaitr:    1.43 s,   0.04 %
+ATM - Rank: 758 DTTodosWait:  240.46 s,   7.13 %
+ 
+ATM - Rank: 759 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 759 DTWaits:  239.03 s,   7.09 %
+ATM - Rank: 759 DTWaitr:    1.37 s,   0.04 %
+ATM - Rank: 759 DTTodosWait:  240.40 s,   7.13 %
+ 
+ATM - Rank: 760 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 760 DTWaits:  239.02 s,   7.09 %
+ATM - Rank: 760 DTWaitr:    1.34 s,   0.04 %
+ATM - Rank: 760 DTTodosWait:  240.36 s,   7.13 %
+ 
+ATM - Rank: 761 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 761 DTWaits:  239.03 s,   7.09 %
+ATM - Rank: 761 DTWaitr:    1.41 s,   0.04 %
+ATM - Rank: 761 DTTodosWait:  240.43 s,   7.13 %
+ 
+ATM - Rank: 762 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 762 DTWaits:  239.03 s,   7.09 %
+ATM - Rank: 762 DTWaitr:    1.39 s,   0.04 %
+ATM - Rank: 762 DTTodosWait:  240.42 s,   7.13 %
+ 
+ATM - Rank: 763 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 763 DTWaits:  239.03 s,   7.09 %
+ATM - Rank: 763 DTWaitr:    1.45 s,   0.04 %
+ATM - Rank: 763 DTTodosWait:  240.49 s,   7.13 %
+ 
+ATM - Rank: 764 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 764 DTWaits:  239.03 s,   7.09 %
+ATM - Rank: 764 DTWaitr:    1.46 s,   0.04 %
+ATM - Rank: 764 DTTodosWait:  240.49 s,   7.13 %
+ 
+ATM - Rank: 765 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 765 DTWaits:  239.04 s,   7.09 %
+ATM - Rank: 765 DTWaitr:    1.44 s,   0.04 %
+ATM - Rank: 765 DTTodosWait:  240.48 s,   7.13 %
+ 
+ATM - Rank: 766 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 766 DTWaits:  239.04 s,   7.09 %
+ATM - Rank: 766 DTWaitr:    1.48 s,   0.04 %
+ATM - Rank: 766 DTTodosWait:  240.53 s,   7.13 %
+ 
+ATM - Rank: 767 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 767 DTWaits:  239.05 s,   7.09 %
+ATM - Rank: 767 DTWaitr:    1.50 s,   0.04 %
+ATM - Rank: 767 DTTodosWait:  240.55 s,   7.13 %
+ 
+ATM - Rank: 768 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 768 DTWaits:  239.07 s,   7.09 %
+ATM - Rank: 768 DTWaitr:    1.67 s,   0.05 %
+ATM - Rank: 768 DTTodosWait:  240.74 s,   7.14 %
+ 
+ATM - Rank: 769 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 769 DTWaits:  239.11 s,   7.09 %
+ATM - Rank: 769 DTWaitr:    1.80 s,   0.05 %
+ATM - Rank: 769 DTTodosWait:  240.91 s,   7.14 %
+ 
+ATM - Rank: 770 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 770 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 770 DTWaitr:    2.00 s,   0.06 %
+ATM - Rank: 770 DTTodosWait:  241.17 s,   7.15 %
+ 
+ATM - Rank: 771 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 771 DTWaits:  239.24 s,   7.09 %
+ATM - Rank: 771 DTWaitr:    2.44 s,   0.07 %
+ATM - Rank: 771 DTTodosWait:  241.68 s,   7.17 %
+ 
+ATM - Rank: 772 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 772 DTWaits:  239.34 s,   7.10 %
+ATM - Rank: 772 DTWaitr:    3.00 s,   0.09 %
+ATM - Rank: 772 DTTodosWait:  242.34 s,   7.19 %
+ 
+ATM - Rank: 773 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 773 DTWaits:  239.37 s,   7.10 %
+ATM - Rank: 773 DTWaitr:    3.33 s,   0.10 %
+ATM - Rank: 773 DTTodosWait:  242.70 s,   7.20 %
+ 
+ATM - Rank: 774 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 774 DTWaits:  239.39 s,   7.10 %
+ATM - Rank: 774 DTWaitr:    3.50 s,   0.10 %
+ATM - Rank: 774 DTTodosWait:  242.90 s,   7.20 %
+ 
+ATM - Rank: 775 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 775 DTWaits:  239.43 s,   7.10 %
+ATM - Rank: 775 DTWaitr:    3.77 s,   0.11 %
+ATM - Rank: 775 DTTodosWait:  243.20 s,   7.21 %
+ 
+ATM - Rank: 776 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 776 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 776 DTWaitr:    2.27 s,   0.07 %
+ATM - Rank: 776 DTTodosWait:  241.44 s,   7.16 %
+ 
+ATM - Rank: 777 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 777 DTWaits:  239.14 s,   7.09 %
+ATM - Rank: 777 DTWaitr:    1.97 s,   0.06 %
+ATM - Rank: 777 DTTodosWait:  241.11 s,   7.15 %
+ 
+ATM - Rank: 778 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 778 DTWaits:  239.13 s,   7.09 %
+ATM - Rank: 778 DTWaitr:    1.92 s,   0.06 %
+ATM - Rank: 778 DTTodosWait:  241.05 s,   7.15 %
+ 
+ATM - Rank: 779 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 779 DTWaits:  239.13 s,   7.09 %
+ATM - Rank: 779 DTWaitr:    1.86 s,   0.06 %
+ATM - Rank: 779 DTTodosWait:  240.99 s,   7.15 %
+ 
+ATM - Rank: 780 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 780 DTWaits:  239.13 s,   7.09 %
+ATM - Rank: 780 DTWaitr:    1.88 s,   0.06 %
+ATM - Rank: 780 DTTodosWait:  241.01 s,   7.15 %
+ 
+ATM - Rank: 781 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 781 DTWaits:  239.13 s,   7.09 %
+ATM - Rank: 781 DTWaitr:    1.80 s,   0.05 %
+ATM - Rank: 781 DTTodosWait:  240.93 s,   7.14 %
+ 
+ATM - Rank: 782 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 782 DTWaits:  239.12 s,   7.09 %
+ATM - Rank: 782 DTWaitr:    1.74 s,   0.05 %
+ATM - Rank: 782 DTTodosWait:  240.86 s,   7.14 %
+ 
+ATM - Rank: 783 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 783 DTWaits:  239.12 s,   7.09 %
+ATM - Rank: 783 DTWaitr:    1.73 s,   0.05 %
+ATM - Rank: 783 DTTodosWait:  240.85 s,   7.14 %
+ 
+ATM - Rank: 784 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 784 DTWaits:  239.13 s,   7.09 %
+ATM - Rank: 784 DTWaitr:    1.73 s,   0.05 %
+ATM - Rank: 784 DTTodosWait:  240.85 s,   7.14 %
+ 
+ATM - Rank: 785 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 785 DTWaits:  239.14 s,   7.09 %
+ATM - Rank: 785 DTWaitr:    1.77 s,   0.05 %
+ATM - Rank: 785 DTTodosWait:  240.91 s,   7.14 %
+ 
+ATM - Rank: 786 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 786 DTWaits:  239.14 s,   7.09 %
+ATM - Rank: 786 DTWaitr:    1.84 s,   0.05 %
+ATM - Rank: 786 DTTodosWait:  240.99 s,   7.14 %
+ 
+ATM - Rank: 787 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 787 DTWaits:  239.15 s,   7.09 %
+ATM - Rank: 787 DTWaitr:    1.88 s,   0.06 %
+ATM - Rank: 787 DTTodosWait:  241.03 s,   7.15 %
+ 
+ATM - Rank: 788 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 788 DTWaits:  239.15 s,   7.09 %
+ATM - Rank: 788 DTWaitr:    1.89 s,   0.06 %
+ATM - Rank: 788 DTTodosWait:  241.05 s,   7.15 %
+ 
+ATM - Rank: 789 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 789 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 789 DTWaitr:    1.91 s,   0.06 %
+ATM - Rank: 789 DTTodosWait:  241.06 s,   7.15 %
+ 
+ATM - Rank: 790 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 790 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 790 DTWaitr:    1.99 s,   0.06 %
+ATM - Rank: 790 DTTodosWait:  241.15 s,   7.15 %
+ 
+ATM - Rank: 791 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 791 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 791 DTWaitr:    1.97 s,   0.06 %
+ATM - Rank: 791 DTTodosWait:  241.15 s,   7.15 %
+ 
+ATM - Rank: 792 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 792 DTWaits:  239.18 s,   7.09 %
+ATM - Rank: 792 DTWaitr:    2.03 s,   0.06 %
+ATM - Rank: 792 DTTodosWait:  241.22 s,   7.15 %
+ 
+ATM - Rank: 793 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 793 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 793 DTWaitr:    2.17 s,   0.06 %
+ATM - Rank: 793 DTTodosWait:  241.40 s,   7.16 %
+ 
+ATM - Rank: 794 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 794 DTWaits:  239.27 s,   7.09 %
+ATM - Rank: 794 DTWaitr:    2.51 s,   0.07 %
+ATM - Rank: 794 DTTodosWait:  241.78 s,   7.17 %
+ 
+ATM - Rank: 795 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 795 DTWaits:  239.31 s,   7.10 %
+ATM - Rank: 795 DTWaitr:    2.82 s,   0.08 %
+ATM - Rank: 795 DTTodosWait:  242.13 s,   7.18 %
+ 
+ATM - Rank: 796 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 796 DTWaits:  239.35 s,   7.10 %
+ATM - Rank: 796 DTWaitr:    3.13 s,   0.09 %
+ATM - Rank: 796 DTTodosWait:  242.48 s,   7.19 %
+ 
+ATM - Rank: 797 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 797 DTWaits:  239.37 s,   7.10 %
+ATM - Rank: 797 DTWaitr:    3.34 s,   0.10 %
+ATM - Rank: 797 DTTodosWait:  242.72 s,   7.20 %
+ 
+ATM - Rank: 798 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 798 DTWaits:  239.39 s,   7.10 %
+ATM - Rank: 798 DTWaitr:    3.58 s,   0.11 %
+ATM - Rank: 798 DTTodosWait:  242.98 s,   7.20 %
+ 
+ATM - Rank: 799 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 799 DTWaits:  239.44 s,   7.10 %
+ATM - Rank: 799 DTWaitr:    3.86 s,   0.11 %
+ATM - Rank: 799 DTTodosWait:  243.29 s,   7.21 %
+ 
+ATM - Rank: 800 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 800 DTWaits:  239.14 s,   7.09 %
+ATM - Rank: 800 DTWaitr:    2.23 s,   0.07 %
+ATM - Rank: 800 DTTodosWait:  241.37 s,   7.16 %
+ 
+ATM - Rank: 801 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 801 DTWaits:  239.13 s,   7.09 %
+ATM - Rank: 801 DTWaitr:    2.05 s,   0.06 %
+ATM - Rank: 801 DTTodosWait:  241.19 s,   7.15 %
+ 
+ATM - Rank: 802 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 802 DTWaits:  239.13 s,   7.09 %
+ATM - Rank: 802 DTWaitr:    1.95 s,   0.06 %
+ATM - Rank: 802 DTTodosWait:  241.08 s,   7.15 %
+ 
+ATM - Rank: 803 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 803 DTWaits:  239.12 s,   7.09 %
+ATM - Rank: 803 DTWaitr:    1.96 s,   0.06 %
+ATM - Rank: 803 DTTodosWait:  241.09 s,   7.15 %
+ 
+ATM - Rank: 804 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 804 DTWaits:  239.12 s,   7.09 %
+ATM - Rank: 804 DTWaitr:    1.91 s,   0.06 %
+ATM - Rank: 804 DTTodosWait:  241.03 s,   7.15 %
+ 
+ATM - Rank: 805 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 805 DTWaits:  239.12 s,   7.09 %
+ATM - Rank: 805 DTWaitr:    1.92 s,   0.06 %
+ATM - Rank: 805 DTTodosWait:  241.04 s,   7.15 %
+ 
+ATM - Rank: 806 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 806 DTWaits:  239.12 s,   7.09 %
+ATM - Rank: 806 DTWaitr:    1.82 s,   0.05 %
+ATM - Rank: 806 DTTodosWait:  240.94 s,   7.14 %
+ 
+ATM - Rank: 807 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 807 DTWaits:  239.12 s,   7.09 %
+ATM - Rank: 807 DTWaitr:    1.81 s,   0.05 %
+ATM - Rank: 807 DTTodosWait:  240.93 s,   7.14 %
+ 
+ATM - Rank: 808 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 808 DTWaits:  239.14 s,   7.09 %
+ATM - Rank: 808 DTWaitr:    1.83 s,   0.05 %
+ATM - Rank: 808 DTTodosWait:  240.97 s,   7.14 %
+ 
+ATM - Rank: 809 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 809 DTWaits:  239.14 s,   7.09 %
+ATM - Rank: 809 DTWaitr:    1.91 s,   0.06 %
+ATM - Rank: 809 DTTodosWait:  241.05 s,   7.15 %
+ 
+ATM - Rank: 810 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 810 DTWaits:  239.15 s,   7.09 %
+ATM - Rank: 810 DTWaitr:    1.95 s,   0.06 %
+ATM - Rank: 810 DTTodosWait:  241.10 s,   7.15 %
+ 
+ATM - Rank: 811 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 811 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 811 DTWaitr:    2.08 s,   0.06 %
+ATM - Rank: 811 DTTodosWait:  241.24 s,   7.15 %
+ 
+ATM - Rank: 812 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 812 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 812 DTWaitr:    2.05 s,   0.06 %
+ATM - Rank: 812 DTTodosWait:  241.21 s,   7.15 %
+ 
+ATM - Rank: 813 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 813 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 813 DTWaitr:    2.10 s,   0.06 %
+ATM - Rank: 813 DTTodosWait:  241.27 s,   7.15 %
+ 
+ATM - Rank: 814 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 814 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 814 DTWaitr:    2.16 s,   0.06 %
+ATM - Rank: 814 DTTodosWait:  241.33 s,   7.16 %
+ 
+ATM - Rank: 815 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 815 DTWaits:  239.18 s,   7.09 %
+ATM - Rank: 815 DTWaitr:    2.16 s,   0.06 %
+ATM - Rank: 815 DTTodosWait:  241.34 s,   7.16 %
+ 
+ATM - Rank: 816 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 816 DTWaits:  239.20 s,   7.09 %
+ATM - Rank: 816 DTWaitr:    2.22 s,   0.07 %
+ATM - Rank: 816 DTTodosWait:  241.42 s,   7.16 %
+ 
+ATM - Rank: 817 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 817 DTWaits:  239.24 s,   7.09 %
+ATM - Rank: 817 DTWaitr:    2.37 s,   0.07 %
+ATM - Rank: 817 DTTodosWait:  241.61 s,   7.16 %
+ 
+ATM - Rank: 818 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 818 DTWaits:  239.28 s,   7.09 %
+ATM - Rank: 818 DTWaitr:    2.68 s,   0.08 %
+ATM - Rank: 818 DTTodosWait:  241.96 s,   7.17 %
+ 
+ATM - Rank: 819 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 819 DTWaits:  239.31 s,   7.10 %
+ATM - Rank: 819 DTWaitr:    2.90 s,   0.09 %
+ATM - Rank: 819 DTTodosWait:  242.21 s,   7.18 %
+ 
+ATM - Rank: 820 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 820 DTWaits:  239.37 s,   7.10 %
+ATM - Rank: 820 DTWaitr:    3.23 s,   0.10 %
+ATM - Rank: 820 DTTodosWait:  242.59 s,   7.19 %
+ 
+ATM - Rank: 821 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 821 DTWaits:  239.39 s,   7.10 %
+ATM - Rank: 821 DTWaitr:    3.33 s,   0.10 %
+ATM - Rank: 821 DTTodosWait:  242.72 s,   7.20 %
+ 
+ATM - Rank: 822 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 822 DTWaits:  239.40 s,   7.10 %
+ATM - Rank: 822 DTWaitr:    3.60 s,   0.11 %
+ATM - Rank: 822 DTTodosWait:  243.00 s,   7.20 %
+ 
+ATM - Rank: 823 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 823 DTWaits:  239.44 s,   7.10 %
+ATM - Rank: 823 DTWaitr:    3.88 s,   0.11 %
+ATM - Rank: 823 DTTodosWait:  243.32 s,   7.21 %
+ 
+ATM - Rank: 824 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 824 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 824 DTWaitr:    2.31 s,   0.07 %
+ATM - Rank: 824 DTTodosWait:  241.47 s,   7.16 %
+ 
+ATM - Rank: 825 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 825 DTWaits:  239.15 s,   7.09 %
+ATM - Rank: 825 DTWaitr:    2.09 s,   0.06 %
+ATM - Rank: 825 DTTodosWait:  241.24 s,   7.15 %
+ 
+ATM - Rank: 826 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 826 DTWaits:  239.14 s,   7.09 %
+ATM - Rank: 826 DTWaitr:    2.01 s,   0.06 %
+ATM - Rank: 826 DTTodosWait:  241.14 s,   7.15 %
+ 
+ATM - Rank: 827 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 827 DTWaits:  239.14 s,   7.09 %
+ATM - Rank: 827 DTWaitr:    1.98 s,   0.06 %
+ATM - Rank: 827 DTTodosWait:  241.12 s,   7.15 %
+ 
+ATM - Rank: 828 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 828 DTWaits:  239.13 s,   7.09 %
+ATM - Rank: 828 DTWaitr:    1.98 s,   0.06 %
+ATM - Rank: 828 DTTodosWait:  241.12 s,   7.15 %
+ 
+ATM - Rank: 829 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 829 DTWaits:  239.13 s,   7.09 %
+ATM - Rank: 829 DTWaitr:    1.99 s,   0.06 %
+ATM - Rank: 829 DTTodosWait:  241.12 s,   7.15 %
+ 
+ATM - Rank: 830 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 830 DTWaits:  239.13 s,   7.09 %
+ATM - Rank: 830 DTWaitr:    1.87 s,   0.06 %
+ATM - Rank: 830 DTTodosWait:  241.00 s,   7.15 %
+ 
+ATM - Rank: 831 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 831 DTWaits:  239.13 s,   7.09 %
+ATM - Rank: 831 DTWaitr:    1.89 s,   0.06 %
+ATM - Rank: 831 DTTodosWait:  241.02 s,   7.15 %
+ 
+ATM - Rank: 832 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 832 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 832 DTWaitr:    2.04 s,   0.06 %
+ATM - Rank: 832 DTTodosWait:  241.20 s,   7.15 %
+ 
+ATM - Rank: 833 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 833 DTWaits:  239.15 s,   7.09 %
+ATM - Rank: 833 DTWaitr:    1.99 s,   0.06 %
+ATM - Rank: 833 DTTodosWait:  241.14 s,   7.15 %
+ 
+ATM - Rank: 834 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 834 DTWaits:  239.16 s,   7.09 %
+ATM - Rank: 834 DTWaitr:    2.02 s,   0.06 %
+ATM - Rank: 834 DTTodosWait:  241.18 s,   7.15 %
+ 
+ATM - Rank: 835 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 835 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 835 DTWaitr:    2.12 s,   0.06 %
+ATM - Rank: 835 DTTodosWait:  241.28 s,   7.15 %
+ 
+ATM - Rank: 836 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 836 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 836 DTWaitr:    2.12 s,   0.06 %
+ATM - Rank: 836 DTTodosWait:  241.29 s,   7.15 %
+ 
+ATM - Rank: 837 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 837 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 837 DTWaitr:    2.16 s,   0.06 %
+ATM - Rank: 837 DTTodosWait:  241.33 s,   7.16 %
+ 
+ATM - Rank: 838 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 838 DTWaits:  239.18 s,   7.09 %
+ATM - Rank: 838 DTWaitr:    2.25 s,   0.07 %
+ATM - Rank: 838 DTTodosWait:  241.44 s,   7.16 %
+ 
+ATM - Rank: 839 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 839 DTWaits:  239.20 s,   7.09 %
+ATM - Rank: 839 DTWaitr:    2.24 s,   0.07 %
+ATM - Rank: 839 DTTodosWait:  241.44 s,   7.16 %
+ 
+ATM - Rank: 840 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 840 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 840 DTWaitr:    2.37 s,   0.07 %
+ATM - Rank: 840 DTTodosWait:  241.59 s,   7.16 %
+ 
+ATM - Rank: 841 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 841 DTWaits:  239.25 s,   7.09 %
+ATM - Rank: 841 DTWaitr:    2.53 s,   0.07 %
+ATM - Rank: 841 DTTodosWait:  241.78 s,   7.17 %
+ 
+ATM - Rank: 842 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 842 DTWaits:  239.30 s,   7.09 %
+ATM - Rank: 842 DTWaitr:    2.80 s,   0.08 %
+ATM - Rank: 842 DTTodosWait:  242.10 s,   7.18 %
+ 
+ATM - Rank: 843 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 843 DTWaits:  239.32 s,   7.10 %
+ATM - Rank: 843 DTWaitr:    2.91 s,   0.09 %
+ATM - Rank: 843 DTTodosWait:  242.24 s,   7.18 %
+ 
+ATM - Rank: 844 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 844 DTWaits:  239.38 s,   7.10 %
+ATM - Rank: 844 DTWaitr:    3.27 s,   0.10 %
+ATM - Rank: 844 DTTodosWait:  242.65 s,   7.19 %
+ 
+ATM - Rank: 845 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 845 DTWaits:  239.40 s,   7.10 %
+ATM - Rank: 845 DTWaitr:    3.44 s,   0.10 %
+ATM - Rank: 845 DTTodosWait:  242.84 s,   7.20 %
+ 
+ATM - Rank: 846 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 846 DTWaits:  239.42 s,   7.10 %
+ATM - Rank: 846 DTWaitr:    3.68 s,   0.11 %
+ATM - Rank: 846 DTTodosWait:  243.10 s,   7.21 %
+ 
+ATM - Rank: 847 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 847 DTWaits:  239.49 s,   7.10 %
+ATM - Rank: 847 DTWaitr:    4.02 s,   0.12 %
+ATM - Rank: 847 DTTodosWait:  243.51 s,   7.22 %
+ 
+ATM - Rank: 848 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 848 DTWaits:  239.19 s,   7.09 %
+ATM - Rank: 848 DTWaitr:    2.35 s,   0.07 %
+ATM - Rank: 848 DTTodosWait:  241.54 s,   7.16 %
+ 
+ATM - Rank: 849 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 849 DTWaits:  239.18 s,   7.09 %
+ATM - Rank: 849 DTWaitr:    2.27 s,   0.07 %
+ATM - Rank: 849 DTTodosWait:  241.45 s,   7.16 %
+ 
+ATM - Rank: 850 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 850 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 850 DTWaitr:    2.23 s,   0.07 %
+ATM - Rank: 850 DTTodosWait:  241.40 s,   7.16 %
+ 
+ATM - Rank: 851 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 851 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 851 DTWaitr:    2.18 s,   0.06 %
+ATM - Rank: 851 DTTodosWait:  241.35 s,   7.16 %
+ 
+ATM - Rank: 852 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 852 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 852 DTWaitr:    2.16 s,   0.06 %
+ATM - Rank: 852 DTTodosWait:  241.33 s,   7.16 %
+ 
+ATM - Rank: 853 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 853 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 853 DTWaitr:    2.17 s,   0.06 %
+ATM - Rank: 853 DTTodosWait:  241.33 s,   7.16 %
+ 
+ATM - Rank: 854 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 854 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 854 DTWaitr:    2.10 s,   0.06 %
+ATM - Rank: 854 DTTodosWait:  241.26 s,   7.15 %
+ 
+ATM - Rank: 855 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 855 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 855 DTWaitr:    2.16 s,   0.06 %
+ATM - Rank: 855 DTTodosWait:  241.33 s,   7.16 %
+ 
+ATM - Rank: 856 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 856 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 856 DTWaitr:    2.10 s,   0.06 %
+ATM - Rank: 856 DTTodosWait:  241.27 s,   7.15 %
+ 
+ATM - Rank: 857 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 857 DTWaits:  239.18 s,   7.09 %
+ATM - Rank: 857 DTWaitr:    2.16 s,   0.06 %
+ATM - Rank: 857 DTTodosWait:  241.33 s,   7.16 %
+ 
+ATM - Rank: 858 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 858 DTWaits:  239.19 s,   7.09 %
+ATM - Rank: 858 DTWaitr:    2.23 s,   0.07 %
+ATM - Rank: 858 DTTodosWait:  241.42 s,   7.16 %
+ 
+ATM - Rank: 859 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 859 DTWaits:  239.20 s,   7.09 %
+ATM - Rank: 859 DTWaitr:    2.34 s,   0.07 %
+ATM - Rank: 859 DTTodosWait:  241.54 s,   7.16 %
+ 
+ATM - Rank: 860 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 860 DTWaits:  239.20 s,   7.09 %
+ATM - Rank: 860 DTWaitr:    2.30 s,   0.07 %
+ATM - Rank: 860 DTTodosWait:  241.50 s,   7.16 %
+ 
+ATM - Rank: 861 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 861 DTWaits:  239.20 s,   7.09 %
+ATM - Rank: 861 DTWaitr:    2.34 s,   0.07 %
+ATM - Rank: 861 DTTodosWait:  241.54 s,   7.16 %
+ 
+ATM - Rank: 862 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 862 DTWaits:  239.21 s,   7.09 %
+ATM - Rank: 862 DTWaitr:    2.39 s,   0.07 %
+ATM - Rank: 862 DTTodosWait:  241.60 s,   7.16 %
+ 
+ATM - Rank: 863 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 863 DTWaits:  239.23 s,   7.09 %
+ATM - Rank: 863 DTWaitr:    2.50 s,   0.07 %
+ATM - Rank: 863 DTTodosWait:  241.73 s,   7.17 %
+ 
+ATM - Rank: 864 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 864 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 864 DTWaitr:    2.55 s,   0.08 %
+ATM - Rank: 864 DTTodosWait:  241.77 s,   7.17 %
+ 
+ATM - Rank: 865 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 865 DTWaits:  239.28 s,   7.09 %
+ATM - Rank: 865 DTWaitr:    2.76 s,   0.08 %
+ATM - Rank: 865 DTTodosWait:  242.04 s,   7.18 %
+ 
+ATM - Rank: 866 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 866 DTWaits:  239.33 s,   7.10 %
+ATM - Rank: 866 DTWaitr:    2.94 s,   0.09 %
+ATM - Rank: 866 DTTodosWait:  242.28 s,   7.18 %
+ 
+ATM - Rank: 867 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 867 DTWaits:  239.37 s,   7.10 %
+ATM - Rank: 867 DTWaitr:    3.11 s,   0.09 %
+ATM - Rank: 867 DTTodosWait:  242.48 s,   7.19 %
+ 
+ATM - Rank: 868 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 868 DTWaits:  239.40 s,   7.10 %
+ATM - Rank: 868 DTWaitr:    3.27 s,   0.10 %
+ATM - Rank: 868 DTTodosWait:  242.68 s,   7.19 %
+ 
+ATM - Rank: 869 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 869 DTWaits:  239.43 s,   7.10 %
+ATM - Rank: 869 DTWaitr:    3.40 s,   0.10 %
+ATM - Rank: 869 DTTodosWait:  242.83 s,   7.20 %
+ 
+ATM - Rank: 870 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 870 DTWaits:  239.44 s,   7.10 %
+ATM - Rank: 870 DTWaitr:    3.80 s,   0.11 %
+ATM - Rank: 870 DTTodosWait:  243.24 s,   7.21 %
+ 
+ATM - Rank: 871 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 871 DTWaits:  239.53 s,   7.10 %
+ATM - Rank: 871 DTWaitr:    4.19 s,   0.12 %
+ATM - Rank: 871 DTTodosWait:  243.72 s,   7.23 %
+ 
+ATM - Rank: 872 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 872 DTWaits:  239.20 s,   7.09 %
+ATM - Rank: 872 DTWaitr:    2.52 s,   0.07 %
+ATM - Rank: 872 DTTodosWait:  241.72 s,   7.17 %
+ 
+ATM - Rank: 873 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 873 DTWaits:  239.19 s,   7.09 %
+ATM - Rank: 873 DTWaitr:    2.41 s,   0.07 %
+ATM - Rank: 873 DTTodosWait:  241.60 s,   7.16 %
+ 
+ATM - Rank: 874 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 874 DTWaits:  239.18 s,   7.09 %
+ATM - Rank: 874 DTWaitr:    2.39 s,   0.07 %
+ATM - Rank: 874 DTTodosWait:  241.57 s,   7.16 %
+ 
+ATM - Rank: 875 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 875 DTWaits:  239.18 s,   7.09 %
+ATM - Rank: 875 DTWaitr:    2.37 s,   0.07 %
+ATM - Rank: 875 DTTodosWait:  241.56 s,   7.16 %
+ 
+ATM - Rank: 876 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 876 DTWaits:  239.18 s,   7.09 %
+ATM - Rank: 876 DTWaitr:    2.37 s,   0.07 %
+ATM - Rank: 876 DTTodosWait:  241.56 s,   7.16 %
+ 
+ATM - Rank: 877 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 877 DTWaits:  239.18 s,   7.09 %
+ATM - Rank: 877 DTWaitr:    2.31 s,   0.07 %
+ATM - Rank: 877 DTTodosWait:  241.49 s,   7.16 %
+ 
+ATM - Rank: 878 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 878 DTWaits:  239.19 s,   7.09 %
+ATM - Rank: 878 DTWaitr:    2.29 s,   0.07 %
+ATM - Rank: 878 DTTodosWait:  241.48 s,   7.16 %
+ 
+ATM - Rank: 879 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 879 DTWaits:  239.19 s,   7.09 %
+ATM - Rank: 879 DTWaitr:    2.25 s,   0.07 %
+ATM - Rank: 879 DTTodosWait:  241.44 s,   7.16 %
+ 
+ATM - Rank: 880 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 880 DTWaits:  239.20 s,   7.09 %
+ATM - Rank: 880 DTWaitr:    2.30 s,   0.07 %
+ATM - Rank: 880 DTTodosWait:  241.50 s,   7.16 %
+ 
+ATM - Rank: 881 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 881 DTWaits:  239.20 s,   7.09 %
+ATM - Rank: 881 DTWaitr:    2.34 s,   0.07 %
+ATM - Rank: 881 DTTodosWait:  241.54 s,   7.16 %
+ 
+ATM - Rank: 882 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 882 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 882 DTWaitr:    2.38 s,   0.07 %
+ATM - Rank: 882 DTTodosWait:  241.60 s,   7.16 %
+ 
+ATM - Rank: 883 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 883 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 883 DTWaitr:    2.46 s,   0.07 %
+ATM - Rank: 883 DTTodosWait:  241.69 s,   7.17 %
+ 
+ATM - Rank: 884 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 884 DTWaits:  239.23 s,   7.09 %
+ATM - Rank: 884 DTWaitr:    2.48 s,   0.07 %
+ATM - Rank: 884 DTTodosWait:  241.71 s,   7.17 %
+ 
+ATM - Rank: 885 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 885 DTWaits:  239.25 s,   7.09 %
+ATM - Rank: 885 DTWaitr:    2.52 s,   0.07 %
+ATM - Rank: 885 DTTodosWait:  241.76 s,   7.17 %
+ 
+ATM - Rank: 886 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 886 DTWaits:  239.27 s,   7.09 %
+ATM - Rank: 886 DTWaitr:    2.59 s,   0.08 %
+ATM - Rank: 886 DTTodosWait:  241.85 s,   7.17 %
+ 
+ATM - Rank: 887 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 887 DTWaits:  239.29 s,   7.09 %
+ATM - Rank: 887 DTWaitr:    2.68 s,   0.08 %
+ATM - Rank: 887 DTTodosWait:  241.97 s,   7.17 %
+ 
+ATM - Rank: 888 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 888 DTWaits:  239.29 s,   7.09 %
+ATM - Rank: 888 DTWaitr:    2.74 s,   0.08 %
+ATM - Rank: 888 DTTodosWait:  242.03 s,   7.18 %
+ 
+ATM - Rank: 889 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 889 DTWaits:  239.35 s,   7.10 %
+ATM - Rank: 889 DTWaitr:    2.95 s,   0.09 %
+ATM - Rank: 889 DTTodosWait:  242.31 s,   7.18 %
+ 
+ATM - Rank: 890 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 890 DTWaits:  239.40 s,   7.10 %
+ATM - Rank: 890 DTWaitr:    3.28 s,   0.10 %
+ATM - Rank: 890 DTTodosWait:  242.68 s,   7.20 %
+ 
+ATM - Rank: 891 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 891 DTWaits:  239.42 s,   7.10 %
+ATM - Rank: 891 DTWaitr:    3.39 s,   0.10 %
+ATM - Rank: 891 DTTodosWait:  242.80 s,   7.20 %
+ 
+ATM - Rank: 892 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 892 DTWaits:  239.42 s,   7.10 %
+ATM - Rank: 892 DTWaitr:    3.46 s,   0.10 %
+ATM - Rank: 892 DTTodosWait:  242.89 s,   7.20 %
+ 
+ATM - Rank: 893 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 893 DTWaits:  239.45 s,   7.10 %
+ATM - Rank: 893 DTWaitr:    3.63 s,   0.11 %
+ATM - Rank: 893 DTTodosWait:  243.08 s,   7.21 %
+ 
+ATM - Rank: 894 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 894 DTWaits:  239.48 s,   7.10 %
+ATM - Rank: 894 DTWaitr:    4.11 s,   0.12 %
+ATM - Rank: 894 DTTodosWait:  243.59 s,   7.22 %
+ 
+ATM - Rank: 895 DInit:   43.51 s | DRun: 3329.33 s | DFina:    0.01 s | DTOTAL: 3372.85 s
+ATM - Rank: 895 DTWaits:  239.58 s,   7.10 %
+ATM - Rank: 895 DTWaitr:    4.58 s,   0.14 %
+ATM - Rank: 895 DTTodosWait:  244.16 s,   7.24 %
+ 
+ATM - Rank: 896 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 896 DTWaits:  239.18 s,   7.09 %
+ATM - Rank: 896 DTWaitr:    2.65 s,   0.08 %
+ATM - Rank: 896 DTTodosWait:  241.83 s,   7.17 %
+ 
+ATM - Rank: 897 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 897 DTWaits:  239.18 s,   7.09 %
+ATM - Rank: 897 DTWaitr:    2.53 s,   0.07 %
+ATM - Rank: 897 DTTodosWait:  241.70 s,   7.17 %
+ 
+ATM - Rank: 898 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.00 s | DTOTAL: 3372.80 s
+ATM - Rank: 898 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 898 DTWaitr:    2.46 s,   0.07 %
+ATM - Rank: 898 DTTodosWait:  241.63 s,   7.16 %
+ 
+ATM - Rank: 899 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.00 s | DTOTAL: 3372.80 s
+ATM - Rank: 899 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 899 DTWaitr:    2.45 s,   0.07 %
+ATM - Rank: 899 DTTodosWait:  241.62 s,   7.16 %
+ 
+ATM - Rank: 900 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 900 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 900 DTWaitr:    2.39 s,   0.07 %
+ATM - Rank: 900 DTTodosWait:  241.55 s,   7.16 %
+ 
+ATM - Rank: 901 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 901 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 901 DTWaitr:    2.42 s,   0.07 %
+ATM - Rank: 901 DTTodosWait:  241.59 s,   7.16 %
+ 
+ATM - Rank: 902 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 902 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 902 DTWaitr:    2.37 s,   0.07 %
+ATM - Rank: 902 DTTodosWait:  241.54 s,   7.16 %
+ 
+ATM - Rank: 903 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 903 DTWaits:  239.17 s,   7.09 %
+ATM - Rank: 903 DTWaitr:    2.37 s,   0.07 %
+ATM - Rank: 903 DTTodosWait:  241.54 s,   7.16 %
+ 
+ATM - Rank: 904 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 904 DTWaits:  239.19 s,   7.09 %
+ATM - Rank: 904 DTWaitr:    2.42 s,   0.07 %
+ATM - Rank: 904 DTTodosWait:  241.60 s,   7.16 %
+ 
+ATM - Rank: 905 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 905 DTWaits:  239.19 s,   7.09 %
+ATM - Rank: 905 DTWaitr:    2.44 s,   0.07 %
+ATM - Rank: 905 DTTodosWait:  241.64 s,   7.16 %
+ 
+ATM - Rank: 906 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 906 DTWaits:  239.21 s,   7.09 %
+ATM - Rank: 906 DTWaitr:    2.57 s,   0.08 %
+ATM - Rank: 906 DTTodosWait:  241.79 s,   7.17 %
+ 
+ATM - Rank: 907 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 907 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 907 DTWaitr:    2.68 s,   0.08 %
+ATM - Rank: 907 DTTodosWait:  241.91 s,   7.17 %
+ 
+ATM - Rank: 908 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 908 DTWaits:  239.23 s,   7.09 %
+ATM - Rank: 908 DTWaitr:    2.71 s,   0.08 %
+ATM - Rank: 908 DTTodosWait:  241.94 s,   7.17 %
+ 
+ATM - Rank: 909 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 909 DTWaits:  239.24 s,   7.09 %
+ATM - Rank: 909 DTWaitr:    2.73 s,   0.08 %
+ATM - Rank: 909 DTTodosWait:  241.98 s,   7.17 %
+ 
+ATM - Rank: 910 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 910 DTWaits:  239.26 s,   7.09 %
+ATM - Rank: 910 DTWaitr:    2.78 s,   0.08 %
+ATM - Rank: 910 DTTodosWait:  242.05 s,   7.18 %
+ 
+ATM - Rank: 911 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.00 s | DTOTAL: 3372.80 s
+ATM - Rank: 911 DTWaits:  239.28 s,   7.09 %
+ATM - Rank: 911 DTWaitr:    2.88 s,   0.09 %
+ATM - Rank: 911 DTTodosWait:  242.17 s,   7.18 %
+ 
+ATM - Rank: 912 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 912 DTWaits:  239.29 s,   7.09 %
+ATM - Rank: 912 DTWaitr:    2.94 s,   0.09 %
+ATM - Rank: 912 DTTodosWait:  242.24 s,   7.18 %
+ 
+ATM - Rank: 913 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 913 DTWaits:  239.35 s,   7.10 %
+ATM - Rank: 913 DTWaitr:    3.16 s,   0.09 %
+ATM - Rank: 913 DTTodosWait:  242.52 s,   7.19 %
+ 
+ATM - Rank: 914 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.00 s | DTOTAL: 3372.80 s
+ATM - Rank: 914 DTWaits:  239.44 s,   7.10 %
+ATM - Rank: 914 DTWaitr:    3.39 s,   0.10 %
+ATM - Rank: 914 DTTodosWait:  242.83 s,   7.20 %
+ 
+ATM - Rank: 915 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.00 s | DTOTAL: 3372.80 s
+ATM - Rank: 915 DTWaits:  239.45 s,   7.10 %
+ATM - Rank: 915 DTWaitr:    3.51 s,   0.10 %
+ATM - Rank: 915 DTTodosWait:  242.97 s,   7.20 %
+ 
+ATM - Rank: 916 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 916 DTWaits:  239.46 s,   7.10 %
+ATM - Rank: 916 DTWaitr:    3.63 s,   0.11 %
+ATM - Rank: 916 DTTodosWait:  243.09 s,   7.21 %
+ 
+ATM - Rank: 917 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 917 DTWaits:  239.49 s,   7.10 %
+ATM - Rank: 917 DTWaitr:    3.84 s,   0.11 %
+ATM - Rank: 917 DTTodosWait:  243.33 s,   7.21 %
+ 
+ATM - Rank: 918 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 918 DTWaits:  239.52 s,   7.10 %
+ATM - Rank: 918 DTWaitr:    4.28 s,   0.13 %
+ATM - Rank: 918 DTTodosWait:  243.80 s,   7.23 %
+ 
+ATM - Rank: 919 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 919 DTWaits:  239.65 s,   7.11 %
+ATM - Rank: 919 DTWaitr:    4.90 s,   0.15 %
+ATM - Rank: 919 DTTodosWait:  244.55 s,   7.25 %
+ 
+ATM - Rank: 920 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 920 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 920 DTWaitr:    3.10 s,   0.09 %
+ATM - Rank: 920 DTTodosWait:  242.32 s,   7.18 %
+ 
+ATM - Rank: 921 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 921 DTWaits:  239.21 s,   7.09 %
+ATM - Rank: 921 DTWaitr:    2.98 s,   0.09 %
+ATM - Rank: 921 DTTodosWait:  242.19 s,   7.18 %
+ 
+ATM - Rank: 922 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 922 DTWaits:  239.20 s,   7.09 %
+ATM - Rank: 922 DTWaitr:    2.94 s,   0.09 %
+ATM - Rank: 922 DTTodosWait:  242.15 s,   7.18 %
+ 
+ATM - Rank: 923 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 923 DTWaits:  239.20 s,   7.09 %
+ATM - Rank: 923 DTWaitr:    2.90 s,   0.09 %
+ATM - Rank: 923 DTTodosWait:  242.11 s,   7.18 %
+ 
+ATM - Rank: 924 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 924 DTWaits:  239.20 s,   7.09 %
+ATM - Rank: 924 DTWaitr:    2.85 s,   0.08 %
+ATM - Rank: 924 DTTodosWait:  242.06 s,   7.18 %
+ 
+ATM - Rank: 925 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.00 s | DTOTAL: 3372.80 s
+ATM - Rank: 925 DTWaits:  239.20 s,   7.09 %
+ATM - Rank: 925 DTWaitr:    2.85 s,   0.08 %
+ATM - Rank: 925 DTTodosWait:  242.05 s,   7.18 %
+ 
+ATM - Rank: 926 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 926 DTWaits:  239.21 s,   7.09 %
+ATM - Rank: 926 DTWaitr:    2.83 s,   0.08 %
+ATM - Rank: 926 DTTodosWait:  242.04 s,   7.18 %
+ 
+ATM - Rank: 927 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 927 DTWaits:  239.21 s,   7.09 %
+ATM - Rank: 927 DTWaitr:    2.83 s,   0.08 %
+ATM - Rank: 927 DTTodosWait:  242.04 s,   7.18 %
+ 
+ATM - Rank: 928 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 928 DTWaits:  239.20 s,   7.09 %
+ATM - Rank: 928 DTWaitr:    2.92 s,   0.09 %
+ATM - Rank: 928 DTTodosWait:  242.12 s,   7.18 %
+ 
+ATM - Rank: 929 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 929 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 929 DTWaitr:    2.91 s,   0.09 %
+ATM - Rank: 929 DTTodosWait:  242.13 s,   7.18 %
+ 
+ATM - Rank: 930 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 930 DTWaits:  239.24 s,   7.09 %
+ATM - Rank: 930 DTWaitr:    2.97 s,   0.09 %
+ATM - Rank: 930 DTTodosWait:  242.21 s,   7.18 %
+ 
+ATM - Rank: 931 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 931 DTWaits:  239.25 s,   7.09 %
+ATM - Rank: 931 DTWaitr:    3.09 s,   0.09 %
+ATM - Rank: 931 DTTodosWait:  242.34 s,   7.19 %
+ 
+ATM - Rank: 932 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 932 DTWaits:  239.25 s,   7.09 %
+ATM - Rank: 932 DTWaitr:    3.06 s,   0.09 %
+ATM - Rank: 932 DTTodosWait:  242.31 s,   7.18 %
+ 
+ATM - Rank: 933 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 933 DTWaits:  239.27 s,   7.09 %
+ATM - Rank: 933 DTWaitr:    3.12 s,   0.09 %
+ATM - Rank: 933 DTTodosWait:  242.39 s,   7.19 %
+ 
+ATM - Rank: 934 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 934 DTWaits:  239.28 s,   7.09 %
+ATM - Rank: 934 DTWaitr:    3.16 s,   0.09 %
+ATM - Rank: 934 DTTodosWait:  242.44 s,   7.19 %
+ 
+ATM - Rank: 935 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 935 DTWaits:  239.31 s,   7.10 %
+ATM - Rank: 935 DTWaitr:    3.26 s,   0.10 %
+ATM - Rank: 935 DTTodosWait:  242.57 s,   7.19 %
+ 
+ATM - Rank: 936 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 936 DTWaits:  239.32 s,   7.10 %
+ATM - Rank: 936 DTWaitr:    3.38 s,   0.10 %
+ATM - Rank: 936 DTTodosWait:  242.70 s,   7.20 %
+ 
+ATM - Rank: 937 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 937 DTWaits:  239.38 s,   7.10 %
+ATM - Rank: 937 DTWaitr:    3.65 s,   0.11 %
+ATM - Rank: 937 DTTodosWait:  243.02 s,   7.21 %
+ 
+ATM - Rank: 938 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 938 DTWaits:  239.46 s,   7.10 %
+ATM - Rank: 938 DTWaitr:    3.86 s,   0.11 %
+ATM - Rank: 938 DTTodosWait:  243.32 s,   7.21 %
+ 
+ATM - Rank: 939 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 939 DTWaits:  239.48 s,   7.10 %
+ATM - Rank: 939 DTWaitr:    3.93 s,   0.12 %
+ATM - Rank: 939 DTTodosWait:  243.41 s,   7.22 %
+ 
+ATM - Rank: 940 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 940 DTWaits:  239.49 s,   7.10 %
+ATM - Rank: 940 DTWaitr:    4.08 s,   0.12 %
+ATM - Rank: 940 DTTodosWait:  243.57 s,   7.22 %
+ 
+ATM - Rank: 941 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 941 DTWaits:  239.52 s,   7.10 %
+ATM - Rank: 941 DTWaitr:    4.30 s,   0.13 %
+ATM - Rank: 941 DTTodosWait:  243.82 s,   7.23 %
+ 
+ATM - Rank: 942 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 942 DTWaits:  239.54 s,   7.10 %
+ATM - Rank: 942 DTWaitr:    4.75 s,   0.14 %
+ATM - Rank: 942 DTTodosWait:  244.29 s,   7.24 %
+ 
+ATM - Rank: 943 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 943 DTWaits:  239.69 s,   7.11 %
+ATM - Rank: 943 DTWaitr:    5.51 s,   0.16 %
+ATM - Rank: 943 DTTodosWait:  245.20 s,   7.27 %
+ 
+ATM - Rank: 944 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 944 DTWaits:  239.24 s,   7.09 %
+ATM - Rank: 944 DTWaitr:    3.20 s,   0.09 %
+ATM - Rank: 944 DTTodosWait:  242.44 s,   7.19 %
+ 
+ATM - Rank: 945 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 945 DTWaits:  239.23 s,   7.09 %
+ATM - Rank: 945 DTWaitr:    3.11 s,   0.09 %
+ATM - Rank: 945 DTTodosWait:  242.34 s,   7.19 %
+ 
+ATM - Rank: 946 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 946 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 946 DTWaitr:    3.13 s,   0.09 %
+ATM - Rank: 946 DTTodosWait:  242.35 s,   7.19 %
+ 
+ATM - Rank: 947 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 947 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 947 DTWaitr:    3.06 s,   0.09 %
+ATM - Rank: 947 DTTodosWait:  242.28 s,   7.18 %
+ 
+ATM - Rank: 948 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 948 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 948 DTWaitr:    3.04 s,   0.09 %
+ATM - Rank: 948 DTTodosWait:  242.26 s,   7.18 %
+ 
+ATM - Rank: 949 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 949 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 949 DTWaitr:    3.02 s,   0.09 %
+ATM - Rank: 949 DTTodosWait:  242.24 s,   7.18 %
+ 
+ATM - Rank: 950 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 950 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 950 DTWaitr:    2.98 s,   0.09 %
+ATM - Rank: 950 DTTodosWait:  242.20 s,   7.18 %
+ 
+ATM - Rank: 951 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 951 DTWaits:  239.22 s,   7.09 %
+ATM - Rank: 951 DTWaitr:    3.03 s,   0.09 %
+ATM - Rank: 951 DTTodosWait:  242.25 s,   7.18 %
+ 
+ATM - Rank: 952 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 952 DTWaits:  239.23 s,   7.09 %
+ATM - Rank: 952 DTWaitr:    3.01 s,   0.09 %
+ATM - Rank: 952 DTTodosWait:  242.24 s,   7.18 %
+ 
+ATM - Rank: 953 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 953 DTWaits:  239.23 s,   7.09 %
+ATM - Rank: 953 DTWaitr:    3.02 s,   0.09 %
+ATM - Rank: 953 DTTodosWait:  242.26 s,   7.18 %
+ 
+ATM - Rank: 954 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 954 DTWaits:  239.25 s,   7.09 %
+ATM - Rank: 954 DTWaitr:    3.10 s,   0.09 %
+ATM - Rank: 954 DTTodosWait:  242.35 s,   7.19 %
+ 
+ATM - Rank: 955 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 955 DTWaits:  239.25 s,   7.09 %
+ATM - Rank: 955 DTWaitr:    3.16 s,   0.09 %
+ATM - Rank: 955 DTTodosWait:  242.41 s,   7.19 %
+ 
+ATM - Rank: 956 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 956 DTWaits:  239.26 s,   7.09 %
+ATM - Rank: 956 DTWaitr:    3.20 s,   0.09 %
+ATM - Rank: 956 DTTodosWait:  242.46 s,   7.19 %
+ 
+ATM - Rank: 957 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 957 DTWaits:  239.27 s,   7.09 %
+ATM - Rank: 957 DTWaitr:    3.22 s,   0.10 %
+ATM - Rank: 957 DTTodosWait:  242.49 s,   7.19 %
+ 
+ATM - Rank: 958 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 958 DTWaits:  239.29 s,   7.09 %
+ATM - Rank: 958 DTWaitr:    3.30 s,   0.10 %
+ATM - Rank: 958 DTTodosWait:  242.60 s,   7.19 %
+ 
+ATM - Rank: 959 DInit:   43.51 s | DRun: 3329.28 s | DFina:    0.01 s | DTOTAL: 3372.80 s
+ATM - Rank: 959 DTWaits:  239.32 s,   7.10 %
+ATM - Rank: 959 DTWaitr:    3.43 s,   0.10 %
+ATM - Rank: 959 DTTodosWait:  242.75 s,   7.20 %
+ 
+ATM - Rank: 960 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 960 DTWaits:  239.33 s,   7.10 %
+ATM - Rank: 960 DTWaitr:    3.50 s,   0.10 %
+ATM - Rank: 960 DTTodosWait:  242.84 s,   7.20 %
+ 
+ATM - Rank: 961 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 961 DTWaits:  239.39 s,   7.10 %
+ATM - Rank: 961 DTWaitr:    3.67 s,   0.11 %
+ATM - Rank: 961 DTTodosWait:  243.05 s,   7.21 %
+ 
+ATM - Rank: 962 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 962 DTWaits:  239.47 s,   7.10 %
+ATM - Rank: 962 DTWaitr:    3.93 s,   0.12 %
+ATM - Rank: 962 DTTodosWait:  243.40 s,   7.22 %
+ 
+ATM - Rank: 963 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 963 DTWaits:  239.49 s,   7.10 %
+ATM - Rank: 963 DTWaitr:    4.09 s,   0.12 %
+ATM - Rank: 963 DTTodosWait:  243.58 s,   7.22 %
+ 
+ATM - Rank: 964 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 964 DTWaits:  239.49 s,   7.10 %
+ATM - Rank: 964 DTWaitr:    4.14 s,   0.12 %
+ATM - Rank: 964 DTTodosWait:  243.63 s,   7.22 %
+ 
+ATM - Rank: 965 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 965 DTWaits:  239.52 s,   7.10 %
+ATM - Rank: 965 DTWaitr:    4.35 s,   0.13 %
+ATM - Rank: 965 DTTodosWait:  243.87 s,   7.23 %
+ 
+ATM - Rank: 966 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 966 DTWaits:  239.55 s,   7.10 %
+ATM - Rank: 966 DTWaitr:    4.84 s,   0.14 %
+ATM - Rank: 966 DTTodosWait:  244.39 s,   7.25 %
+ 
+ATM - Rank: 967 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 967 DTWaits:  239.70 s,   7.11 %
+ATM - Rank: 967 DTWaitr:    5.56 s,   0.16 %
+ATM - Rank: 967 DTTodosWait:  245.26 s,   7.27 %
+ 
+ATM - Rank: 968 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 968 DTWaits:  239.27 s,   7.09 %
+ATM - Rank: 968 DTWaitr:    3.37 s,   0.10 %
+ATM - Rank: 968 DTTodosWait:  242.64 s,   7.19 %
+ 
+ATM - Rank: 969 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 969 DTWaits:  239.26 s,   7.09 %
+ATM - Rank: 969 DTWaitr:    3.23 s,   0.10 %
+ATM - Rank: 969 DTTodosWait:  242.48 s,   7.19 %
+ 
+ATM - Rank: 970 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 970 DTWaits:  239.25 s,   7.09 %
+ATM - Rank: 970 DTWaitr:    3.21 s,   0.10 %
+ATM - Rank: 970 DTTodosWait:  242.46 s,   7.19 %
+ 
+ATM - Rank: 971 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 971 DTWaits:  239.25 s,   7.09 %
+ATM - Rank: 971 DTWaitr:    3.20 s,   0.09 %
+ATM - Rank: 971 DTTodosWait:  242.45 s,   7.19 %
+ 
+ATM - Rank: 972 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 972 DTWaits:  239.25 s,   7.09 %
+ATM - Rank: 972 DTWaitr:    3.20 s,   0.09 %
+ATM - Rank: 972 DTTodosWait:  242.45 s,   7.19 %
+ 
+ATM - Rank: 973 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 973 DTWaits:  239.25 s,   7.09 %
+ATM - Rank: 973 DTWaitr:    3.20 s,   0.09 %
+ATM - Rank: 973 DTTodosWait:  242.45 s,   7.19 %
+ 
+ATM - Rank: 974 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 974 DTWaits:  239.24 s,   7.09 %
+ATM - Rank: 974 DTWaitr:    3.12 s,   0.09 %
+ATM - Rank: 974 DTTodosWait:  242.37 s,   7.19 %
+ 
+ATM - Rank: 975 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 975 DTWaits:  239.24 s,   7.09 %
+ATM - Rank: 975 DTWaitr:    3.12 s,   0.09 %
+ATM - Rank: 975 DTTodosWait:  242.36 s,   7.19 %
+ 
+ATM - Rank: 976 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 976 DTWaits:  239.25 s,   7.09 %
+ATM - Rank: 976 DTWaitr:    3.14 s,   0.09 %
+ATM - Rank: 976 DTTodosWait:  242.39 s,   7.19 %
+ 
+ATM - Rank: 977 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 977 DTWaits:  239.25 s,   7.09 %
+ATM - Rank: 977 DTWaitr:    3.21 s,   0.10 %
+ATM - Rank: 977 DTTodosWait:  242.46 s,   7.19 %
+ 
+ATM - Rank: 978 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 978 DTWaits:  239.26 s,   7.09 %
+ATM - Rank: 978 DTWaitr:    3.22 s,   0.10 %
+ATM - Rank: 978 DTTodosWait:  242.48 s,   7.19 %
+ 
+ATM - Rank: 979 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 979 DTWaits:  239.27 s,   7.09 %
+ATM - Rank: 979 DTWaitr:    3.27 s,   0.10 %
+ATM - Rank: 979 DTTodosWait:  242.53 s,   7.19 %
+ 
+ATM - Rank: 980 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 980 DTWaits:  239.27 s,   7.09 %
+ATM - Rank: 980 DTWaitr:    3.33 s,   0.10 %
+ATM - Rank: 980 DTTodosWait:  242.61 s,   7.19 %
+ 
+ATM - Rank: 981 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 981 DTWaits:  239.28 s,   7.09 %
+ATM - Rank: 981 DTWaitr:    3.30 s,   0.10 %
+ATM - Rank: 981 DTTodosWait:  242.58 s,   7.19 %
+ 
+ATM - Rank: 982 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 982 DTWaits:  239.30 s,   7.09 %
+ATM - Rank: 982 DTWaitr:    3.36 s,   0.10 %
+ATM - Rank: 982 DTTodosWait:  242.66 s,   7.19 %
+ 
+ATM - Rank: 983 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 983 DTWaits:  239.32 s,   7.10 %
+ATM - Rank: 983 DTWaitr:    3.46 s,   0.10 %
+ATM - Rank: 983 DTTodosWait:  242.78 s,   7.20 %
+ 
+ATM - Rank: 984 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 984 DTWaits:  239.34 s,   7.10 %
+ATM - Rank: 984 DTWaitr:    3.54 s,   0.10 %
+ATM - Rank: 984 DTTodosWait:  242.87 s,   7.20 %
+ 
+ATM - Rank: 985 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 985 DTWaits:  239.39 s,   7.10 %
+ATM - Rank: 985 DTWaitr:    3.74 s,   0.11 %
+ATM - Rank: 985 DTTodosWait:  243.13 s,   7.21 %
+ 
+ATM - Rank: 986 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 986 DTWaits:  239.47 s,   7.10 %
+ATM - Rank: 986 DTWaitr:    4.02 s,   0.12 %
+ATM - Rank: 986 DTTodosWait:  243.49 s,   7.22 %
+ 
+ATM - Rank: 987 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 987 DTWaits:  239.49 s,   7.10 %
+ATM - Rank: 987 DTWaitr:    4.09 s,   0.12 %
+ATM - Rank: 987 DTTodosWait:  243.58 s,   7.22 %
+ 
+ATM - Rank: 988 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 988 DTWaits:  239.50 s,   7.10 %
+ATM - Rank: 988 DTWaitr:    4.19 s,   0.12 %
+ATM - Rank: 988 DTTodosWait:  243.68 s,   7.22 %
+ 
+ATM - Rank: 989 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 989 DTWaits:  239.52 s,   7.10 %
+ATM - Rank: 989 DTWaitr:    4.33 s,   0.13 %
+ATM - Rank: 989 DTTodosWait:  243.85 s,   7.23 %
+ 
+ATM - Rank: 990 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 990 DTWaits:  239.55 s,   7.10 %
+ATM - Rank: 990 DTWaitr:    4.84 s,   0.14 %
+ATM - Rank: 990 DTTodosWait:  244.39 s,   7.25 %
+ 
+ATM - Rank: 991 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 991 DTWaits:  239.70 s,   7.11 %
+ATM - Rank: 991 DTWaitr:    5.63 s,   0.17 %
+ATM - Rank: 991 DTTodosWait:  245.33 s,   7.27 %
+ 
+ATM - Rank: 992 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 992 DTWaits:  239.29 s,   7.09 %
+ATM - Rank: 992 DTWaitr:    3.50 s,   0.10 %
+ATM - Rank: 992 DTTodosWait:  242.79 s,   7.20 %
+ 
+ATM - Rank: 993 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 993 DTWaits:  239.28 s,   7.09 %
+ATM - Rank: 993 DTWaitr:    3.40 s,   0.10 %
+ATM - Rank: 993 DTTodosWait:  242.67 s,   7.20 %
+ 
+ATM - Rank: 994 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 994 DTWaits:  239.27 s,   7.09 %
+ATM - Rank: 994 DTWaitr:    3.34 s,   0.10 %
+ATM - Rank: 994 DTTodosWait:  242.61 s,   7.19 %
+ 
+ATM - Rank: 995 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 995 DTWaits:  239.27 s,   7.09 %
+ATM - Rank: 995 DTWaitr:    3.30 s,   0.10 %
+ATM - Rank: 995 DTTodosWait:  242.57 s,   7.19 %
+ 
+ATM - Rank: 996 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 996 DTWaits:  239.27 s,   7.09 %
+ATM - Rank: 996 DTWaitr:    3.26 s,   0.10 %
+ATM - Rank: 996 DTTodosWait:  242.53 s,   7.19 %
+ 
+ATM - Rank: 997 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 997 DTWaits:  239.27 s,   7.09 %
+ATM - Rank: 997 DTWaitr:    3.25 s,   0.10 %
+ATM - Rank: 997 DTTodosWait:  242.52 s,   7.19 %
+ 
+ATM - Rank: 998 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 998 DTWaits:  239.26 s,   7.09 %
+ATM - Rank: 998 DTWaitr:    3.21 s,   0.10 %
+ATM - Rank: 998 DTTodosWait:  242.47 s,   7.19 %
+ 
+ATM - Rank: 999 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank: 999 DTWaits:  239.26 s,   7.09 %
+ATM - Rank: 999 DTWaitr:    3.20 s,   0.09 %
+ATM - Rank: 999 DTTodosWait:  242.46 s,   7.19 %
+ 
+ATM - Rank:1000 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1000 DTWaits:  239.27 s,   7.09 %
+ATM - Rank:1000 DTWaitr:    3.31 s,   0.10 %
+ATM - Rank:1000 DTTodosWait:  242.58 s,   7.19 %
+ 
+ATM - Rank:1001 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1001 DTWaits:  239.27 s,   7.09 %
+ATM - Rank:1001 DTWaitr:    3.26 s,   0.10 %
+ATM - Rank:1001 DTTodosWait:  242.53 s,   7.19 %
+ 
+ATM - Rank:1002 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1002 DTWaits:  239.28 s,   7.09 %
+ATM - Rank:1002 DTWaitr:    3.33 s,   0.10 %
+ATM - Rank:1002 DTTodosWait:  242.61 s,   7.19 %
+ 
+ATM - Rank:1003 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1003 DTWaits:  239.29 s,   7.09 %
+ATM - Rank:1003 DTWaitr:    3.39 s,   0.10 %
+ATM - Rank:1003 DTTodosWait:  242.68 s,   7.20 %
+ 
+ATM - Rank:1004 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1004 DTWaits:  239.30 s,   7.09 %
+ATM - Rank:1004 DTWaitr:    3.41 s,   0.10 %
+ATM - Rank:1004 DTTodosWait:  242.71 s,   7.20 %
+ 
+ATM - Rank:1005 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1005 DTWaits:  239.30 s,   7.09 %
+ATM - Rank:1005 DTWaitr:    3.45 s,   0.10 %
+ATM - Rank:1005 DTTodosWait:  242.75 s,   7.20 %
+ 
+ATM - Rank:1006 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1006 DTWaits:  239.31 s,   7.10 %
+ATM - Rank:1006 DTWaitr:    3.48 s,   0.10 %
+ATM - Rank:1006 DTTodosWait:  242.79 s,   7.20 %
+ 
+ATM - Rank:1007 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1007 DTWaits:  239.34 s,   7.10 %
+ATM - Rank:1007 DTWaitr:    3.57 s,   0.11 %
+ATM - Rank:1007 DTTodosWait:  242.91 s,   7.20 %
+ 
+ATM - Rank:1008 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1008 DTWaits:  239.36 s,   7.10 %
+ATM - Rank:1008 DTWaitr:    3.72 s,   0.11 %
+ATM - Rank:1008 DTTodosWait:  243.08 s,   7.21 %
+ 
+ATM - Rank:1009 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1009 DTWaits:  239.42 s,   7.10 %
+ATM - Rank:1009 DTWaitr:    3.98 s,   0.12 %
+ATM - Rank:1009 DTTodosWait:  243.41 s,   7.22 %
+ 
+ATM - Rank:1010 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1010 DTWaits:  239.47 s,   7.10 %
+ATM - Rank:1010 DTWaitr:    4.15 s,   0.12 %
+ATM - Rank:1010 DTTodosWait:  243.62 s,   7.22 %
+ 
+ATM - Rank:1011 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1011 DTWaits:  239.49 s,   7.10 %
+ATM - Rank:1011 DTWaitr:    4.18 s,   0.12 %
+ATM - Rank:1011 DTTodosWait:  243.67 s,   7.22 %
+ 
+ATM - Rank:1012 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1012 DTWaits:  239.50 s,   7.10 %
+ATM - Rank:1012 DTWaitr:    4.24 s,   0.13 %
+ATM - Rank:1012 DTTodosWait:  243.74 s,   7.23 %
+ 
+ATM - Rank:1013 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1013 DTWaits:  239.53 s,   7.10 %
+ATM - Rank:1013 DTWaitr:    4.45 s,   0.13 %
+ATM - Rank:1013 DTTodosWait:  243.97 s,   7.23 %
+ 
+ATM - Rank:1014 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1014 DTWaits:  239.56 s,   7.10 %
+ATM - Rank:1014 DTWaitr:    4.92 s,   0.15 %
+ATM - Rank:1014 DTTodosWait:  244.47 s,   7.25 %
+ 
+ATM - Rank:1015 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1015 DTWaits:  239.71 s,   7.11 %
+ATM - Rank:1015 DTWaitr:    5.71 s,   0.17 %
+ATM - Rank:1015 DTTodosWait:  245.42 s,   7.28 %
+ 
+ATM - Rank:1016 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1016 DTWaits:  239.30 s,   7.09 %
+ATM - Rank:1016 DTWaitr:    3.58 s,   0.11 %
+ATM - Rank:1016 DTTodosWait:  242.88 s,   7.20 %
+ 
+ATM - Rank:1017 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1017 DTWaits:  239.29 s,   7.09 %
+ATM - Rank:1017 DTWaitr:    3.51 s,   0.10 %
+ATM - Rank:1017 DTTodosWait:  242.80 s,   7.20 %
+ 
+ATM - Rank:1018 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1018 DTWaits:  239.28 s,   7.09 %
+ATM - Rank:1018 DTWaitr:    3.55 s,   0.11 %
+ATM - Rank:1018 DTTodosWait:  242.83 s,   7.20 %
+ 
+ATM - Rank:1019 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1019 DTWaits:  239.28 s,   7.09 %
+ATM - Rank:1019 DTWaitr:    3.47 s,   0.10 %
+ATM - Rank:1019 DTTodosWait:  242.75 s,   7.20 %
+ 
+ATM - Rank:1020 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1020 DTWaits:  239.28 s,   7.09 %
+ATM - Rank:1020 DTWaitr:    3.44 s,   0.10 %
+ATM - Rank:1020 DTTodosWait:  242.72 s,   7.20 %
+ 
+ATM - Rank:1021 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1021 DTWaits:  239.28 s,   7.09 %
+ATM - Rank:1021 DTWaitr:    3.49 s,   0.10 %
+ATM - Rank:1021 DTTodosWait:  242.77 s,   7.20 %
+ 
+ATM - Rank:1022 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1022 DTWaits:  239.28 s,   7.09 %
+ATM - Rank:1022 DTWaitr:    3.40 s,   0.10 %
+ATM - Rank:1022 DTTodosWait:  242.68 s,   7.20 %
+ 
+ATM - Rank:1023 DInit:   43.51 s | DRun: 3329.30 s | DFina:    0.01 s | DTOTAL: 3372.82 s
+ATM - Rank:1023 DTWaits:  239.28 s,   7.09 %
+ATM - Rank:1023 DTWaitr:    3.41 s,   0.10 %
+ATM - Rank:1023 DTTodosWait:  242.69 s,   7.20 %
+ 
+ATM - Rank:1024 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank:1024 DTWaits:  239.29 s,   7.09 %
+ATM - Rank:1024 DTWaitr:    3.50 s,   0.10 %
+ATM - Rank:1024 DTTodosWait:  242.78 s,   7.20 %
+ 
+ATM - Rank:1025 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank:1025 DTWaits:  239.29 s,   7.09 %
+ATM - Rank:1025 DTWaitr:    3.52 s,   0.10 %
+ATM - Rank:1025 DTTodosWait:  242.80 s,   7.20 %
+ 
+ATM - Rank:1026 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank:1026 DTWaits:  239.30 s,   7.10 %
+ATM - Rank:1026 DTWaitr:    3.61 s,   0.11 %
+ATM - Rank:1026 DTTodosWait:  242.91 s,   7.20 %
+ 
+ATM - Rank:1027 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank:1027 DTWaits:  239.32 s,   7.10 %
+ATM - Rank:1027 DTWaitr:    3.66 s,   0.11 %
+ATM - Rank:1027 DTTodosWait:  242.97 s,   7.20 %
+ 
+ATM - Rank:1028 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank:1028 DTWaits:  239.33 s,   7.10 %
+ATM - Rank:1028 DTWaitr:    3.70 s,   0.11 %
+ATM - Rank:1028 DTTodosWait:  243.02 s,   7.21 %
+ 
+ATM - Rank:1029 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank:1029 DTWaits:  239.34 s,   7.10 %
+ATM - Rank:1029 DTWaitr:    3.74 s,   0.11 %
+ATM - Rank:1029 DTTodosWait:  243.08 s,   7.21 %
+ 
+ATM - Rank:1030 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank:1030 DTWaits:  239.35 s,   7.10 %
+ATM - Rank:1030 DTWaitr:    3.82 s,   0.11 %
+ATM - Rank:1030 DTTodosWait:  243.17 s,   7.21 %
+ 
+ATM - Rank:1031 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank:1031 DTWaits:  239.37 s,   7.10 %
+ATM - Rank:1031 DTWaitr:    3.88 s,   0.12 %
+ATM - Rank:1031 DTTodosWait:  243.25 s,   7.21 %
+ 
+ATM - Rank:1032 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank:1032 DTWaits:  239.40 s,   7.10 %
+ATM - Rank:1032 DTWaitr:    4.01 s,   0.12 %
+ATM - Rank:1032 DTTodosWait:  243.41 s,   7.22 %
+ 
+ATM - Rank:1033 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank:1033 DTWaits:  239.46 s,   7.10 %
+ATM - Rank:1033 DTWaitr:    4.15 s,   0.12 %
+ATM - Rank:1033 DTTodosWait:  243.60 s,   7.22 %
+ 
+ATM - Rank:1034 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank:1034 DTWaits:  239.48 s,   7.10 %
+ATM - Rank:1034 DTWaitr:    4.22 s,   0.13 %
+ATM - Rank:1034 DTTodosWait:  243.70 s,   7.23 %
+ 
+ATM - Rank:1035 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank:1035 DTWaits:  239.50 s,   7.10 %
+ATM - Rank:1035 DTWaitr:    4.31 s,   0.13 %
+ATM - Rank:1035 DTTodosWait:  243.81 s,   7.23 %
+ 
+ATM - Rank:1036 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank:1036 DTWaits:  239.51 s,   7.10 %
+ATM - Rank:1036 DTWaitr:    4.38 s,   0.13 %
+ATM - Rank:1036 DTTodosWait:  243.89 s,   7.23 %
+ 
+ATM - Rank:1037 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank:1037 DTWaits:  239.53 s,   7.10 %
+ATM - Rank:1037 DTWaitr:    4.52 s,   0.13 %
+ATM - Rank:1037 DTTodosWait:  244.05 s,   7.24 %
+ 
+ATM - Rank:1038 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank:1038 DTWaits:  239.56 s,   7.10 %
+ATM - Rank:1038 DTWaitr:    5.02 s,   0.15 %
+ATM - Rank:1038 DTTodosWait:  244.58 s,   7.25 %
+ 
+ATM - Rank:1039 DInit:   43.51 s | DRun: 3329.31 s | DFina:    0.01 s | DTOTAL: 3372.83 s
+ATM - Rank:1039 DTWaits:  239.71 s,   7.11 %
+ATM - Rank:1039 DTWaitr:    5.82 s,   0.17 %
+ATM - Rank:1039 DTTodosWait:  245.53 s,   7.28 %
+ 

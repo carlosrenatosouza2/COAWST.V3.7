@@ -1,0 +1,11 @@
+Mudar no ocean.in
+DSTART = 26710
+
+Mudar no namelist.input
+run_days = 4,
+start_year = 2023,
+start_month = 02,
+start_day = 17,
+end_year = 2023,
+end_month = 02,
+end_day = 21,

@@ -1,0 +1,25 @@
+ATM - Media dos ranks:
+
+Funcoes principais:
+DInit:       43,41 s (DP:   38,28s)
+DRun:      2859,89 s (DP: 2522,19s)
+DFina:        0,01 s (DP:    0,01s)
+DTOTAL:    2903,31 s (DP: 2560,48s)
+
+DTWaitS:     14,40 s (DP:   12,70s) %:   0,50
+DTWaitR:      2,23 s (DP:    2,32s) %:   0,08
+TodosWait:   16,63 s (DP:   14,72s) %:   0,57
+
+ --------------------------------------
+
+OCN - Media dos ranks:
+
+Funcoes principais:
+DInit:       94,35 s (DP:    0,00s)
+DRun:      2933,50 s (DP:    0,00s)
+DFina:        0,03 s (DP:    0,00s)
+DTOTAL:    3027,88 s (DP:    0,00s)
+
+DTWaitS:      0,00 s (DP:    0,00s) %:   0,00
+DTWaitR:   2324,81 s (DP:    0,00s) %:  76,78
+TodosWait: 2324,81 s (DP:    0,00s) %:  76,78

@@ -1,0 +1,7 @@
+w3_clean, w3_new, w3_automake
+
+
+
+coawst_compile_ww3
+w3_setup
+make_MPI

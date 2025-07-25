@@ -1,0 +1,3 @@
+ rank ATM_Run   ATM_ISend ATM_Waits ATM_IRecv ATM_Waitr ATM_ISend ATM_Waits ATM_IRecv ATM_Waitr ATM_ISend ATM_Waits ATM_IRecv ATM_Waitr ATM_Run                                                                                                                      
+320      0.0000    37.2685    37.2921    51.6316    51.6316   154.0806   154.0812   154.0817   154.0818   258.4383   258.4389   258.4392   258.4392   258.4593
+320     37.2685    37.2921    51.6296    51.6316    51.6845   154.0812   154.0816   154.0818   154.0999   258.4389   258.4390   258.4392   258.4593   258.4734

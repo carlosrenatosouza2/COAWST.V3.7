@@ -1,0 +1,1 @@
+./coawst.bash.atlsw12 -j 4 -noclean -nocleanwrf  1> coawst.pgi2.atlsw12.ww3 2>&1 &

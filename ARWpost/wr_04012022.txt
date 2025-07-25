@@ -1,0 +1,103 @@
+
+!!!!!!!!!!!!!!!!
+  ARWpost v3.1
+!!!!!!!!!!!!!!!!
+
+FOUND the following input files:
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-04_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-04_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-05_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-05_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-06_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-06_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-07_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-07_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-08_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-08_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-09_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-09_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-10_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-10_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-11_00:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-11_12:00:00
+ /scratch/luciano.pezzi/COAWST.V3.7/Work/ATLSW12/wr_04012022/wrfout_d01_2022-01-12_00:00:00
+
+START PROCESSING DATA
+   Interpolating to PRESSURE levels
+
+
+ Processing  time --- 2022-01-04_00:00:00
+   Found the right date - continue
+
+ Processing  time --- 2022-01-04_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-05_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-05_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-06_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-06_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-07_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-07_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-08_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-08_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-09_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-09_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-10_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-10_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-11_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-11_12:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+ Processing  time --- 2022-01-12_00:00:00
+   Date not in this file - see if there are more files
+   Found the right date - continue
+
+DONE Processing Data
+
+CREATING .ctl file
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!  Successful completion of ARWpost  !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+

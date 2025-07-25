@@ -1,0 +1,2 @@
+assign -N swap_endian g:su
+assign -N swap_endian g:du

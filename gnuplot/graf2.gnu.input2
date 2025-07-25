@@ -1,0 +1,4 @@
+# Tempos master.f90:
+col1  OCN_initI   col3  OCN_run  col5  OCN_fin  col7  OCN_ISend1  col9  OCN_Waits1  col11 OCN_ISend2  col13 OCN_Waits2  col15 OCN_ISend3  col17 OCN_Waits3  
+0.6   283.33      1.1   379.29   1.6   586.11   0.3   379.29      0.35  379.29      0.3   481.92      0.35  481.92      0.3   586.02      0.35  586.02
+0.6   405.39      1.1   612.20   1.6   612.23   0.3   405.37      0.35  405.37      0.3   508.01      0.35  508.01      0.3   612.11      0.35  612.11

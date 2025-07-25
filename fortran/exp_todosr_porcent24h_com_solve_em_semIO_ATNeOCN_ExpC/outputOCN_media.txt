@@ -1,0 +1,11 @@
+OCN - Media dos ranks:
+
+Funcoes principais:
+DInit:       99.66 s (DP:    0.00s)
+DRun:      1845.50 s (DP:    0.00s)
+DFina:        0.03 s (DP:    0.00s)
+DTOTAL:    1945.19 s (DP:    0.00s)
+
+DTWaitS:      0.00 s (DP:    0.00s) %:   0.00
+DTWaitR:   1228.89 s (DP:    0.00s) %:  63.18
+TodosWait: 1228.89 s (DP:    0.00s) %:  63.18
