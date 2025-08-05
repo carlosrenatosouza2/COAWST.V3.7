@@ -1,8 +1,9 @@
 #!/bin/ksh
 
-DIRHOME=/mnt/beegfs/carlos.souza/Doutorado/COAWST.V3.7
+DIRHOME=$(pwd)
 WRFHOME=${DIRHOME}/WRF
 
+echo $DIRHOME $WRFHOME
 
 nedit \
 ${DIRHOME}//Master/master.F \
