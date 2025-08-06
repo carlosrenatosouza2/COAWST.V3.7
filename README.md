@@ -93,4 +93,10 @@ ROOTDIR=<YOUR_ROOT_DIR>/${COAVER}
 WORKDIR=<YOUR_ROOT_DIR>/${COAVER}
 ~~~
 
-3. 
+3. submit:
+~~~
+cd <YOUR_ROOT_DIR>/COAWST.V3.7/Work/ATLSW12/wr_17022023
+./run.ksh
+~~~
+
+
