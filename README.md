@@ -20,7 +20,7 @@ Make:
 ~~~
 make clean
 make install
-
+~~~
 
 2. Compile COAWST:
 
@@ -58,4 +58,39 @@ else
 fi   
 ~~~
 
+## To run:
 
+1. Untar the project and work directory data files:
+~~~
+cp -f /mnt/beegfs/carlos.souza/Doutorado/project_ATLSW12_wr_17022023.tgz COAWST.V3.7/
+tar -xzvf project_ATLSW12_wr_17022023.tgz
+
+cp -f /mnt/beegfs/carlos.souza/Doutorado/work_TLSW12_wr_17022023.tgz COAWST.V3.7/
+tar -xzvf work_TLSW12_wr_17022023.tgz
+~~~
+
+2. Modificar o script de submissão `run_atlsw12_WR.sh` :
+
+Quantidade de cores e output file:
+~~~
+#SBATCH --job-name=Controle           # nome do job
+#SBATCH --partition=batch                # fila que vai submeter
+#SBATCH --ntasks=256                    # Total de cores (nodes*tasks)
+###SBATCH --nodes=2                       # quantidade de n�s
+###SBATCH --tasks-per-node=128             # quantidade de cores por n�
+#SBATCH --time=08:00:00                  #tempo para rodar
+#SBATCH --output=<YOUR_ROOT_DIR>/COAWST.V3.7/Work/ATLSW12/wr_17022023/rws1_total.out
+#SBATCH --exclusive
+~~~
+
+Diretórios importantes:
+~~~
+MODEL=ATLSW12
+COAVER=COAWST.V3.7
+EXPER=wr_17022023
+
+ROOTDIR=<YOUR_ROOT_DIR>/${COAVER}
+WORKDIR=<YOUR_ROOT_DIR>/COAWST.V3.7
+~~~
+
+3. 
