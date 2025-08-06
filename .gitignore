@@ -23,7 +23,11 @@ datain/
 wr_05122021
 /Projects/ATLSW12/wr_*/
 !/Projects/ATLSW12/wr_17022023
-/Work/ATLSW12/
+/Work/ATLSW12/*
+!/Work/ATLSW12/wr_17022023/
+/Work/ATLSW12/wr_17022023/*
+!/Work/ATLSW12/wr_17022023/*.sh
+!/Work/ATLSW12/wr_17022023/*.ksh
 coawstG
 coawstG*
 coawstM
@@ -34,3 +38,4 @@ GH001
 *.tar
 *.tgz
 *.backup.*
+fort.*
