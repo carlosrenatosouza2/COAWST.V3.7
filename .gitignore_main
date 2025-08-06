@@ -23,11 +23,8 @@ datain/
 wr_05122021
 /Projects/ATLSW12/wr_*/
 !/Projects/ATLSW12/wr_17022023
-/Work/ATLSW12/*
-!/Work/ATLSW12/wr_17022023/
-/Work/ATLSW12/wr_17022023/*
-!/Work/ATLSW12/wr_17022023/*.sh
-!/Work/ATLSW12/wr_17022023/*.ksh
+/Work/ATLSW12/
+!/Work/ATLSW12/wr_17022023/*sh
 coawstG
 coawstG*
 coawstM
@@ -35,7 +32,3 @@ coawstM*
 *.backup
 coawst.gnu.atlsw12_noclean
 GH001
-*.tar
-*.tgz
-*.backup.*
-fort.*
