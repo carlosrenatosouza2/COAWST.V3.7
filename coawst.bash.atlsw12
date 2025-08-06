@@ -130,7 +130,7 @@ export   ROMS_APPLICATION=${COAWST_APPLICATION}
 
 # Set a local environmental variable to define the path to the directories
 # where all this project's files are kept.
-export   MY_ROOT_DIR=/mnt/beegfs/carlos.souza/Doutorado/COAWST.V3.7
+export   MY_ROOT_DIR=/mnt/beegfs/carlos.souza/temp/COAWST.V3.7
 export   MY_PROJECT_DIR=${MY_ROOT_DIR}
 
 # The path to the user's local current ROMS source code.
@@ -502,7 +502,6 @@ fi
 if [ $clean -eq 1 ] && [ $cleanwrf -eq 1 ] && [ $cleanwrfhydro -eq 1 ] && [ $cleanww3 -eq 1 ] ; then
   make mct_params
 fi
-
   cd ${SCRATCH_DIR}
   export MCT_PARAMS_DIR=${PWD}
   cd ${MY_ROMS_SRC}

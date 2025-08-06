@@ -21954,7 +21954,7 @@ include "mpif.h"
                              ierr )
 
            ELSE IF ( FieldType .EQ. WRF_FLOAT ) THEN
-
+               
              CALL wrf_gatherv_real ( Field, PatchStart(1)-MemoryStart(1)+1+idx , &
                              my_count ,                       &    
                              globbuf, 1+idx2 ,                &    

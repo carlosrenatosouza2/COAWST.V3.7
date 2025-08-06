@@ -33,3 +33,4 @@ coawst.gnu.atlsw12_noclean
 GH001
 *.tar
 *.tgz
+*.backup.*
