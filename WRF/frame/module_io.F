@@ -3151,8 +3151,7 @@ include "mpif.h"
                              ierr )
 
            ELSE IF ( FieldType .EQ. WRF_FLOAT ) THEN
-               print*, "CR: module_io.f90, wrf_gatherv_real: Field(1:10): ", Field(1:10), " PatchStart(1): ", PatchStart(1), " MemoryStart(1): ", &
-               MemoryStart(1), " idx: ", idx, 
+               !print*, "CR: module_io.f90, wrf_gatherv_real: Field(1:10): ", Field(1:10), " PatchStart(1): ", PatchStart(1), " MemoryStart(1): "
              CALL wrf_gatherv_real ( Field, PatchStart(1)-MemoryStart(1)+1+idx , &
                              my_count ,                       &    ! sendcount
                              globbuf, 1+idx2 ,                &    ! recvbuf

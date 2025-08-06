@@ -1855,7 +1855,7 @@ SUBROUTINE ext_ncd_open_for_write_begin(FileName,Comm,IOComm,SysDepInfo,DataHand
   DH%Times     = ZeroDate
 ! esse print foi executado:
 !print*, "CR: module wrf_io.f, sub ext_ncd_open_for_write_begin(), antes de NF_CREATE 5"
-print*, "CR: NF_CREATE: FileName:", FileName, "DH%NCID: ", DH%NCID
+!print*, "CR: NF_CREATE: FileName:", FileName, "DH%NCID: ", DH%NCID
 
   stat = NF_CREATE(FileName, IOR(NF_CLOBBER,NF_64BIT_OFFSET), DH%NCID)
   call netcdf_err(stat,Status)
