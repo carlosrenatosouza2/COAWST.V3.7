@@ -140,7 +140,7 @@ END SUBROUTINE solve_em
    
       
       CALL mpi_comm_rank (MPI_COMM_WORLD, MyRank, MyError)
-      ti_solve_em = MPI_Wtime()
+      
       CALL solve_em  ( grid , config_flags  &
 
 !STARTOFREGISTRYGENERATEDINCLUDE 'inc/actual_new_args.inc'
@@ -161,11 +161,11 @@ grid%tracer_btys,grid%tracer_btye,grid%nba_mij,grid%nba_rij,grid%sbmradar,grid%c
 
                )
       
-      tf_solve_em = MPI_Wtime()    
       
       
-      write(unid_arq+MyRank,"(f30.15, i5, ' solve_em i')") ti_solve_em, MyRank
-      write(unid_arq+MyRank,"(f30.15, i5, ' solve_em f')") tf_solve_em, MyRank
+      
+      
+      
      
       
         

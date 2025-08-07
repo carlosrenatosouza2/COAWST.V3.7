@@ -59,18 +59,18 @@ SUBROUTINE solve_interface ( grid )
 #endif
       !CR:
       CALL mpi_comm_rank (MPI_COMM_WORLD, MyRank, MyError)
-      ti_solve_em = MPI_Wtime()
+      !ti_solve_em = MPI_Wtime()
       CALL solve_em  ( grid , config_flags  &
 !
 # include "actual_new_args.inc"
 !
                )
       !CR:
-      tf_solve_em = MPI_Wtime()    
+      !tf_solve_em = MPI_Wtime()    
       
       
-      write(unid_arq+MyRank,"(f30.15, i5, ' solve_em i')") ti_solve_em, MyRank
-      write(unid_arq+MyRank,"(f30.15, i5, ' solve_em f')") tf_solve_em, MyRank
+      !write(unid_arq+MyRank,"(f30.15, i5, ' solve_em i')") ti_solve_em, MyRank
+      !write(unid_arq+MyRank,"(f30.15, i5, ' solve_em f')") tf_solve_em, MyRank
      
       
         

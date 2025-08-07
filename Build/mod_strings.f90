@@ -257,11 +257,11 @@
         character (len=80)  :: my_cpu = "x86_64"
         character (len=80)  :: my_fort = "gfortran"
         character (len=80)  :: my_fc = "/mnt/beegfs/carlos.souza/spack_gnu/opt/spack/linux-rhel8-zen2/gcc-11.3.0/mpich-4.0.2-6keefgqzkt6d3fcx6ln4xnuskobw3h57/bin/mpif90"
-        character (len=512) :: my_fflags = "-frepack-arrays -O3 -ffast-math -O3 -ftree-vectorize                    -funroll-loops -w -ffree-form -ffree-line-length-none -frecord-marker=4 -fconvert=big-endian -I/usr/include -I/mnt/beegfs/carlos.souza/Doutorado/COAWST.V3.7/Lib/MCT/gnu/include -I/mnt/beegfs/carlos.souza/temp/COAWST.V3.7//WRF/main -I/mnt/beegfs/carlos.souza/temp/COAWST.V3.7//WRF/external/esmf_time_f90 -I/mnt/beegfs/carlos.souza/temp/COAWST.V3.7//WRF/frame -I/mnt/beegfs/carlos.souza/temp/COAWST.V3.7//WRF/share -ffree-form -ffree-line-length-none"
+        character (len=512) :: my_fflags = "-frepack-arrays -O3 -ffast-math -O3 -ftree-vectorize                    -funroll-loops -w -ffree-form -ffree-line-length-none -frecord-marker=4 -fconvert=big-endian -I/usr/include -I/mnt/beegfs/carlos.souza/Doutorado/COAWST.V3.7/Lib/MCT/gnu/include -I/mnt/beegfs/carlos.souza/Doutorado/COAWST.V3.7//WRF/main -I/mnt/beegfs/carlos.souza/Doutorado/COAWST.V3.7//WRF/external/esmf_time_f90 -I/mnt/beegfs/carlos.souza/Doutorado/COAWST.V3.7//WRF/frame -I/mnt/beegfs/carlos.souza/Doutorado/COAWST.V3.7//WRF/share -ffree-form -ffree-line-length-none"
 !
-        character (len=256) :: Adir = "/mnt/beegfs/carlos.souza/temp/COAWST.V3.7/Projects/ATLSW12"
-        character (len=256) :: Hdir = "/mnt/beegfs/carlos.souza/temp/COAWST.V3.7/Projects/ATLSW12"
+        character (len=256) :: Adir = "/mnt/beegfs/carlos.souza/Doutorado/COAWST.V3.7/Projects/ATLSW12"
+        character (len=256) :: Hdir = "/mnt/beegfs/carlos.souza/Doutorado/COAWST.V3.7/Projects/ATLSW12"
         character (len=256) :: Hfile = "atlsw12.h"
-        character (len=256) :: Rdir = "/mnt/beegfs/carlos.souza/temp/COAWST.V3.7"
+        character (len=256) :: Rdir = "/mnt/beegfs/carlos.souza/Doutorado/COAWST.V3.7"
 !
       END MODULE mod_strings

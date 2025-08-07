@@ -1479,10 +1479,10 @@
          !CR:
          !CALL MPI_COMM_RANK (ATM_COMM_WORLD, MyRank, MyError)
          !write(unid_arq,"('Rank = ', i, 'chamando MCT_ISend from atm2ocn_coupling ')") MyRank
-         itime_MCT_ISend = MPI_Wtime()
+         !itime_MCT_ISend = MPI_Wtime()
         CALL MCT_isend (AttrVect_O(ia,io)%atm2ocn_AV,                   &
      &                  Router_O(ia,io)%WRFtoROMS, Tag)
-         ftime_MCT_ISend = MPI_Wtime()
+         !ftime_MCT_ISend = MPI_Wtime()
 #  ifdef MOVE_NESTS
       END IF
 #  endif
@@ -1490,9 +1490,9 @@
          !CR:
          !write(unid_arq,"('ATM_COMM_Rank = ', i5, ' MPI_COMM_Rank = ', i5, ' chamando MCT_waits from atm2ocn_coupling ')") &
          !MyRank, MyCWorldRank
-         itime_MCT_Waits = MPI_Wtime()
+         !itime_MCT_Waits = MPI_Wtime()
       CALL MCT_waits (Router_O(ia,io)%WRFtoROMS)
-         ftime_MCT_Waits = MPI_Wtime()
+         !ftime_MCT_Waits = MPI_Wtime()
       IF (MYRANK.EQ.0) THEN
         WRITE (*,36) ' ## WRF grid ',ia,                                &
      &                    ' sent data to ROMS grid ',io
@@ -1521,10 +1521,10 @@
          !write(unid_arq+MyRank,"('ATM Rank = ', i, ' MCT_Waits_I MCT_Waits_f :: ', f30.15, f30.15)") &
          !MyRank, itime_MCT_Waits, ftime_MCT_Waits
          
-         write(unid_arqis+MyCWorldRank,"(f30.15, i5, ' ATM_ISend i')") itime_MCT_ISend, MyCWorldRank
-         write(unid_arqis+MyCWorldRank,"(f30.15, i5, ' ATM_ISend f')") ftime_MCT_ISend, MyCWorldRank
-         write(unid_arqws+MyCWorldRank,"(f30.15, i5, ' ATM_Waits i')") itime_MCT_Waits, MyCWorldRank
-         write(unid_arqws+MyCWorldRank,"(f30.15, i5, ' ATM_Waits f')") ftime_MCT_Waits, MyCWorldRank
+         !write(unid_arqis+MyCWorldRank,"(f30.15, i5, ' ATM_ISend i')") itime_MCT_ISend, MyCWorldRank
+         !write(unid_arqis+MyCWorldRank,"(f30.15, i5, ' ATM_ISend f')") ftime_MCT_ISend, MyCWorldRank
+         !write(unid_arqws+MyCWorldRank,"(f30.15, i5, ' ATM_Waits i')") itime_MCT_Waits, MyCWorldRank
+         !write(unid_arqws+MyCWorldRank,"(f30.15, i5, ' ATM_Waits f')") ftime_MCT_Waits, MyCWorldRank
          !write(unid_arqws+MyCWorldRank,"(f30.15, i5, ' ATM_Waits d')") ftime_MCT_Waits-itime_MCT_Waits, MyCWorldRank
 
       !END IF
@@ -1923,16 +1923,16 @@
         ELSE
 #  endif
          !CR:
-         itime_MCT_IRecv = MPI_WTime()
+         !itime_MCT_IRecv = MPI_WTime()
           CALL MCT_irecv (AttrVect_O(ia,io)%ocn2atm_AV,                 &
      &                    Router_O(ia,io)%WRFtoROMS,Tag)
-         ftime_MCT_IRecv = MPI_WTime()
+         !ftime_MCT_IRecv = MPI_WTime()
          
 ! Wait to make sure the OCN data has arrived.
-         itime_MCT_Waitr = MPI_WTime()
+         !itime_MCT_Waitr = MPI_WTime()
           CALL MCT_waitr (AttrVect_O(ia,io)%ocn2atm_AV,                 &
      &                    Router_O(ia,io)%WRFtoROMS)
-         ftime_MCT_Waitr = MPI_WTime()
+         !ftime_MCT_Waitr = MPI_WTime()
 #  ifdef MOVE_NESTS
         END IF
 #  endif
@@ -2014,10 +2014,10 @@
          !write(unid_arq+MyRank,"('ATM Rank = ', i, ' IWaitr_I IWaitr_f :: ', f30.15, f30.15)") &
          !MyRank, itime_MCT_Waitr, ftime_MCT_Waitr
          
-         write(unid_arqir+MyCWorldRank,"(f30.15, i5, ' ATM_IRecv i')") itime_MCT_IRecv, MyCWorldRank
-         write(unid_arqir+MyCWorldRank,"(f30.15, i5, ' ATM_IRecv f')") ftime_MCT_IRecv, MyCWorldRank
-         write(unid_arqwr+MyCWorldRank,"(f30.15, i5, ' ATM_Waitr i')") itime_MCT_Waitr, MyCWorldRank
-         write(unid_arqwr+MyCWorldRank,"(f30.15, i5, ' ATM_Waitr f')") ftime_MCT_Waitr, MyCWorldRank
+         !write(unid_arqir+MyCWorldRank,"(f30.15, i5, ' ATM_IRecv i')") itime_MCT_IRecv, MyCWorldRank
+         !write(unid_arqir+MyCWorldRank,"(f30.15, i5, ' ATM_IRecv f')") ftime_MCT_IRecv, MyCWorldRank
+         !write(unid_arqwr+MyCWorldRank,"(f30.15, i5, ' ATM_Waitr i')") itime_MCT_Waitr, MyCWorldRank
+         !write(unid_arqwr+MyCWorldRank,"(f30.15, i5, ' ATM_Waitr f')") ftime_MCT_Waitr, MyCWorldRank
          !write(unid_arqwr+MyCWorldRank,"(f30.15, i5, ' ATM_Waitr d')") ftime_MCT_Waitr-itime_MCT_Waitr, MyCWorldRank
          
         

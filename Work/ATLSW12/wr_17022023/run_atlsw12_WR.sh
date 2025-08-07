@@ -5,7 +5,7 @@
 ###SBATCH --nodes=2                       # quantidade de nós
 ###SBATCH --tasks-per-node=128             # quantidade de cores por nó
 #SBATCH --time=08:00:00                  #tempo para rodar
-#SBATCH --output=/mnt/beegfs/carlos.souza/temp/COAWST.V3.7/Work/ATLSW12/wr_17022023/rws1_total.out
+#SBATCH --output=/mnt/beegfs/carlos.souza/Doutorado/COAWST.V3.7/Work/ATLSW12/wr_17022023/rws1_total.out
 #SBATCH --exclusive
 #
 # Script to run COAWST in a given Work directory
@@ -27,8 +27,8 @@
   COAVER=COAWST.V3.7
   EXPER=wr_17022023
   
-  ROOTDIR=/mnt/beegfs/carlos.souza/temp/${COAVER}
-  WORKDIR=/mnt/beegfs/carlos.souza/temp/${COAVER}
+  ROOTDIR=/mnt/beegfs/carlos.souza/Doutorado/${COAVER}
+  WORKDIR=/mnt/beegfs/carlos.souza/Doutorado/${COAVER}
   PROJDIR=${ROOTDIR}/Projects/${MODEL}/${EXPER}
   EXECDIR=${WORKDIR}/Work/${MODEL}/${EXPER}
   echo '${PROJDIR}='${PROJDIR}

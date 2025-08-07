@@ -240,7 +240,7 @@
         if(present(Tag)) mytag=Tag
 
          !CR:
-          write(unid_arq,"('Rank = ', i10, 'chamando MPI_ISEND1 from MCT_ISend.')") Rout%pe_list(proc)
+          !write(unid_arq,"('Rank = ', i10, 'chamando MPI_ISEND1 from MCT_ISend.')") Rout%pe_list(proc)
 	call MPI_ISEND(Rout%ip1(proc)%pi(1), &
 	     Rout%locsize(proc)*numi,MP_INTEGER,Rout%pe_list(proc), &
 	     mytag,ThisMCTWorld%MCT_comm,Rout%ireqs(proc),ier)
@@ -258,7 +258,7 @@
 
 
          !CR:
-          write(unid_arq,"('Rank = ', i10, 'chamando MPI_ISEND2 from MCT_ISend.')") Rout%pe_list(proc)
+          !write(unid_arq,"('Rank = ', i10, 'chamando MPI_ISEND2 from MCT_ISend.')") Rout%pe_list(proc)
        call MPI_ISEND(Rout%rp1(proc)%pr(1), &
 	    Rout%locsize(proc)*numr,mp_Type_rp1,Rout%pe_list(proc), &
 	    mytag,ThisMCTWorld%MCT_comm,Rout%rreqs(proc),ier)

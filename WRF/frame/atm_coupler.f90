@@ -1043,17 +1043,17 @@
          
          
 
-         itime_MCT_ISend = MPI_Wtime()
+         
         CALL MCT_isend (AttrVect_O(ia,io)%atm2ocn_AV,                   &
      &                  Router_O(ia,io)%WRFtoROMS, Tag)
-         ftime_MCT_ISend = MPI_Wtime()
-
          
 
          
-         itime_MCT_Waits = MPI_Wtime()
+
+         
+         
       CALL MCT_waits (Router_O(ia,io)%WRFtoROMS)
-         ftime_MCT_Waits = MPI_Wtime()
+         
       IF (MYRANK.EQ.0) THEN
         WRITE (*,36) ' ## WRF grid ',ia,                                &
      &                    ' sent data to ROMS grid ',io
@@ -1079,10 +1079,10 @@
 
          
          
-         write(unid_arqis+MyCWorldRank,"(f30.15, i5, ' ATM_ISend i')") itime_MCT_ISend, MyCWorldRank
-         write(unid_arqis+MyCWorldRank,"(f30.15, i5, ' ATM_ISend f')") ftime_MCT_ISend, MyCWorldRank
-         write(unid_arqws+MyCWorldRank,"(f30.15, i5, ' ATM_Waits i')") itime_MCT_Waits, MyCWorldRank
-         write(unid_arqws+MyCWorldRank,"(f30.15, i5, ' ATM_Waits f')") ftime_MCT_Waits, MyCWorldRank
+
+
+
+
 
 
       
@@ -1194,16 +1194,16 @@
       IF (aux4flag.eq.0) THEN
         Tag=io*100+ia*10+0
          
-         itime_MCT_IRecv = MPI_WTime()
+         
           CALL MCT_irecv (AttrVect_O(ia,io)%ocn2atm_AV,                 &
      &                    Router_O(ia,io)%WRFtoROMS,Tag)
-         ftime_MCT_IRecv = MPI_WTime()
+         
          
 
-         itime_MCT_Waitr = MPI_WTime()
+         
           CALL MCT_waitr (AttrVect_O(ia,io)%ocn2atm_AV,                 &
      &                    Router_O(ia,io)%WRFtoROMS)
-         ftime_MCT_Waitr = MPI_WTime()
+         
 
         IF (MYRANK.EQ.0) THEN
           WRITE (*,38) ' ## WRF grid ',ia,                              &
@@ -1272,10 +1272,10 @@
 
          
          
-         write(unid_arqir+MyCWorldRank,"(f30.15, i5, ' ATM_IRecv i')") itime_MCT_IRecv, MyCWorldRank
-         write(unid_arqir+MyCWorldRank,"(f30.15, i5, ' ATM_IRecv f')") ftime_MCT_IRecv, MyCWorldRank
-         write(unid_arqwr+MyCWorldRank,"(f30.15, i5, ' ATM_Waitr i')") itime_MCT_Waitr, MyCWorldRank
-         write(unid_arqwr+MyCWorldRank,"(f30.15, i5, ' ATM_Waitr f')") ftime_MCT_Waitr, MyCWorldRank
+
+
+
+
 
          
         
