@@ -256,8 +256,24 @@
 
 
 
-
 MODULE module_integrate
+   
+   
+
+
+
+  include "mpif.h"
+
+  
+  
+  
+
+   integer  :: atm_coupling_ntimes = 0
+   real(KIND=8) :: atm_coupling_time = 0.0_8
+
+
+
+
 
 CONTAINS
 
@@ -670,8 +686,12 @@ ENDIF
                  CALL initialize_atm_routers
                  
                  
+                 atm_coupling_ntimes=atm_coupling_ntimes+1
                  
+                 atm_coupling_time=atm_coupling_time-MPI_Wtime()
                   CALL atm_coupling (head_grid, 0)
+                 atm_coupling_time=atm_coupling_time+MPI_Wtime()
+                  write(unid_arq+MyRank, "('atm_coupling_ntimes = ', i10, 'time = ', f20.6 )") atm_coupling_ntimes, atm_coupling_time
                   
                  last_step=num_steps
                END IF

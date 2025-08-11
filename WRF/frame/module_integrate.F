@@ -1,8 +1,24 @@
 !WRF:DRIVER_LAYER:INTEGRATION
 !
 #include "wrfcpp.h"
-
 MODULE module_integrate
+   
+   
+
+
+!CR: 
+  include "mpif.h"
+
+  !-------------------------------------------------
+  ! CR:Declaracoes globais do modulo (visiveis as subrotinas)
+  !-------------------------------------------------
+
+   integer  :: atm_coupling_ntimes = 0
+   real(KIND=8) :: atm_coupling_time = 0.0_8
+
+
+
+
 
 CONTAINS
 
@@ -201,8 +217,6 @@ RECURSIVE SUBROUTINE integrate ( grid )
 
    !local vars CR:
    integer  :: unid_arq = 2000, MyLocalRank, MyRank, MyError
-   integer  :: atm_coupling_ntimes = 0
-   real     :: atm_coupling_time = 0.0
 
    ! interface
    INTERFACE
@@ -523,10 +537,10 @@ ENDIF
                  !CR: temporizar:
                  atm_coupling_ntimes=atm_coupling_ntimes+1
                  !write(unid_arq,"('Rank = ', i, 'chamando atm_coupling rom integrate.')") MyRank               
-                  write(unid_arq+MyRank, "('atm_coupling_ntimes = ', i)") atm_coupling_ntimes  
                  atm_coupling_time=atm_coupling_time-MPI_Wtime()
                   CALL atm_coupling (head_grid, 0)
                  atm_coupling_time=atm_coupling_time+MPI_Wtime()
+                  write(unid_arq+MyRank, "('atm_coupling_ntimes = ', i10, 'time = ', f20.6 )") atm_coupling_ntimes, atm_coupling_time
                   
                  last_step=num_steps
                END IF

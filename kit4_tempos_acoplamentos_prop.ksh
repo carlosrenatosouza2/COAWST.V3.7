@@ -15,6 +15,7 @@ ${DIRHOME}/WRF/frame/atm_coupler.F \
 ${DIRHOME}/WRF/frame/atm_coupler.f90 \
 ${DIRHOME}/WRF/share/solve_interface.F \
 ${DIRHOME}/WRF/share/solve_interface.f90 \
+${DIRHOME}/coawst.gnu.atlsw12 \
 ${DIRHOME}/kit4_tempos_acoplamentos_prop.ksh &
 
 
