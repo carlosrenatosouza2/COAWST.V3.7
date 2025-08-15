@@ -43,6 +43,8 @@
       USE wvelocity_mod,        ONLY : wvelocity
 !
       implicit none
+      !CR: 
+      !include 'mpif.h'
 !
 !  Imported variable declarations.
 !
@@ -58,6 +60,10 @@
 !
       character (len=*), parameter :: MyFile =                          &
      &  "ROMS/Nonlinear/main3d.F"
+      !CR: variables:
+      integer  :: unid_arq = 3000, MyError
+      integer  :: ocean_coupling_ntimes = 0
+      real*8   :: t_entre_acpl_ocean_coupling = 0.0
 !
 !=======================================================================
 !  Time-step nonlinear 3D primitive equations by the specified time.
@@ -88,7 +94,7 @@
 !  or just a single step (RunInterval=0).
 !
           CALL ntimesteps (iNLM, RunInterval, nl, Nsteps, Rsteps)
-          IF (FoundError(exit_flag, NoError, 206, MyFile)) RETURN
+          IF (FoundError(exit_flag, NoError, 220, MyFile)) RETURN
           IF ((nl.le.0).or.(nl.gt.NestLayers)) EXIT
 !
 !  Time-step governing equations for Nsteps.
@@ -120,7 +126,7 @@
 !$OMP END MASTER
 !$OMP BARRIER
               IF (FoundError(exit_flag, NoError,                        &
-     &                       238, MyFile)) RETURN
+     &                       252, MyFile)) RETURN
             END DO
 !
 !-----------------------------------------------------------------------
@@ -135,7 +141,7 @@
               END DO
 !$OMP BARRIER
             END DO
-            IF (FoundError(exit_flag, NoError, 253, MyFile)) RETURN
+            IF (FoundError(exit_flag, NoError, 267, MyFile)) RETURN
 !
 !-----------------------------------------------------------------------
 !  Initialize all time levels and compute other initial fields.
@@ -177,13 +183,21 @@
               END DO
 !$OMP BARRIER
             END DO
-            IF (FoundError(exit_flag, NoError, 345, MyFile)) RETURN
+            IF (FoundError(exit_flag, NoError, 359, MyFile)) RETURN
 !
 !-----------------------------------------------------------------------
 !  Couple ocean to atmosphere and wave model grids.
 !-----------------------------------------------------------------------
+            !CR: mpi staff:
+            !CALL mpi_comm_rank (OCN_COMM_WORLD, MyRank, MyError)
             IF (iic(ng).ne.ntstart(ng)) THEN
-              CALL ocean_coupling (nl)
+               !CR: temporizando entre ciclos de acoplamentos; Nao eh ciclo de acopl, e sim timestep:
+               !ocean_coupling_ntimes = ocean_coupling_ntimes + 1
+               !t_entre_acpl_ocean_coupling = t_entre_acpl_ocean_coupling + MPI_Wtime()
+               !write(unid_arq+MyRank, "('ocean_coupling time = ', f20.6, i5)") t_entre_acpl_ocean_coupling, ocean_coupling_ntimes
+               !t_entre_acpl_ocean_coupling = 0.0
+                  CALL ocean_coupling (nl)
+               !t_entre_acpl_ocean_coupling = t_entre_acpl_ocean_coupling - MPI_Wtime()
             END IF
 !
 !-----------------------------------------------------------------------
@@ -243,7 +257,7 @@
               CALL output (ng)
 !$OMP END MASTER
 !$OMP BARRIER
-              IF ((FoundError(exit_flag, NoError, 567, MyFile)).or.     &
+              IF ((FoundError(exit_flag, NoError, 594, MyFile)).or.     &
      &            ((iic(ng).eq.(ntend(ng)+1)).and.(ng.eq.Ngrids))) THEN
                 RETURN
               END IF

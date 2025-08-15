@@ -16,6 +16,11 @@ ${DIRHOME}/WRF/frame/atm_coupler.f90 \
 ${DIRHOME}/WRF/share/solve_interface.F \
 ${DIRHOME}/WRF/share/solve_interface.f90 \
 ${DIRHOME}/coawst.gnu.atlsw12 \
+${DIRHOME}/Build/main3d.f90 \
+${DIRHOME}/Build/ocean_coupler.f90 \
+${DIRHOME}/Projects/ATLSW12/wr_17022023/namelist.input \
+${DIRHOME}/Projects/ATLSW12/wr_17022023/ocean_ATLSW12.in \
+${DIRHOME}/Projects/ATLSW12/wr_17022023/coupling_ATLSW12.in \
 ${DIRHOME}/kit4_tempos_acoplamentos_prop.ksh &
 
 
@@ -33,11 +38,6 @@ ${DIRHOME}/kit4_tempos_acoplamentos_prop.ksh &
 #${DIRHOME}/WRF/frame/module_domain.F \
 #{DIRHOME}/Lib/MCT/mct/m_Transfer.F90 \
 #{DIRHOME}/Build/ocean_control.f90 \
-#{DIRHOME}/Build/main3d.f90 \
-#{DIRHOME}/Build/ocean_coupler.f90 \
-#${DIRHOME}/Projects/ATLSW12/wr_17022023/namelist.input \
-#${DIRHOME}/Projects/ATLSW12/wr_17022023/ocean_ATLSW12.in \
-#${DIRHOME}/Projects/ATLSW12/wr_17022023/coupling_ATLSW12.in \
 #{DIRHOME}/Work/ATLSW12/wr_17022023/run_atlsw12_WR.sh \
 #${DIRHOME}/Work/ATLSW12/wr_17022023/run.ksh \
 #${DIRHOME}/WRF/frame/module_io.F \

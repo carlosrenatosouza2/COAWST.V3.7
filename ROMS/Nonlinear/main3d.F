@@ -149,6 +149,11 @@
 # endif
 !
       implicit none
+      
+      !CR: 
+      !include 'mpif.h'
+      
+      
 !
 !  Imported variable declarations.
 !
@@ -170,6 +175,15 @@
 !
       character (len=*), parameter :: MyFile =                          &
      &  __FILE__
+     
+     
+     
+      !CR: variables:
+      integer  :: unid_arq = 3000, MyError
+      integer  :: ocean_coupling_ntimes = 0
+      real*8   :: t_entre_acpl_ocean_coupling = 0.0
+     
+     
 !
 !=======================================================================
 !  Time-step nonlinear 3D primitive equations by the specified time.
@@ -349,8 +363,21 @@
 !-----------------------------------------------------------------------
 !  Couple ocean to atmosphere and wave model grids.
 !-----------------------------------------------------------------------
+
+            !CR: mpi staff:
+            !CALL mpi_comm_rank (OCN_COMM_WORLD, MyRank, MyError)
+
+
+
             IF (iic(ng).ne.ntstart(ng)) THEN
-              CALL ocean_coupling (nl)
+               !CR: temporizando entre ciclos de acoplamentos; Nao eh ciclo de acopl, e sim timestep:
+               !ocean_coupling_ntimes = ocean_coupling_ntimes + 1
+               !t_entre_acpl_ocean_coupling = t_entre_acpl_ocean_coupling + MPI_Wtime()
+               !write(unid_arq+MyRank, "('ocean_coupling time = ', f20.6, i5)") t_entre_acpl_ocean_coupling, ocean_coupling_ntimes
+               !t_entre_acpl_ocean_coupling = 0.0
+                  CALL ocean_coupling (nl)
+               !t_entre_acpl_ocean_coupling = t_entre_acpl_ocean_coupling - MPI_Wtime()
+              
             END IF
 # endif
 # if defined INWAVE_MODEL

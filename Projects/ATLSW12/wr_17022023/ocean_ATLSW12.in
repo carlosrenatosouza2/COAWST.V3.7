@@ -241,9 +241,9 @@ ad_VolCons(north) ==  F                            ! northern boundary
 ! Time-Stepping parameters.
 
 !      NTIMES == 40    ! 1 day-> 960 TSTEPS | 4 days -> 3840 DT = 90.0d0 | 1h -> NTIMES == 40
-      NTIMES == 120    ! 1 day-> 960 TSTEPS | 4 days -> 3840 DT = 90.0d0 | 3h -> NTIMES == 120
+!      NTIMES == 120    ! 1 day-> 960 TSTEPS | 4 days -> 3840 DT = 90.0d0 | 3h -> NTIMES == 120
 !      NTIMES == 240    ! 1 day-> 960 TSTEPS | 4 days -> 3840 DT = 90.0d0 | 6h -> NTIMES == 240
-!      NTIMES == 960    ! 1 day-> 960 TSTEPS | 4 days -> 3840 DT = 90.0d0
+      NTIMES == 960    ! 1 day-> 960 TSTEPS | 4 days -> 3840 DT = 90.0d0
 !      NTIMES == 3840  ! 1 day-> 960 TSTEPS | 4 days -> 3840 DT = 90.0d0
 !      NTIMES == 8640  ! 1 day-> 960 TSTEPS | 9 days -> 8640 DT = 90.0d0
 !      NTIMES == 5760  ! 1 day-> 960 TSTEPS | 6 days -> 5760 DT = 90.0d0

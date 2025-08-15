@@ -1574,8 +1574,11 @@
 !
 !  Local variable declarations.
 !
+      !CR: variables:
       integer :: MyError, nprocs, tile
       integer :: ng, iw, ia, ig, ih, nlay, offset
+      integer :: unid_arq = 3000, ocnfatm_coupling_ntimes =0
+      real*8  :: t_entre_acpl_ocnfatm_coupling = 0.0
 !
 !-----------------------------------------------------------------------
 !
@@ -1584,6 +1587,8 @@
 !  Couple ocean to atmosphere model every nOCN_ATM timesteps.
 !-----------------------------------------------------------------------
 !
+            !CR: mpi staff:
+            CALL mpi_comm_rank (OCN_COMM_WORLD, MyRank, MyError)
       IF (nl.eq.1) THEN
         DO nlay=1,NestLayers
           DO ig=1,GridsInLayer(nlay)
@@ -1592,7 +1597,13 @@
               offset=-1 !nlay-NestLayers
               IF (MOD(iic(1)+offset,nOCNFATM(1,1)).eq.0) THEN
                 DO tile=first_tile(ng),last_tile(ng),+1
-                  CALL ocnfatm_coupling (ng, ia, tile)
+                  !CR: temporizando entre ciclos de acoplamentos;
+                  t_entre_acpl_ocnfatm_coupling = t_entre_acpl_ocnfatm_coupling + MPI_Wtime()
+                  write(unid_arq+MyRank, "('ocnfatm_coupling time = ', f20.6, i5)") t_entre_acpl_ocnfatm_coupling, ocnfatm_coupling_ntimes
+                  t_entre_acpl_ocnfatm_coupling = 0.0
+                     CALL ocnfatm_coupling (ng, ia, tile)
+                  t_entre_acpl_ocnfatm_coupling = t_entre_acpl_ocnfatm_coupling - MPI_Wtime()
+                  ocnfatm_coupling_ntimes = ocnfatm_coupling_ntimes + 1
                 END DO
               END IF
             END DO

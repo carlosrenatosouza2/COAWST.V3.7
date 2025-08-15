@@ -816,10 +816,12 @@
       integer :: kid, num_ksteps
       
       !CR:
-      integer  :: unid_arq = 1000, MyRank, MyError
+      integer  :: unid_arq = 2000, MyRank, MyError
+      integer  :: atm2ocn_coupling_ntimes = 0
       logical  :: dump_re = .true.
       real(m8) :: ti_atm2ocn_coupling = 0.0_m8, tf_atm2ocn_coupling = 0.0_m8
       real(m8) :: min_ti_atm2ocn_coupling = 0.0_m8, max_tf_atm2ocn_coupling = 0.0_m8
+      real(m8) :: t_entre_acpl_atm2ocn = 0.0_m8
 
       IF (num_steps.eq.0) THEN
         offset=0
@@ -831,12 +833,19 @@
       IF (MOD(num_steps+offset, nATM2OCN(1,1)).eq.0) THEN
          
          !CR:
-         !CALL MPI_COMM_RANK (ATM_COMM_WORLD, MyRank, MyError)
+         CALL MPI_COMM_RANK (ATM_COMM_WORLD, MyRank, MyError)
          !write(unid_arq,"('Rank = ', i, 'chamando atm2ocn_coupling rom atm_coupling.')") MyRank
          
         DO io=1,Nocn_grids
           ia=1
-          CALL atm2ocn_coupling(grid,ia,io)
+            t_entre_acpl_atm2ocn = t_entre_acpl_atm2ocn + MPI_Wtime()
+            write(unid_arq+MyRank, "('atm2ocn_coupling time = ', f20.6, i5)") t_entre_acpl_atm2ocn, atm2ocn_coupling_ntimes
+            t_entre_acpl_atm2ocn = 0.0_m8
+               CALL atm2ocn_coupling(grid,ia,io)
+            t_entre_acpl_atm2ocn = t_entre_acpl_atm2ocn - MPI_Wtime()
+            atm2ocn_coupling_ntimes = atm2ocn_coupling_ntimes +1
+          
+          
           DO ia=2,Natm_grids
             CALL find_grid_by_id(ia, grid, grid_ptr)
             !ti_atm2ocn_coupling =  MPI_Wtime()
@@ -890,6 +899,9 @@
 !         write(unid_arq,"('ATM Rank = ', i, ' min(inicio), max(fim) Wtime atm2ocn_coupling from atm_coupling :: ', f30.15, f30.15)") &
 !     &   min_ti_atm2ocn_coupling, max_tf_atm2ocn_coupling
 !      END IF
+
+      !write(unid_arq+MyRank, "('atm2ocn_coupling_ntimes = ', i10, 'time = ', f20.6 )") atm2ocn_coupling_ntimes, atm_coupling_time
+      !write(unid_arq+MyRank, "('atm2ocn_coupling_ntimes = ', i10)") atm2ocn_coupling_ntimes
 
       RETURN
       END SUBROUTINE atm_coupling

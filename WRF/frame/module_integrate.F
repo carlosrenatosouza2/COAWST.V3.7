@@ -535,12 +535,12 @@ ENDIF
                  CALL initialize_atm_routers
                  !CR: 1a chamada de atm_coupling em integrate:
                  !CR: temporizar:
-                 atm_coupling_ntimes=atm_coupling_ntimes+1
+                 !atm_coupling_ntimes=atm_coupling_ntimes+1
                  !write(unid_arq,"('Rank = ', i, 'chamando atm_coupling rom integrate.')") MyRank               
-                 atm_coupling_time=atm_coupling_time-MPI_Wtime()
+                 !atm_coupling_time=atm_coupling_time-MPI_Wtime()
                   CALL atm_coupling (head_grid, 0)
-                 atm_coupling_time=atm_coupling_time+MPI_Wtime()
-                  write(unid_arq+MyRank, "('atm_coupling_ntimes = ', i10, 'time = ', f20.6 )") atm_coupling_ntimes, atm_coupling_time
+                 !atm_coupling_time=atm_coupling_time+MPI_Wtime()
+                  !write(unid_arq+MyRank, "('atm_coupling_ntimes = ', i10, 'time = ', f20.6 )") atm_coupling_ntimes, atm_coupling_time
                   
                  last_step=num_steps
                END IF
