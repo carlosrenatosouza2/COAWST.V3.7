@@ -288,13 +288,13 @@ ad_VolCons(north) ==  F                            ! northern boundary
 ! Output history, average, diagnostic files parameters.
 
      LDEFOUT == T   
-        NHIS == 960  
+        NHIS == 120  
      NDEFHIS == 0   
       NTSAVG == 1   
-        NAVG == 960 
+        NAVG == 120 
      NDEFAVG == 0   
       NTSDIA == 1   
-        NDIA == 960
+        NDIA == 120
      NDEFDIA == 0   
 
 ! Output tangent linear and adjoint models parameters.

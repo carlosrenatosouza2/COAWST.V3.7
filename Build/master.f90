@@ -40,9 +40,12 @@
       integer :: MyColor, MyCOMM, MyError, MyKey, Nnodes
       integer :: MyRank, pelast
       integer :: Ocncolor, Wavcolor, Atmcolor, Hydcolor, IOMcolor
-	integer :: ng, iw, io, ia, ih, icc
+	   integer :: ng, iw, io, ia, ih, icc
       real(m8) :: lcm, gcdlcm
       real(m4) :: CouplingTime             ! single precision
+      !CR:
+      integer  :: unid_arq = 1000
+      real(m8) :: t_entre_acpl_driver = 0.0, tmed_entre_acpl_driver = 0.0
 !
 !-----------------------------------------------------------------------
 !  Initialize distributed-memory (1) configuration
@@ -51,7 +54,8 @@
 !  Initialize 1 execution environment.
 !
       CALL mpi_init (MyError)
-!      print*, "RENATO"
+      !CR:
+      t_entre_acpl_driver = t_entre_acpl_driver - MPI_WTime()
 !
 !  Get rank of the local process in the group associated with the
 !  comminicator.
@@ -249,6 +253,13 @@
 !
       CALL mpi_barrier (MPI_COMM_WORLD, MyError)
       CALL MCTWorld_clean ()
+      !CR:
+      t_entre_acpl_driver = t_entre_acpl_driver + MPI_WTime()
+      call MPI_REDUCE(t_entre_acpl_driver,  tmed_entre_acpl_driver,  1, MPI_DOUBLE_PRECISION, MPI_SUM, 0, MPI_COMM_WORLD, MyError)
+      IF (MyRank.eq.0) THEN
+         tmed_entre_acpl_driver=tmed_entre_acpl_driver/Nnodes
+         write(unid_arq+MyRank, "('Driver time = ', f20.6)") tmed_entre_acpl_driver
+      endif
       CALL mpi_finalize (MyError)
       STOP
       END PROGRAM mct_driver

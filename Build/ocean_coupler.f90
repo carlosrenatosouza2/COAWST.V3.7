@@ -1577,8 +1577,8 @@
       !CR: variables:
       integer :: MyError, nprocs, tile
       integer :: ng, iw, ia, ig, ih, nlay, offset
-      integer :: unid_arq = 3000, ocnfatm_coupling_ntimes =0
-      real*8  :: t_entre_acpl_ocnfatm_coupling = 0.0
+      integer :: unid_arq = 30000, ocnfatm_coupling_ntimes =0
+      real*8  :: t_entre_acpl_ocnfatm_coupling = 0.0, tmed_entre_acpl_ocnfatm_coupling = 0.0
 !
 !-----------------------------------------------------------------------
 !
@@ -1589,6 +1589,7 @@
 !
             !CR: mpi staff:
             CALL mpi_comm_rank (OCN_COMM_WORLD, MyRank, MyError)
+            CALL MPI_COMM_SIZE (OCN_COMM_WORLD, nprocs, MyError)
       IF (nl.eq.1) THEN
         DO nlay=1,NestLayers
           DO ig=1,GridsInLayer(nlay)
@@ -1599,11 +1600,9 @@
                 DO tile=first_tile(ng),last_tile(ng),+1
                   !CR: temporizando entre ciclos de acoplamentos;
                   t_entre_acpl_ocnfatm_coupling = t_entre_acpl_ocnfatm_coupling + MPI_Wtime()
-                  write(unid_arq+MyRank, "('ocnfatm_coupling time = ', f20.6, i5)") t_entre_acpl_ocnfatm_coupling, ocnfatm_coupling_ntimes
+                  write(unid_arq+MyRank, "(f20.6, i5)") t_entre_acpl_ocnfatm_coupling, ocnfatm_coupling_ntimes
                   t_entre_acpl_ocnfatm_coupling = 0.0
                      CALL ocnfatm_coupling (ng, ia, tile)
-                  t_entre_acpl_ocnfatm_coupling = t_entre_acpl_ocnfatm_coupling - MPI_Wtime()
-                  ocnfatm_coupling_ntimes = ocnfatm_coupling_ntimes + 1
                 END DO
               END IF
             END DO
@@ -1620,12 +1619,22 @@
               IF (MOD(iic(1)+offset,nOCN2ATM(1,1)).eq.0) THEN
                 DO tile=first_tile(ng),last_tile(ng),+1
                   CALL ocn2atm_coupling (ng, ia, tile)
+                  t_entre_acpl_ocnfatm_coupling = t_entre_acpl_ocnfatm_coupling - MPI_Wtime()
+                  ocnfatm_coupling_ntimes = ocnfatm_coupling_ntimes + 1
                 END DO
               END IF
             END DO
           END DO
         END DO
       END IF
+      !CR:      
+      !call MPI_REDUCE(t_entre_acpl_ocnfatm_coupling,  tmed_entre_acpl_ocnfatm_coupling,  1, MPI_DOUBLE_PRECISION, MPI_SUM, 0, OCN_COMM_WORLD, MyError)
+      !IF (MyRank.EQ.0) THEN
+      !   tmed_entre_acpl_ocnfatm_coupling = tmed_entre_acpl_ocnfatm_coupling/nprocs
+      !   ocnfatm_coupling_ntimes = ocnfatm_coupling_ntimes + 1
+      !   write(unid_arq+MyRank, "(f20.6, i5)") tmed_entre_acpl_ocnfatm_coupling, ocnfatm_coupling_ntimes
+      !   t_entre_acpl_ocnfatm_coupling = 0.0
+      !ENDIF
       RETURN
       END SUBROUTINE ocean_coupling
       END MODULE ocean_coupler_mod

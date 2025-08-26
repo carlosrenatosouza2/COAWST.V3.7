@@ -6,6 +6,7 @@ WRFHOME=${DIRHOME}/WRF
 echo $DIRHOME $WRFHOME
 
 nedit \
+${DIRHOME}/Master/mct_driver.h \
 ${DIRHOME}/Build/master.f90 \
 ${DIRHOME}/WRF/main/module_wrf_top.F \
 ${DIRHOME}/WRF/main/module_wrf_top.f90 \
@@ -17,6 +18,7 @@ ${DIRHOME}/WRF/share/solve_interface.F \
 ${DIRHOME}/WRF/share/solve_interface.f90 \
 ${DIRHOME}/coawst.gnu.atlsw12 \
 ${DIRHOME}/Build/main3d.f90 \
+${DIRHOME}/Master/ocean_coupler.F \
 ${DIRHOME}/Build/ocean_coupler.f90 \
 ${DIRHOME}/Projects/ATLSW12/wr_17022023/namelist.input \
 ${DIRHOME}/Projects/ATLSW12/wr_17022023/ocean_ATLSW12.in \

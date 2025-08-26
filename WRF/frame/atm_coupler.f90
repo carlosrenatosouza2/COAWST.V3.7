@@ -670,12 +670,12 @@
       integer :: kid, num_ksteps
       
       
-      integer  :: unid_arq = 2000, MyRank, MyError
+      integer  :: unid_arq = 20000, MyRank, nprocs, MyError
       integer  :: atm2ocn_coupling_ntimes = 0
       logical  :: dump_re = .true.
       real(m8) :: ti_atm2ocn_coupling = 0.0_m8, tf_atm2ocn_coupling = 0.0_m8
       real(m8) :: min_ti_atm2ocn_coupling = 0.0_m8, max_tf_atm2ocn_coupling = 0.0_m8
-      real(m8) :: t_entre_acpl_atm2ocn = 0.0_m8
+      real(m8) :: t_entre_acpl_atm2ocn = 0.0_m8, tmed_entre_acpl_atm2ocn = 0.0_m8
 
       IF (num_steps.eq.0) THEN
         offset=0
@@ -687,16 +687,16 @@
          
          
          CALL MPI_COMM_RANK (ATM_COMM_WORLD, MyRank, MyError)
+         CALL mpi_comm_size (ATM_COMM_WORLD, nprocs, MyError)
+         
 
          
+            t_entre_acpl_atm2ocn = t_entre_acpl_atm2ocn + MPI_Wtime()
+            write(unid_arq+MyRank, "(f20.6, i5)") t_entre_acpl_atm2ocn, atm2ocn_coupling_ntimes
+            t_entre_acpl_atm2ocn = 0.0_m8
         DO io=1,Nocn_grids
           ia=1
-            t_entre_acpl_atm2ocn = t_entre_acpl_atm2ocn + MPI_Wtime()
-            write(unid_arq+MyRank, "('atm2ocn_coupling time = ', f20.6, i5)") t_entre_acpl_atm2ocn, atm2ocn_coupling_ntimes
-            t_entre_acpl_atm2ocn = 0.0_m8
                CALL atm2ocn_coupling(grid,ia,io)
-            t_entre_acpl_atm2ocn = t_entre_acpl_atm2ocn - MPI_Wtime()
-            atm2ocn_coupling_ntimes = atm2ocn_coupling_ntimes +1
           
           
           DO ia=2,Natm_grids
@@ -714,13 +714,27 @@
           CALL atmfocn_coupling(grid,ia,io,0)
           DO ia=2,Natm_grids
             CALL find_grid_by_id(ia, grid, grid_ptr)
+            
             CALL atmfocn_coupling(grid_ptr,ia,io,0)
+            
           END DO
         END DO
+            t_entre_acpl_atm2ocn = t_entre_acpl_atm2ocn - MPI_Wtime()
+            atm2ocn_coupling_ntimes = atm2ocn_coupling_ntimes +1
       END IF
 
       
       CALL mpi_barrier (ATM_COMM_WORLD, MyError)
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
 
 
       
