@@ -714,15 +714,20 @@ subroutine FieldIO(IO,DataHandle,DateStr,Length,MemoryOrder &
   VStart(NDim+1) = TimeIndex
   VCount(NDim+1) = 1
 
+   !CR: comentando subrotinas de escritas nivel 1: call ext_ncd_RealFieldIO: nao deu certo aqui.
   ! Do not use SELECT statement here as sometimes WRF_REAL=WRF_DOUBLE
   IF (FieldType == WRF_REAL) THEN
     !print*, "CR: wrf_io.f, subroutine FieldIO, antes de ext_ncd_RealFieldIO 1"
+    !CR: comentando 1:
     call ext_ncd_RealFieldIO    (IO,NCID,VarID,VStart,VCount,XField,Status)
   ELSE IF (FieldType == WRF_DOUBLE) THEN
+    !CR: comentando 1:
     call ext_ncd_DoubleFieldIO  (IO,NCID,VarID,VStart,VCount,XField,Status)
   ELSE IF (FieldType == WRF_INTEGER) THEN
+    !CR: comentando 1:
     call ext_ncd_IntFieldIO     (IO,NCID,VarID,VStart,VCount,XField,Status)
   ELSE IF (FieldType == WRF_LOGICAL) THEN
+    !CR: comentando 1:
     call ext_ncd_LogicalFieldIO (IO,NCID,VarID,VStart,VCount,XField,Status)
     if(Status /= WRF_NO_ERR) return
   ELSE

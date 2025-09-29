@@ -52,6 +52,7 @@ subroutine ext_ncd_RealFieldIO(IO,NCID,VarID,VStart,VCount,Data,Status)
     !esse print foi executado
     !print*, "CR: field_routines.f90, antes de NF_PUT_VARA_REAL 1"
     !print*, " NCID: ", NCID," VarID: ", VarID, " VStart: ", VStart, " VCount: ", VCount, Data(1:10)
+    !CR: comentando nivel 0:
     stat = NF_PUT_VARA_REAL(NCID,VarID,VStart,VCount,Data)
   else
     stat = NF_GET_VARA_REAL(NCID,VarID,VStart,VCount,Data)

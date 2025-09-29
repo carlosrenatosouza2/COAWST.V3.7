@@ -923,14 +923,16 @@ message )
 
 
    SELECT CASE( stream )
-     CASE ( HISTORY_ALARM )
-     
-     
-       CALL open_hist_w( grid, config_flags, stream, HISTORY_ALARM, &
+      CASE ( HISTORY_ALARM )
+         
+         
+         
+         CALL open_hist_w( grid, config_flags, stream, HISTORY_ALARM, &
                          config_flags%history_outname, grid%oid,    &
                          output_history, fname, n2, ierr )
-
-       CALL output_history ( grid%oid, grid , config_flags , ierr )
+         
+         
+         CALL output_history ( grid%oid, grid , config_flags , ierr )
        
 
 
@@ -1072,8 +1074,8 @@ message )
    SELECT CASE( stream )
      CASE ( HISTORY_ALARM )
        IF ( grid%nframes(stream) >= config_flags%frames_per_outfile ) THEN
-write(0,*)"mediation_integrate.G",1967,trim(n2)
-write(0,*)"mediation_integrate.G",1968,' grid%id ',grid%id,' grid%oid ',grid%oid
+write(0,*)"mediation_integrate.G",1969,trim(n2)
+write(0,*)"mediation_integrate.G",1970,' grid%id ',grid%id,' grid%oid ',grid%oid
 
          
          CALL close_dataset ( grid%oid , config_flags , n2 ) 
@@ -1275,7 +1277,7 @@ SUBROUTINE med_auxinput_in ( grid , stream, config_flags )
 
    IF ( stream .LT. first_auxinput .OR. stream .GT. last_auxinput ) THEN
      WRITE(message,*)'med_auxinput_in: invalid input stream ',stream
-     CALL wrf_error_fatal3("<stdin>",1267,&
+     CALL wrf_error_fatal3("<stdin>",1269,&
 message )
    ENDIF
 
@@ -1613,12 +1615,12 @@ SUBROUTINE med_filter_out ( grid , config_flags )
      CALL open_w_dataset ( fid, TRIM(outname), grid ,  &
                            config_flags , output_input , "DATASET=INPUT", ierr )
      IF ( ierr .NE. 0 ) THEN
-       CALL wrf_error_fatal3("<stdin>",1605,&
+       CALL wrf_error_fatal3("<stdin>",1607,&
 message )
      ENDIF
 
      IF ( ierr .NE. 0 ) THEN
-       CALL wrf_error_fatal3("<stdin>",1610,&
+       CALL wrf_error_fatal3("<stdin>",1612,&
 message )
      ENDIF
 
@@ -1874,7 +1876,7 @@ integer myproc,i,j,k
           CALL open_r_dataset ( grid%lbc_fid, TRIM(bdyname) , grid , config_flags , "DATASET=BOUNDARY", ierr )
           IF ( ierr .NE. 0 ) THEN
             WRITE( message, * ) 'med_latbound_in: error opening ',TRIM(bdyname), ' for reading. IERR = ',ierr
-            CALL wrf_error_fatal3("<stdin>",1866,&
+            CALL wrf_error_fatal3("<stdin>",1868,&
 message )
           ENDIF
        ELSE
@@ -1905,7 +1907,7 @@ message )
 
        IF ( ierr .NE. 0 .and. ierr .NE. WRF_WARN_NETCDF ) THEN
          WRITE( message, * ) 'med_latbound_in: error reading ',TRIM(bdyname), ' IERR = ',ierr
-         CALL wrf_error_fatal3("<stdin>",1897,&
+         CALL wrf_error_fatal3("<stdin>",1899,&
 message )
        ENDIF
        IF ( currentTime .EQ. grid%this_bdy_time ) grid%dtbc = 0.
@@ -2015,7 +2017,7 @@ SUBROUTINE open_aux_u ( grid , config_flags, stream, alarm_id, &
 
    IF ( stream .LT. first_stream .OR. stream .GT. last_stream ) THEN
      WRITE(message,*)'open_aux_u: invalid input stream ',stream
-     CALL wrf_error_fatal3("<stdin>",2007,&
+     CALL wrf_error_fatal3("<stdin>",2009,&
 message )
    ENDIF
 
@@ -2087,7 +2089,7 @@ SUBROUTINE open_hist_w ( grid , config_flags, stream, alarm_id, &
 
    IF ( stream .LT. first_history .OR. stream .GT. last_history ) THEN
      WRITE(message,*)'open_hist_w: invalid history stream ',stream
-     CALL wrf_error_fatal3("<stdin>",2079,&
+     CALL wrf_error_fatal3("<stdin>",2081,&
 message )
    ENDIF
 

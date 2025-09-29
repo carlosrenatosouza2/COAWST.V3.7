@@ -1,10 +1,14 @@
 #!/bin/bash
 
-codename="graftimestep_egeon_24h_media"
+#codename="graftimestep_egeon_24h_media"
+#codename="graftimestep_egeon_24h_media_comWait"
+#codename="graftimestep_egeon_24h_soRank0_comWait"
+codename="graftimestep_egeon_24h_soRank0_comWait_somaRanks"
+
 
 rm -f ${codename}.x
 
-echo "compilando"
+echo "compilando: ${codename}.f90"
 
 gfortran -ffree-line-length-none ${codename}.f90 -o ${codename}.x
 
@@ -13,7 +17,7 @@ sleep 3
 
 if [ -s ${codename}.x ] 
 then
-   echo "executando"
+   echo "executando: ${codename}.x"
    time ./${codename}.x
    echo "executado"
 
@@ -21,5 +25,7 @@ then
 else
    echo "deu ruim"
 fi
+
+
 
 exit

@@ -8,17 +8,17 @@ reset
 #exp     = "i"; ncoresA = 384; ncoresO = 256
 #exp     = "j"; ncoresA = 512; ncoresO = 128
 #exp     = "k"; ncoresA = 512; ncoresO = 256
-#exp     = "l"; ncoresA = 768; ncoresO = 128
+exp     = "l"; ncoresA = 768; ncoresO = 128; cnivel = 000; lab="semIO"
 #exp     = "m"; ncoresA = 768; ncoresO = 256
 #exp     = "n"; ncoresA = 1024; ncoresO = 128
-exp     = "o"; ncoresA = 1024; ncoresO = 256
+#exp     = "o"; ncoresA = 1024; ncoresO = 256
 
 #======================
 
-set title sprintf("Tempos entre acoplamentos de 30min [24h-3/3h] - Exp %s", exp)
+set title sprintf("Tempos entre acoplamentos de 30min [24h-3/3h] - Exp %s \n escrita comentada nivel %d", exp,cnivel)
 
 set terminal png
-set output sprintf("graftimestep_egeon_24h_exp_%s.gnu.png", exp)
+set output sprintf("graftimestep_egeon_24h_exp_%s_co_n%d_%s.gnu.png", exp, cnivel, lab)
 
 set ylabel 'Tempo (s)'
 set xlabel 'Intervalos entre acoplamentos'

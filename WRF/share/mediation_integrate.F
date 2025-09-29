@@ -1941,14 +1941,16 @@ SUBROUTINE med_hist_out ( grid , stream, config_flags )
 #endif
 
    SELECT CASE( stream )
-     CASE ( HISTORY_ALARM )
-     !print*, "CR: mediation_integrate.F, antes de CALL open_hist_w 1"
-     !print*, "CR:", stream, config_flags%history_outname, grid%oid , fname, n2
-       CALL open_hist_w( grid, config_flags, stream, HISTORY_ALARM, &
+      CASE ( HISTORY_ALARM )
+         !print*, "CR: mediation_integrate.F, antes de CALL open_hist_w 1"
+         !print*, "CR:", stream, config_flags%history_outname, grid%oid , fname, n2
+         !CR: comentando criacao dos arquivos de escrita nivel top:
+         CALL open_hist_w( grid, config_flags, stream, HISTORY_ALARM, &
                          config_flags%history_outname, grid%oid,    &
                          output_history, fname, n2, ierr )
-!       print*, "CR: mediation_integrate.f90, call output_history()---OK"
-       CALL output_history ( grid%oid, grid , config_flags , ierr )
+         !print*, "CR: mediation_integrate.f90, call output_history()---OK"
+         !CR: comentando escrita nivel top:
+         CALL output_history ( grid%oid, grid , config_flags , ierr )
        
 
 ! registry-generated selections and calls top open_hist_w for aux streams

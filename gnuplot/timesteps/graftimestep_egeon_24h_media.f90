@@ -18,12 +18,13 @@ program media
 
    ! ============================================================
    ! Definicao dos experimentos
+   !              1   2   3   4   5   6   7   8   9
    expletras = (/'e','h','i','j','k','l','m','n','o'/)
    ATM_ncores = (/256,384,384,512,512,768,768,1024,1024/)
    OCN_ncores = (/128,128,256,128,256,128,256,128,256/)
    ! ============================================================
 
-   do iletra = 1,9
+   do iletra = 6,6
       letra  = expletras(iletra)
 
       ! Inicializa soma de medias por ciclo entre experimentos

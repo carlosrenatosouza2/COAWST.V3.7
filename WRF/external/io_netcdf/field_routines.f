@@ -63,13 +63,14 @@ subroutine ext_ncd_RealFieldIO(IO,NCID,VarID,VStart,VCount,Data,Status)
     !esse print foi executado
     !print*, "CR: field_routines.f90, antes de NF_PUT_VARA_REAL 1"
     !print*, " NCID: ", NCID," VarID: ", VarID, " VStart: ", VStart, " VCount: ", VCount, Data(1:10)
+    !CR: comentando nivel 0:
     stat = NF_PUT_VARA_REAL(NCID,VarID,VStart,VCount,Data)
   else
     stat = NF_GET_VARA_REAL(NCID,VarID,VStart,VCount,Data)
   endif
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"field_routines.F90",', line', 61
+    write(msg,*) 'NetCDF error in ',"field_routines.F90",', line', 62
     call wrf_debug ( WARN , msg)
   endif
   return
@@ -98,7 +99,7 @@ subroutine ext_ncd_DoubleFieldIO(IO,NCID,VarID,VStart,VCount,Data,Status)
   endif
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"field_routines.F90",', line', 90
+    write(msg,*) 'NetCDF error in ',"field_routines.F90",', line', 91
     call wrf_debug ( WARN , msg)
   endif
   return
@@ -128,7 +129,7 @@ subroutine ext_ncd_IntFieldIO(IO,NCID,VarID,VStart,VCount,Data,Status)
   endif
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"field_routines.F90",', line', 120
+    write(msg,*) 'NetCDF error in ',"field_routines.F90",', line', 121
     call wrf_debug ( WARN , msg)
   endif
   return
@@ -154,7 +155,7 @@ subroutine ext_ncd_LogicalFieldIO(IO,NCID,VarID,VStart,VCount,Data,Status)
   allocate(Buffer(VCount(1),VCount(2),VCount(3)), STAT=stat)
   if(stat/= 0) then
     Status = WRF_ERR_FATAL_ALLOCATION_ERROR
-    write(msg,*) 'Fatal ALLOCATION ERROR in ',"field_routines.F90",', line', 146
+    write(msg,*) 'Fatal ALLOCATION ERROR in ',"field_routines.F90",', line', 147
     call wrf_debug ( FATAL , msg)
     return
   endif
@@ -178,14 +179,14 @@ subroutine ext_ncd_LogicalFieldIO(IO,NCID,VarID,VStart,VCount,Data,Status)
   endif
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"field_routines.F90",', line', 170
+    write(msg,*) 'NetCDF error in ',"field_routines.F90",', line', 171
     call wrf_debug ( WARN , msg)
     return
   endif
   deallocate(Buffer, STAT=stat)
   if(stat/= 0) then
     Status = WRF_ERR_FATAL_DEALLOCATION_ERR
-    write(msg,*) 'Fatal DEALLOCATION ERROR in ',"field_routines.F90",', line', 177
+    write(msg,*) 'Fatal DEALLOCATION ERROR in ',"field_routines.F90",', line', 178
     call wrf_debug ( FATAL , msg)
     return
   endif

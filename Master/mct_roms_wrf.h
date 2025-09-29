@@ -662,6 +662,10 @@
 #endif
       real(r8) :: BBR, cff1, cff2
       character (len=40) :: code
+      
+      !CR:
+      integer  :: unid_arqws = 70000, MCT_Waits_ntimes = 0
+      real(r8) :: t_MCT_Waits = 0.0
 !
 #include "set_bounds.h"
 !
@@ -727,7 +731,13 @@
       CALL MCT_isend (AttrVect_G(ng)%ocn2atm_AV,                        &
      &                Router_A(ng,ia)%ROMStoWRF, Tag)
 #endif
+      !CR: temporizando waits:
+      MCT_Waits_ntimes = MCT_Waits_ntimes + 1
+      t_MCT_Waits = -MPI_Wtime()
       CALL MCT_waits (Router_A(ng,ia)%ROMStoWRF)
+      t_MCT_Waits = t_MCT_Waits + MPI_Wtime()
+      write(unid_arqws+MyRank, "(f20.6, i5)") t_MCT_Waits, MCT_Waits_ntimes
+      
       IF (MyError.ne.0) THEN
         IF (Master) THEN
           WRITE (stdout,20) 'atmosphere model, MyError = ', MyError
@@ -867,6 +877,11 @@
 !     real(r8), parameter ::  Large = 1.0E+20_r8
       real(r8), pointer :: A(:)
       real(r8), dimension(2) :: range
+      
+      
+      !CR:
+      integer :: MCT_Waitr_ntimes = 0, unid_arqwr = 60000
+      real(r8) :: t_MCT_Waitr = 0.0
 
       character (len=40) :: code
 #ifdef DISTRIBUTE
@@ -917,8 +932,14 @@
       CALL MCT_irecv (AV2_A(ng,ia)%atm2ocn_AV2,                         &
      &                Router_A(ng,ia)%ROMStoWRF, Tag)
 !     Wait to make sure the WRF data has arrived.
+      !CR: Temporizando wait:
+      MCT_Waitr_ntimes = MCT_Waitr_ntimes +1
+      t_MCT_Waitr = -MPI_Wtime()
       CALL MCT_waitr (AV2_A(ng,ia)%atm2ocn_AV2,                         &
      &                Router_A(ng,ia)%ROMStoWRF)
+      t_MCT_Waitr = t_MCT_Waitr + MPI_Wtime()
+      write(unid_arqwr+MyRank, "(f20.6, i5)") t_MCT_Waitr, MCT_Waitr_ntimes
+          
       CALL MCT_MatVecMul(AV2_A(ng,ia)%atm2ocn_AV2,                      &
      &                   SMPlus_A(ng,ia)%A2OMatPlus,                    &
      &                   AttrVect_G(ng)%atm2ocn_AV)

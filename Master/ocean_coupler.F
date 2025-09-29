@@ -228,6 +228,10 @@
       TYPE (T_SMPlus_H), ALLOCATABLE :: SMPlus_H(:,:)
 # endif
 
+      !CR: variables:
+      real*8  :: t_entre_acpl_ocnfatm_coupling = 0.0
+      integer :: ocnfatm_coupling_ntimes =0
+
       CONTAINS
 /*
 ************************************************************************
@@ -280,8 +284,7 @@
       !CR: variables:
       integer :: MyError, nprocs, tile
       integer :: ng, iw, ia, ig, ih, nlay, offset
-      integer :: unid_arq = 30000, ocnfatm_coupling_ntimes =0
-      real*8  :: t_entre_acpl_ocnfatm_coupling = 0.0, tmed_entre_acpl_ocnfatm_coupling = 0.0
+      integer :: unid_arq = 30000
       
 !
 !-----------------------------------------------------------------------
@@ -324,7 +327,7 @@
               IF (MOD(iic(1)+offset,nOCN2ATM(1,1)).eq.0) THEN
                 DO tile=first_tile(ng),last_tile(ng),+1
                   CALL ocn2atm_coupling (ng, ia, tile)
-                  t_entre_acpl_ocnfatm_coupling = t_entre_acpl_ocnfatm_coupling - MPI_Wtime()
+                  t_entre_acpl_ocnfatm_coupling = - MPI_Wtime()
                   ocnfatm_coupling_ntimes = ocnfatm_coupling_ntimes + 1
                 END DO
               END IF

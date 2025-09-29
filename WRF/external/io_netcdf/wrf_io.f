@@ -714,21 +714,26 @@ subroutine FieldIO(IO,DataHandle,DateStr,Length,MemoryOrder &
   VStart(NDim+1) = TimeIndex
   VCount(NDim+1) = 1
 
+   !CR: comentando subrotinas de escritas nivel 1: call ext_ncd_RealFieldIO: nao deu certo aqui.
   ! Do not use SELECT statement here as sometimes WRF_REAL=WRF_DOUBLE
   IF (FieldType == WRF_REAL) THEN
     !print*, "CR: wrf_io.f, subroutine FieldIO, antes de ext_ncd_RealFieldIO 1"
+    !CR: comentando 1:
     call ext_ncd_RealFieldIO    (IO,NCID,VarID,VStart,VCount,XField,Status)
   ELSE IF (FieldType == WRF_DOUBLE) THEN
+    !CR: comentando 1:
     call ext_ncd_DoubleFieldIO  (IO,NCID,VarID,VStart,VCount,XField,Status)
   ELSE IF (FieldType == WRF_INTEGER) THEN
+    !CR: comentando 1:
     call ext_ncd_IntFieldIO     (IO,NCID,VarID,VStart,VCount,XField,Status)
   ELSE IF (FieldType == WRF_LOGICAL) THEN
+    !CR: comentando 1:
     call ext_ncd_LogicalFieldIO (IO,NCID,VarID,VStart,VCount,XField,Status)
     if(Status /= WRF_NO_ERR) return
   ELSE
 !for wrf_complex, double_complex
       Status = WRF_WARN_DATA_TYPE_NOT_FOUND
-      write(msg,*) 'Warning DATA TYPE NOT FOUND in ',"wrf_io.F90",', line', 731
+      write(msg,*) 'Warning DATA TYPE NOT FOUND in ',"wrf_io.F90",', line', 736
       call wrf_debug ( WARN , TRIM(msg))
       return
   END IF
@@ -1102,7 +1107,7 @@ LOGICAL FUNCTION ncd_ok_to_put_dom_ti( DataHandle )
     call ext_ncd_inquire_filename( DataHandle, fname, filestate, Status )
     IF ( Status /= WRF_NO_ERR ) THEN
       write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90", &
-                   ', line', 846
+                   ', line', 851
       call wrf_debug ( WARN , TRIM(msg) )
       retval = .FALSE.
     ELSE
@@ -1128,7 +1133,7 @@ LOGICAL FUNCTION ncd_ok_to_get_dom_ti( DataHandle )
     call ext_ncd_inquire_filename( DataHandle, fname, filestate, Status )
     IF ( Status /= WRF_NO_ERR ) THEN
       write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90", &
-                   ', line', 872
+                   ', line', 877
       call wrf_debug ( WARN , TRIM(msg) )
       retval = .FALSE.
     ELSE
@@ -1151,7 +1156,7 @@ LOGICAL FUNCTION ncd_is_first_operation( DataHandle )
     CALL GetDH( DataHandle, DH, Status )
     IF ( Status /= WRF_NO_ERR ) THEN
       write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90", &
-                   ', line', 895
+                   ', line', 900
       call wrf_debug ( WARN , TRIM(msg) )
       retval = .FALSE.
     ELSE
@@ -1528,13 +1533,13 @@ subroutine ext_ncd_open_for_read_commit(DataHandle, Status)
 
   if(WrfIOnotInitialized) then
     Status = WRF_IO_NOT_INITIALIZED
-    write(msg,*) 'ext_ncd_ioinit was not called ',"wrf_io.F90",', line', 1013
+    write(msg,*) 'ext_ncd_ioinit was not called ',"wrf_io.F90",', line', 1018
     call wrf_debug ( FATAL , msg)
     return
   endif
   call GetDH(DataHandle,DH,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 1019
+    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 1024
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
@@ -1576,13 +1581,13 @@ subroutine ext_ncd_open_for_read_begin( FileName, Comm, IOComm, SysDepInfo, Data
 
   if(WrfIOnotInitialized) then
     Status = WRF_IO_NOT_INITIALIZED 
-    write(msg,*) 'ext_ncd_ioinit was not called ',"wrf_io.F90",', line', 1064
+    write(msg,*) 'ext_ncd_ioinit was not called ',"wrf_io.F90",', line', 1069
     call wrf_debug ( FATAL , msg)
     return
   endif
   call allocHandle(DataHandle,DH,Comm,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Fatal ALLOCATION ERROR in ',"wrf_io.F90",', line', 1070 
+    write(msg,*) 'Fatal ALLOCATION ERROR in ',"wrf_io.F90",', line', 1075 
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
@@ -1590,53 +1595,53 @@ subroutine ext_ncd_open_for_read_begin( FileName, Comm, IOComm, SysDepInfo, Data
   stat = NF_OPEN(FileName, NF_NOWRITE, DH%NCID)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1078
+    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1083
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   stat = NF_INQ_VARID(DH%NCID,DH%TimesName,VarID)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1085
+    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1090
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   stat = NF_INQ_VAR(DH%NCID,VarID,DH%TimesName, XType, StoredDim, DimIDs, NAtts)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1092
+    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1097
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   if(XType/=NF_CHAR) then
     Status = WRF_WARN_TYPE_MISMATCH
-    write(msg,*) 'Warning TYPE MISMATCH in ',"wrf_io.F90",', line', 1098
+    write(msg,*) 'Warning TYPE MISMATCH in ',"wrf_io.F90",', line', 1103
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   stat = NF_INQ_DIMLEN(DH%NCID,DimIDs(1),VLen(1))  
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1105
+    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1110
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   if(VLen(1) /= DateStrLen) then
     Status = WRF_WARN_DATESTR_BAD_LENGTH
-    write(msg,*) 'Warning DATESTR BAD LENGTH in ',"wrf_io.F90",', line', 1111
+    write(msg,*) 'Warning DATESTR BAD LENGTH in ',"wrf_io.F90",', line', 1116
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   stat = NF_INQ_DIMLEN(DH%NCID,DimIDs(2),VLen(2))
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1118
+    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1123
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   if(VLen(2) > MaxTimes) then
     Status = WRF_ERR_FATAL_TOO_MANY_TIMES
-    write(msg,*) 'Fatal TOO MANY TIME VALUES in ',"wrf_io.F90",', line', 1124
+    write(msg,*) 'Fatal TOO MANY TIME VALUES in ',"wrf_io.F90",', line', 1129
     call wrf_debug ( FATAL , TRIM(msg))
     return
   endif
@@ -1645,14 +1650,14 @@ subroutine ext_ncd_open_for_read_begin( FileName, Comm, IOComm, SysDepInfo, Data
   stat = NF_GET_VARA_TEXT(DH%NCID,VarID,VStart,VLen,DH%Times)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1133
+    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1138
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   stat = NF_INQ_NVARS(DH%NCID,TotalNumVars)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1140
+    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1145
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
@@ -1661,7 +1666,7 @@ subroutine ext_ncd_open_for_read_begin( FileName, Comm, IOComm, SysDepInfo, Data
     stat = NF_INQ_VARNAME(DH%NCID,i,Name)
     call netcdf_err(stat,Status)
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1149
+      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1154
       call wrf_debug ( WARN , TRIM(msg))
       return
     elseif(Name(1:5) /= 'md___' .and. Name /= DH%TimesName) then
@@ -1713,66 +1718,66 @@ subroutine ext_ncd_open_for_update( FileName, Comm, IOComm, SysDepInfo, DataHand
 
   if(WrfIOnotInitialized) then
     Status = WRF_IO_NOT_INITIALIZED 
-    write(msg,*) 'ext_ncd_ioinit was not called ',"wrf_io.F90",', line', 1204
+    write(msg,*) 'ext_ncd_ioinit was not called ',"wrf_io.F90",', line', 1209
     call wrf_debug ( FATAL , msg)
     return
   endif
   call allocHandle(DataHandle,DH,Comm,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Fatal ALLOCATION ERROR in ',"wrf_io.F90",', line', 1210 
+    write(msg,*) 'Fatal ALLOCATION ERROR in ',"wrf_io.F90",', line', 1215 
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   stat = NF_OPEN(FileName, NF_WRITE, DH%NCID)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1217
+    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1222
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   stat = NF_INQ_VARID(DH%NCID,DH%TimesName,VarID)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1224
+    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1229
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   stat = NF_INQ_VAR(DH%NCID,VarID,DH%TimesName, XType, StoredDim, DimIDs, NAtts)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1231
+    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1236
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   if(XType/=NF_CHAR) then
     Status = WRF_WARN_TYPE_MISMATCH
-    write(msg,*) 'Warning TYPE MISMATCH in ',"wrf_io.F90",', line', 1237
+    write(msg,*) 'Warning TYPE MISMATCH in ',"wrf_io.F90",', line', 1242
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   stat = NF_INQ_DIMLEN(DH%NCID,DimIDs(1),VLen(1))  
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1244
+    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1249
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   if(VLen(1) /= DateStrLen) then
     Status = WRF_WARN_DATESTR_BAD_LENGTH
-    write(msg,*) 'Warning DATESTR BAD LENGTH in ',"wrf_io.F90",', line', 1250
+    write(msg,*) 'Warning DATESTR BAD LENGTH in ',"wrf_io.F90",', line', 1255
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   stat = NF_INQ_DIMLEN(DH%NCID,DimIDs(2),VLen(2))
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1257
+    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1262
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   if(VLen(2) > MaxTimes) then
     Status = WRF_ERR_FATAL_TOO_MANY_TIMES
-    write(msg,*) 'Fatal TOO MANY TIME VALUES in ',"wrf_io.F90",', line', 1263
+    write(msg,*) 'Fatal TOO MANY TIME VALUES in ',"wrf_io.F90",', line', 1268
     call wrf_debug ( FATAL , TRIM(msg))
     return
   endif
@@ -1781,14 +1786,14 @@ subroutine ext_ncd_open_for_update( FileName, Comm, IOComm, SysDepInfo, DataHand
   stat = NF_GET_VARA_TEXT(DH%NCID,VarID,VStart,VLen,DH%Times)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1272
+    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1277
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   stat = NF_INQ_NVARS(DH%NCID,TotalNumVars)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1279
+    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1284
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
@@ -1797,7 +1802,7 @@ subroutine ext_ncd_open_for_update( FileName, Comm, IOComm, SysDepInfo, DataHand
     stat = NF_INQ_VARNAME(DH%NCID,i,Name)
     call netcdf_err(stat,Status)
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1288
+      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1293
       call wrf_debug ( WARN , TRIM(msg))
       return
     elseif(Name(1:5) /= 'md___' .and. Name /= DH%TimesName) then
@@ -1841,13 +1846,13 @@ SUBROUTINE ext_ncd_open_for_write_begin(FileName,Comm,IOComm,SysDepInfo,DataHand
 
   if(WrfIOnotInitialized) then
     Status = WRF_IO_NOT_INITIALIZED 
-    write(msg,*) 'ext_ncd_open_for_write_begin: ext_ncd_ioinit was not called ',"wrf_io.F90",', line', 1338
+    write(msg,*) 'ext_ncd_open_for_write_begin: ext_ncd_ioinit was not called ',"wrf_io.F90",', line', 1343
     call wrf_debug ( FATAL , msg)
     return
   endif
   call allocHandle(DataHandle,DH,Comm,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Fatal ALLOCATION ERROR in ext_ncd_open_for_write_begin ',"wrf_io.F90",', line', 1344
+    write(msg,*) 'Fatal ALLOCATION ERROR in ext_ncd_open_for_write_begin ',"wrf_io.F90",', line', 1349
     call wrf_debug ( FATAL , TRIM(msg))
     return
   endif
@@ -1860,7 +1865,7 @@ SUBROUTINE ext_ncd_open_for_write_begin(FileName,Comm,IOComm,SysDepInfo,DataHand
   stat = NF_CREATE(FileName, IOR(NF_CLOBBER,NF_64BIT_OFFSET), DH%NCID)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ext_ncd_open_for_write_begin ',"wrf_io.F90",', line', 1382
+    write(msg,*) 'NetCDF error in ext_ncd_open_for_write_begin ',"wrf_io.F90",', line', 1387
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
@@ -1869,7 +1874,7 @@ SUBROUTINE ext_ncd_open_for_write_begin(FileName,Comm,IOComm,SysDepInfo,DataHand
   stat = NF_DEF_DIM(DH%NCID,DH%DimUnlimName,NF_UNLIMITED,DH%DimUnlimID)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ext_ncd_open_for_write_begin ',"wrf_io.F90",', line', 1391
+    write(msg,*) 'NetCDF error in ext_ncd_open_for_write_begin ',"wrf_io.F90",', line', 1396
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
@@ -1884,7 +1889,7 @@ SUBROUTINE ext_ncd_open_for_write_begin(FileName,Comm,IOComm,SysDepInfo,DataHand
   stat = NF_DEF_DIM(DH%NCID,DH%DimNames(1),DateStrLen,DH%DimIDs(1))
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ext_ncd_open_for_write_begin ',"wrf_io.F90",', line', 1406
+    write(msg,*) 'NetCDF error in ext_ncd_open_for_write_begin ',"wrf_io.F90",', line', 1411
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
@@ -1893,7 +1898,7 @@ SUBROUTINE ext_ncd_open_for_write_begin(FileName,Comm,IOComm,SysDepInfo,DataHand
   stat = NF_DEF_VAR(DH%NCID,DH%TimesName,NF_CHAR,2,VDimIDs,DH%TimesVarID)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ext_ncd_open_for_write_begin ',"wrf_io.F90",', line', 1415
+    write(msg,*) 'NetCDF error in ext_ncd_open_for_write_begin ',"wrf_io.F90",', line', 1420
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
@@ -1945,20 +1950,20 @@ SUBROUTINE ext_ncd_open_for_write_commit(DataHandle, Status)
 
   if(WrfIOnotInitialized) then
     Status = WRF_IO_NOT_INITIALIZED 
-    write(msg,*) 'ext_ncd_open_for_write_commit: ext_ncd_ioinit was not called ',"wrf_io.F90",', line', 1467
+    write(msg,*) 'ext_ncd_open_for_write_commit: ext_ncd_ioinit was not called ',"wrf_io.F90",', line', 1472
     call wrf_debug ( FATAL , msg)
     return
   endif
   call GetDH(DataHandle,DH,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning Status = ',Status,' in ext_ncd_open_for_write_commit ',"wrf_io.F90",', line', 1473
+    write(msg,*) 'Warning Status = ',Status,' in ext_ncd_open_for_write_commit ',"wrf_io.F90",', line', 1478
     call wrf_debug ( WARN , TRIM(msg)) 
     return
   endif
   if ( DH%nofill ) then
     Status = NF_SET_FILL(DH%NCID,NF_NOFILL, oldmode )
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'Warning Status = ',Status,' from NF_SET_FILL ',"wrf_io.F90",', line', 1480
+      write(msg,*) 'Warning Status = ',Status,' from NF_SET_FILL ',"wrf_io.F90",', line', 1485
       call wrf_debug ( WARN , TRIM(msg)) 
       return
     endif
@@ -1968,7 +1973,7 @@ SUBROUTINE ext_ncd_open_for_write_commit(DataHandle, Status)
   stat = NF_ENDDEF(DH%NCID)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ext_ncd_open_for_write_commit ',"wrf_io.F90",', line', 1490
+    write(msg,*) 'NetCDF error in ext_ncd_open_for_write_commit ',"wrf_io.F90",', line', 1495
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
@@ -1990,17 +1995,17 @@ subroutine ext_ncd_ioclose(DataHandle, Status)
 
   call GetDH(DataHandle,DH,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning Status = ',Status,' in ext_ncd_ioclose ',"wrf_io.F90",', line', 1512
+    write(msg,*) 'Warning Status = ',Status,' in ext_ncd_ioclose ',"wrf_io.F90",', line', 1517
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   if(DH%FileStatus == WRF_FILE_NOT_OPENED) then
     Status = WRF_WARN_FILE_NOT_OPENED
-    write(msg,*) 'Warning FILE NOT OPENED in ext_ncd_ioclose ',"wrf_io.F90",', line', 1518
+    write(msg,*) 'Warning FILE NOT OPENED in ext_ncd_ioclose ',"wrf_io.F90",', line', 1523
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_NOT_COMMITTED) then
     Status = WRF_WARN_DRYRUN_CLOSE
-    write(msg,*) 'Warning TRY TO CLOSE DRYRUN in ext_ncd_ioclose ',"wrf_io.F90",', line', 1522
+    write(msg,*) 'Warning TRY TO CLOSE DRYRUN in ext_ncd_ioclose ',"wrf_io.F90",', line', 1527
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_WRITE) then
     continue    
@@ -2010,7 +2015,7 @@ subroutine ext_ncd_ioclose(DataHandle, Status)
     continue
   else
     Status = WRF_ERR_FATAL_BAD_FILE_STATUS
-    write(msg,*) 'Fatal error BAD FILE STATUS in ext_ncd_ioclose ',"wrf_io.F90",', line', 1532
+    write(msg,*) 'Fatal error BAD FILE STATUS in ext_ncd_ioclose ',"wrf_io.F90",', line', 1537
     call wrf_debug ( FATAL , TRIM(msg))
     return
   endif
@@ -2020,7 +2025,7 @@ subroutine ext_ncd_ioclose(DataHandle, Status)
   stat = NF_CLOSE(DH%NCID)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ext_ncd_ioclose ',"wrf_io.F90",', line', 1542
+    write(msg,*) 'NetCDF error in ext_ncd_ioclose ',"wrf_io.F90",', line', 1547
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
@@ -2042,17 +2047,17 @@ subroutine ext_ncd_iosync( DataHandle, Status)
 
   call GetDH(DataHandle,DH,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning Status = ',Status,' in ext_ncd_iosync ',"wrf_io.F90",', line', 1564
+    write(msg,*) 'Warning Status = ',Status,' in ext_ncd_iosync ',"wrf_io.F90",', line', 1569
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   if(DH%FileStatus == WRF_FILE_NOT_OPENED) then
     Status = WRF_WARN_FILE_NOT_OPENED
-    write(msg,*) 'Warning FILE NOT OPENED in ext_ncd_iosync ',"wrf_io.F90",', line', 1570
+    write(msg,*) 'Warning FILE NOT OPENED in ext_ncd_iosync ',"wrf_io.F90",', line', 1575
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_NOT_COMMITTED) then
     Status = WRF_WARN_FILE_NOT_COMMITTED
-    write(msg,*) 'Warning FILE NOT COMMITTED in ext_ncd_iosync ',"wrf_io.F90",', line', 1574
+    write(msg,*) 'Warning FILE NOT COMMITTED in ext_ncd_iosync ',"wrf_io.F90",', line', 1579
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_WRITE) then
     continue
@@ -2060,14 +2065,14 @@ subroutine ext_ncd_iosync( DataHandle, Status)
     continue
   else
     Status = WRF_ERR_FATAL_BAD_FILE_STATUS
-    write(msg,*) 'Fatal error BAD FILE STATUS in ext_ncd_iosync ',"wrf_io.F90",', line', 1582
+    write(msg,*) 'Fatal error BAD FILE STATUS in ext_ncd_iosync ',"wrf_io.F90",', line', 1587
     call wrf_debug ( FATAL , TRIM(msg))
     return
   endif
   stat = NF_SYNC(DH%NCID)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ext_ncd_iosync ',"wrf_io.F90",', line', 1589
+    write(msg,*) 'NetCDF error in ext_ncd_iosync ',"wrf_io.F90",', line', 1594
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
@@ -2089,17 +2094,17 @@ subroutine ext_ncd_redef( DataHandle, Status)
 
   call GetDH(DataHandle,DH,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 1611
+    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 1616
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   if(DH%FileStatus == WRF_FILE_NOT_OPENED) then
     Status = WRF_WARN_FILE_NOT_OPENED
-    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 1617
+    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 1622
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_NOT_COMMITTED) then
     Status = WRF_WARN_FILE_NOT_COMMITTED
-    write(msg,*) 'Warning FILE NOT COMMITTED in ',"wrf_io.F90",', line', 1621
+    write(msg,*) 'Warning FILE NOT COMMITTED in ',"wrf_io.F90",', line', 1626
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_WRITE) then
     continue
@@ -2107,18 +2112,18 @@ subroutine ext_ncd_redef( DataHandle, Status)
     continue
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_READ) then
     Status = WRF_WARN_FILE_OPEN_FOR_READ
-    write(msg,*) 'Warning FILE OPEN FOR READ in ',"wrf_io.F90",', line', 1629
+    write(msg,*) 'Warning FILE OPEN FOR READ in ',"wrf_io.F90",', line', 1634
     call wrf_debug ( WARN , TRIM(msg))
   else
     Status = WRF_ERR_FATAL_BAD_FILE_STATUS
-    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 1633
+    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 1638
     call wrf_debug ( FATAL , TRIM(msg))
     return
   endif
   stat = NF_REDEF(DH%NCID)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1640
+    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1645
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
@@ -2139,34 +2144,34 @@ subroutine ext_ncd_enddef( DataHandle, Status)
 
   call GetDH(DataHandle,DH,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 1661
+    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 1666
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   if(DH%FileStatus == WRF_FILE_NOT_OPENED) then
     Status = WRF_WARN_FILE_NOT_OPENED
-    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 1667
+    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 1672
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_NOT_COMMITTED) then
     Status = WRF_WARN_FILE_NOT_COMMITTED
-    write(msg,*) 'Warning FILE NOT COMMITTED in ',"wrf_io.F90",', line', 1671
+    write(msg,*) 'Warning FILE NOT COMMITTED in ',"wrf_io.F90",', line', 1676
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_WRITE) then
     continue
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_READ) then
     Status = WRF_WARN_FILE_OPEN_FOR_READ
-    write(msg,*) 'Warning FILE OPEN FOR READ in ',"wrf_io.F90",', line', 1677
+    write(msg,*) 'Warning FILE OPEN FOR READ in ',"wrf_io.F90",', line', 1682
     call wrf_debug ( WARN , TRIM(msg))
   else
     Status = WRF_ERR_FATAL_BAD_FILE_STATUS
-    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 1681
+    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 1686
     call wrf_debug ( FATAL , TRIM(msg))
     return
   endif
   stat = NF_ENDDEF(DH%NCID)
   call netcdf_err(stat,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1688
+    write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 1693
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
@@ -2237,7 +2242,7 @@ subroutine ext_ncd_ioexit(Status)
   integer                           :: stat
   if(WrfIOnotInitialized) then
     Status = WRF_IO_NOT_INITIALIZED 
-    write(msg,*) 'ext_ncd_ioinit was not called ',"wrf_io.F90",', line', 1759
+    write(msg,*) 'ext_ncd_ioinit was not called ',"wrf_io.F90",', line', 1764
     call wrf_debug ( FATAL , msg)
     return
   endif
@@ -7316,21 +7321,21 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
   NullName=char(0)
   call GetDim(MemoryOrder,NDim,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning BAD MEMORY ORDER |',MemoryOrder,'| in ',"wrf_io.F90",', line', 2492
+    write(msg,*) 'Warning BAD MEMORY ORDER |',MemoryOrder,'| in ',"wrf_io.F90",', line', 2497
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
 
   call DateCheck(DateStr,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning DATE STRING ERROR |',DateStr,'| in ',"wrf_io.F90",', line', 2499 
+    write(msg,*) 'Warning DATE STRING ERROR |',DateStr,'| in ',"wrf_io.F90",', line', 2504 
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   VarName = Var
   call GetDH(DataHandle,DH,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 2506
+    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 2511
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
@@ -7359,17 +7364,17 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
   call ExtOrderStr(MemoryOrder,DimNames,RODimNames,Status)
   if(DH%FileStatus == WRF_FILE_NOT_OPENED) then
     Status = WRF_WARN_FILE_NOT_OPENED
-    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 2543 
+    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 2548 
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_READ) then
     Status = WRF_WARN_WRITE_RONLY_FILE
-    write(msg,*) 'Warning WRITE READ ONLY FILE in ',"wrf_io.F90",', line', 2547 
+    write(msg,*) 'Warning WRITE READ ONLY FILE in ',"wrf_io.F90",', line', 2552 
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_NOT_COMMITTED) then
     do NVar=1,MaxVars
       if(DH%VarNames(NVar) == VarName ) then
         Status = WRF_WARN_2DRYRUNS_1VARIABLE
-        write(msg,*) 'Warning 2 DRYRUNS 1 VARIABLE in ',"wrf_io.F90",', line', 2553 
+        write(msg,*) 'Warning 2 DRYRUNS 1 VARIABLE in ',"wrf_io.F90",', line', 2558 
         call wrf_debug ( WARN , TRIM(msg))
         return
       elseif(DH%VarNames(NVar) == NO_NAME) then
@@ -7378,7 +7383,7 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
         exit
       elseif(NVar == MaxVars) then
         Status = WRF_WARN_TOO_MANY_VARIABLES
-        write(msg,*) 'Warning TOO MANY VARIABLES in ',"wrf_io.F90",', line', 2562 
+        write(msg,*) 'Warning TOO MANY VARIABLES in ',"wrf_io.F90",', line', 2567 
         call wrf_debug ( WARN , TRIM(msg))
         return
       endif
@@ -7392,7 +7397,7 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
             stat = NF_DEF_DIM(NCID,DH%DimNames(i),Length(j),DH%DimIDs(i))
             call netcdf_err(stat,Status)
             if(Status /= WRF_NO_ERR) then
-              write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 2576
+              write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 2581
               call wrf_debug ( WARN , TRIM(msg))
               return
             endif
@@ -7400,7 +7405,7 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
             exit
           elseif(i == MaxDims) then
             Status = WRF_WARN_TOO_MANY_DIMS
-            write(msg,*) 'Warning TOO MANY DIMENSIONS in ',"wrf_io.F90",', line', 2584 
+            write(msg,*) 'Warning TOO MANY DIMENSIONS in ',"wrf_io.F90",', line', 2589 
             call wrf_debug ( WARN , TRIM(msg))
             return
           endif
@@ -7415,7 +7420,7 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
             else
               Status = WRF_WARN_DIMNAME_REDEFINED
               write(msg,*) 'Warning DIM ',i,', NAME ',TRIM(DH%DimNames(i)),' REDEFINED  by var ', &
-                           TRIM(Var),' ',DH%DimLengths(i),Length(j) ,' in ', "wrf_io.F90" ,' line', 2599 
+                           TRIM(Var),' ',DH%DimLengths(i),Length(j) ,' in ', "wrf_io.F90" ,' line', 2604 
               call wrf_debug ( WARN , TRIM(msg))
               return
             endif
@@ -7428,7 +7433,7 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
               stat = NF_DEF_DIM(NCID,DH%DimNames(i),Length(j),DH%DimIDs(i))
               call netcdf_err(stat,Status)
               if(Status /= WRF_NO_ERR) then
-                write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 2612
+                write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 2617
                 call wrf_debug ( WARN , TRIM(msg))
                 return
               endif
@@ -7436,7 +7441,7 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
               exit
             elseif(i == MaxDims) then
               Status = WRF_WARN_TOO_MANY_DIMS
-              write(msg,*) 'Warning TOO MANY DIMENSIONS in ',"wrf_io.F90",', line', 2620 
+              write(msg,*) 'Warning TOO MANY DIMENSIONS in ',"wrf_io.F90",', line', 2625 
               call wrf_debug ( WARN , TRIM(msg))
               return
             endif
@@ -7459,7 +7464,7 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
       XType = NF_INT
     ELSE
         Status = WRF_WARN_DATA_TYPE_NOT_FOUND
-        write(msg,*) 'Warning DATA TYPE NOT FOUND in ',"wrf_io.F90",', line', 2643 
+        write(msg,*) 'Warning DATA TYPE NOT FOUND in ',"wrf_io.F90",', line', 2648 
         call wrf_debug ( WARN , TRIM(msg))
         return
     END IF
@@ -7467,7 +7472,7 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
     stat = NF_DEF_VAR(NCID,VarName,XType,NDim+1,VDimIDs,VarID)
     call netcdf_err(stat,Status)
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'ext_ncd_write_field: NetCDF error for ',TRIM(VarName),' in ',"wrf_io.F90",', line', 2651
+      write(msg,*) 'ext_ncd_write_field: NetCDF error for ',TRIM(VarName),' in ',"wrf_io.F90",', line', 2656
       call wrf_debug ( WARN , TRIM(msg))
       return
     endif
@@ -7477,7 +7482,7 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
     stat = NF_PUT_ATT_INT(NCID,VarID,'FieldType',NF_INT,1,FieldType)
     call netcdf_err(stat,Status)
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'ext_ncd_write_field: NetCDF error in ',"wrf_io.F90",', line', 2707 
+      write(msg,*) 'ext_ncd_write_field: NetCDF error in ',"wrf_io.F90",', line', 2712 
       call wrf_debug ( WARN , TRIM(msg))
       return
     endif
@@ -7486,7 +7491,7 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
     stat = NF_PUT_ATT_TEXT(NCID,VarID,'MemoryOrder',3,UCMemO)
     call netcdf_err(stat,Status)
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'ext_ncd_write_field: NetCDF error in ',"wrf_io.F90",', line', 2716 
+      write(msg,*) 'ext_ncd_write_field: NetCDF error in ',"wrf_io.F90",', line', 2721 
       call wrf_debug ( WARN , TRIM(msg))
       return
     endif
@@ -7496,7 +7501,7 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
         exit
       elseif(NVar == DH%NumVars) then
         Status = WRF_WARN_VAR_NF
-        write(msg,*) 'Warning VARIABLE NOT FOUND in ',"wrf_io.F90",', line', 2726 
+        write(msg,*) 'Warning VARIABLE NOT FOUND in ',"wrf_io.F90",', line', 2731 
         call wrf_debug ( WARN , TRIM(msg))
         return
       endif
@@ -7506,7 +7511,7 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
       if(Length(j) /= DH%VarDimLens(j,NVar) .AND. DH%FileStatus /= WRF_FILE_OPENED_FOR_UPDATE ) then
         Status = WRF_WARN_WRTLEN_NE_DRRUNLEN
         write(msg,*) 'Warning LENGTH != DRY RUN LENGTH for |',   &
-                     VarName,'| dim ',j,' in ',"wrf_io.F90",', line', 2736 
+                     VarName,'| dim ',j,' in ',"wrf_io.F90",', line', 2741 
         call wrf_debug ( WARN , TRIM(msg))
         write(msg,*) '   LENGTH ',Length(j),' DRY RUN LENGTH ',DH%VarDimLens(j,NVar)
         call wrf_debug ( WARN , TRIM(msg))
@@ -7515,7 +7520,7 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
       elseif(PatchStart(j) < MemoryStart(j)) then
         Status = WRF_WARN_DIMENSION_ERROR
         write(msg,*) 'Warning DIMENSION ERROR for |',VarName,    &
-                     '| in ',"wrf_io.F90",', line', 2745 
+                     '| in ',"wrf_io.F90",', line', 2750 
         call wrf_debug ( WARN , TRIM(msg))
         return
       endif
@@ -7529,7 +7534,7 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
     allocate(XField(di,x1:x2,y1:y2,z1:z2), STAT=stat)
     if(stat/= 0) then
       Status = WRF_ERR_FATAL_ALLOCATION_ERROR
-      write(msg,*) 'Fatal ALLOCATION ERROR in ',"wrf_io.F90",', line', 2759
+      write(msg,*) 'Fatal ALLOCATION ERROR in ',"wrf_io.F90",', line', 2764
       call wrf_debug ( FATAL , TRIM(msg))
       return
     endif
@@ -7546,20 +7551,20 @@ subroutine ext_ncd_write_field(DataHandle,DateStr,Var,Field,FieldTypeIn,  &
                   FieldType,NCID,VarID,XField,Status)
            !print*, "CR: wrf_io.F90, sub ext_ncd_write_field, depois de call FieldIO"
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 2776 
+      write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 2781 
       call wrf_debug ( WARN , TRIM(msg))
       return
     endif
     deallocate(XField, STAT=stat)
     if(stat/= 0) then
       Status = WRF_ERR_FATAL_DEALLOCATION_ERR
-      write(msg,*) 'Fatal DEALLOCATION ERROR in ',"wrf_io.F90",', line', 2783
+      write(msg,*) 'Fatal DEALLOCATION ERROR in ',"wrf_io.F90",', line', 2788
       call wrf_debug ( FATAL , TRIM(msg))
       return
     endif
   else
     Status = WRF_ERR_FATAL_BAD_FILE_STATUS
-    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 2789 
+    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 2794 
     call wrf_debug ( FATAL , TRIM(msg))
   endif
   DH%first_operation  = .FALSE.
@@ -7623,38 +7628,38 @@ subroutine ext_ncd_read_field(DataHandle,DateStr,Var,Field,FieldType,Comm,  &
   call GetDim(MemoryOrder,NDim,Status)
   if(Status /= WRF_NO_ERR) then
     write(msg,*) 'Warning BAD MEMORY ORDER |',TRIM(MemoryOrder),'| for |', &
-                 TRIM(Var),'| in ext_ncd_read_field ',"wrf_io.F90",', line', 2853
+                 TRIM(Var),'| in ext_ncd_read_field ',"wrf_io.F90",', line', 2858
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   call DateCheck(DateStr,Status)
   if(Status /= WRF_NO_ERR) then
     write(msg,*) 'Warning DATE STRING ERROR |',TRIM(DateStr),'| for |',TRIM(Var), &
-                 '| in ext_ncd_read_field ',"wrf_io.F90",', line', 2860 
+                 '| in ext_ncd_read_field ',"wrf_io.F90",', line', 2865 
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   VarName = Var
   call GetDH(DataHandle,DH,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning Status = ',Status,' in ext_ncd_read_field ',"wrf_io.F90",', line', 2867
+    write(msg,*) 'Warning Status = ',Status,' in ext_ncd_read_field ',"wrf_io.F90",', line', 2872
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   if(DH%FileStatus == WRF_FILE_NOT_OPENED) then
     Status = WRF_WARN_FILE_NOT_OPENED
-    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 2873 
+    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 2878 
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_NOT_COMMITTED) then
 ! jm it is okay to have a dry run read. means read is called between ofrb and ofrc. Just return.
 !    Status = WRF_WARN_DRYRUN_READ
-!    write(msg,*) 'Warning DRYRUN READ in ',"wrf_io.F90",', line', 2878 
+!    write(msg,*) 'Warning DRYRUN READ in ',"wrf_io.F90",', line', 2883 
 !    call wrf_debug ( WARN , TRIM(msg))
     Status = WRF_NO_ERR
     RETURN
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_WRITE) then
     Status = WRF_WARN_READ_WONLY_FILE
-    write(msg,*) 'Warning READ WRITE ONLY FILE in ',"wrf_io.F90",', line', 2884 
+    write(msg,*) 'Warning READ WRITE ONLY FILE in ',"wrf_io.F90",', line', 2889 
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_READ .OR. DH%FileStatus == WRF_FILE_OPENED_FOR_UPDATE ) then
     NCID = DH%NCID
@@ -7665,21 +7670,21 @@ subroutine ext_ncd_read_field(DataHandle,DateStr,Var,Field,FieldType,Comm,  &
     stat = NF_INQ_VARID(NCID,VarName,VarID)
     call netcdf_err(stat,Status)
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 2895,' Varname ',Varname
+      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 2900,' Varname ',Varname
       call wrf_debug ( WARN , TRIM(msg))
       return
     endif
     stat = NF_INQ_VAR(NCID,VarID,Name,XType,StoredDim,VDimIDs,NAtts)
     call netcdf_err(stat,Status)
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 2902 
+      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 2907 
       call wrf_debug ( WARN , TRIM(msg))
       return
     endif
     stat = NF_GET_ATT_INT(NCID,VarID,'FieldType',FType)
     call netcdf_err(stat,Status)
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 2909 
+      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 2914 
       call wrf_debug ( WARN , TRIM(msg))
       return
     endif
@@ -7688,13 +7693,13 @@ subroutine ext_ncd_read_field(DataHandle,DateStr,Var,Field,FieldType,Comm,  &
     if( (FieldType == WRF_REAL .OR. FieldType == WRF_DOUBLE) ) then
       if ( .NOT. (Ftype     == WRF_REAL .OR. Ftype     == WRF_DOUBLE ))  then
         Status = WRF_WARN_TYPE_MISMATCH
-        write(msg,*) 'Warning TYPE MISMATCH in ',"wrf_io.F90",', line', 2918
+        write(msg,*) 'Warning TYPE MISMATCH in ',"wrf_io.F90",', line', 2923
         call wrf_debug ( WARN , TRIM(msg))
         return
       endif
     else if(FieldType /= Ftype) then
       Status = WRF_WARN_TYPE_MISMATCH
-      write(msg,*) 'Warning TYPE MISMATCH in ',"wrf_io.F90",', line', 2924
+      write(msg,*) 'Warning TYPE MISMATCH in ',"wrf_io.F90",', line', 2929
       call wrf_debug ( WARN , TRIM(msg))
       return
     endif      
@@ -7704,27 +7709,27 @@ subroutine ext_ncd_read_field(DataHandle,DateStr,Var,Field,FieldType,Comm,  &
 ! allow coercion between double and single prec real
         if(.NOT. (XType == NF_FLOAT .OR. XType == NF_DOUBLE) )  then
           Status = WRF_WARN_TYPE_MISMATCH
-          write(msg,*) 'Warning REAL TYPE MISMATCH in ',"wrf_io.F90",', line', 2934
+          write(msg,*) 'Warning REAL TYPE MISMATCH in ',"wrf_io.F90",', line', 2939
         endif
     ELSE IF (FieldType == WRF_DOUBLE) THEN
 ! allow coercion between double and single prec real
         if(.NOT. (XType == NF_FLOAT .OR. XType == NF_DOUBLE) )  then
           Status = WRF_WARN_TYPE_MISMATCH
-          write(msg,*) 'Warning DOUBLE TYPE MISMATCH in ',"wrf_io.F90",', line', 2940
+          write(msg,*) 'Warning DOUBLE TYPE MISMATCH in ',"wrf_io.F90",', line', 2945
         endif
     ELSE IF (FieldType == WRF_INTEGER) THEN
         if(XType /= NF_INT)  then 
           Status = WRF_WARN_TYPE_MISMATCH
-          write(msg,*) 'Warning INTEGER TYPE MISMATCH in ',"wrf_io.F90",', line', 2945
+          write(msg,*) 'Warning INTEGER TYPE MISMATCH in ',"wrf_io.F90",', line', 2950
         endif
     ELSE IF (FieldType == WRF_LOGICAL) THEN
         if(XType /= NF_INT)  then
           Status = WRF_WARN_TYPE_MISMATCH
-          write(msg,*) 'Warning LOGICAL TYPE MISMATCH in ',"wrf_io.F90",', line', 2950
+          write(msg,*) 'Warning LOGICAL TYPE MISMATCH in ',"wrf_io.F90",', line', 2955
         endif
     ELSE
         Status = WRF_WARN_DATA_TYPE_NOT_FOUND
-        write(msg,*) 'Warning DATA TYPE NOT FOUND in ',"wrf_io.F90",', line', 2954
+        write(msg,*) 'Warning DATA TYPE NOT FOUND in ',"wrf_io.F90",', line', 2959
     END IF
 
     if(Status /= WRF_NO_ERR) then
@@ -7736,7 +7741,7 @@ subroutine ext_ncd_read_field(DataHandle,DateStr,Var,Field,FieldType,Comm,  &
       stat = NF_INQ_DIMNAME(NCID,VDimIDs(1),dimname)
       call netcdf_err(stat,Status)
       if(Status /= WRF_NO_ERR) then
-        write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 2966 
+        write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 2971 
         call wrf_debug ( WARN , TRIM(msg))
         return
       endif
@@ -7757,7 +7762,7 @@ subroutine ext_ncd_read_field(DataHandle,DateStr,Var,Field,FieldType,Comm,  &
       stat = NF_INQ_DIMLEN(NCID,VDimIDs(j),StoredLen(j))
       call netcdf_err(stat,Status)
       if(Status /= WRF_NO_ERR) then
-        write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 2987 
+        write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 2992 
         call wrf_debug ( WARN , TRIM(msg))
         return
       endif
@@ -7768,13 +7773,13 @@ subroutine ext_ncd_read_field(DataHandle,DateStr,Var,Field,FieldType,Comm,  &
         return
       elseif(Length(j) <= 0) then
         Status = WRF_WARN_ZERO_LENGTH_READ
-        write(msg,*) 'Warning ZERO LENGTH READ in ',"wrf_io.F90",', line', 2998
+        write(msg,*) 'Warning ZERO LENGTH READ in ',"wrf_io.F90",', line', 3003
         call wrf_debug ( WARN , TRIM(msg))
         return
       elseif(DomainStart(j) < MemoryStart(j)) then
         Status = WRF_WARN_DIMENSION_ERROR
         write(msg,*) 'Warning dim ',j,' DomainStart (',DomainStart(j), &
-                     ') < MemoryStart (',MemoryStart(j),') in ',"wrf_io.F90",', line', 3004
+                     ') < MemoryStart (',MemoryStart(j),') in ',"wrf_io.F90",', line', 3009
         call wrf_debug ( WARN , TRIM(msg))
 !        return
       endif
@@ -7791,14 +7796,14 @@ subroutine ext_ncd_read_field(DataHandle,DateStr,Var,Field,FieldType,Comm,  &
     allocate(XField(di,x1:x2,y1:y2,z1:z2), STAT=stat)
     if(stat/= 0) then
       Status = WRF_ERR_FATAL_ALLOCATION_ERROR
-      write(msg,*) 'Fatal ALLOCATION ERROR in ',"wrf_io.F90",', line', 3021
+      write(msg,*) 'Fatal ALLOCATION ERROR in ',"wrf_io.F90",', line', 3026
       call wrf_debug ( FATAL , msg)
       return
     endif
     call FieldIO('read',DataHandle,DateStr,Length,MemoryOrder, &
                   FieldType,NCID,VarID,XField,Status)
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 3028 
+      write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 3033 
       call wrf_debug ( WARN , TRIM(msg))
       return
     endif
@@ -7808,13 +7813,13 @@ subroutine ext_ncd_read_field(DataHandle,DateStr,Var,Field,FieldType,Comm,  &
     deallocate(XField, STAT=stat)
     if(stat/= 0) then
       Status = WRF_ERR_FATAL_DEALLOCATION_ERR
-      write(msg,*) 'Fatal DEALLOCATION ERROR in ',"wrf_io.F90",', line', 3038
+      write(msg,*) 'Fatal DEALLOCATION ERROR in ',"wrf_io.F90",', line', 3043
       call wrf_debug ( FATAL , msg)
       return
     endif
   else
     Status = WRF_ERR_FATAL_BAD_FILE_STATUS
-    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 3044 
+    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 3049 
     call wrf_debug ( FATAL , msg)
   endif
   DH%first_operation  = .FALSE.
@@ -7861,7 +7866,7 @@ subroutine ext_ncd_inquire_filename( Datahandle, FileName,  FileStatus, Status )
   FileStatus = WRF_FILE_NOT_OPENED
   call GetDH(DataHandle,DH,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 3091
+    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 3096
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
@@ -7884,27 +7889,27 @@ subroutine ext_ncd_set_time(DataHandle, DateStr, Status)
 
   call DateCheck(DateStr,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning DATE STRING ERROR in ',"wrf_io.F90",', line', 3114 
+    write(msg,*) 'Warning DATE STRING ERROR in ',"wrf_io.F90",', line', 3119 
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   call GetDH(DataHandle,DH,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 3120
+    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 3125
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   if(DH%FileStatus == WRF_FILE_NOT_OPENED) then
     Status = WRF_WARN_FILE_NOT_OPENED
-    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 3126 
+    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 3131 
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_NOT_COMMITTED) then
     Status = WRF_WARN_FILE_NOT_COMMITTED
-    write(msg,*) 'Warning FILE NOT COMMITTED in ',"wrf_io.F90",', line', 3130
+    write(msg,*) 'Warning FILE NOT COMMITTED in ',"wrf_io.F90",', line', 3135
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_WRITE) then
     Status = WRF_WARN_READ_WONLY_FILE
-    write(msg,*) 'Warning READ WRITE ONLY FILE in ',"wrf_io.F90",', line', 3134 
+    write(msg,*) 'Warning READ WRITE ONLY FILE in ',"wrf_io.F90",', line', 3139 
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_READ) then
     do i=1,MaxTimes
@@ -7921,7 +7926,7 @@ subroutine ext_ncd_set_time(DataHandle, DateStr, Status)
     Status = WRF_NO_ERR
   else
     Status = WRF_ERR_FATAL_BAD_FILE_STATUS
-    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 3151 
+    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 3156 
     call wrf_debug ( FATAL , msg)
   endif
   return
@@ -7939,21 +7944,21 @@ subroutine ext_ncd_get_next_time(DataHandle, DateStr, Status)
 
   call GetDH(DataHandle,DH,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 3169
+    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 3174
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   if(DH%FileStatus == WRF_FILE_NOT_OPENED) then
     Status = WRF_WARN_FILE_NOT_OPENED
-    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 3175 
+    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 3180 
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_NOT_COMMITTED) then
     Status = WRF_WARN_DRYRUN_READ
-    write(msg,*) 'Warning DRYRUN READ in ',"wrf_io.F90",', line', 3179 
+    write(msg,*) 'Warning DRYRUN READ in ',"wrf_io.F90",', line', 3184 
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_WRITE) then
     Status = WRF_WARN_READ_WONLY_FILE
-    write(msg,*) 'Warning READ WRITE ONLY FILE in ',"wrf_io.F90",', line', 3183 
+    write(msg,*) 'Warning READ WRITE ONLY FILE in ',"wrf_io.F90",', line', 3188 
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_READ .OR. DH%FileStatus == WRF_FILE_OPENED_FOR_UPDATE ) then
     if(DH%CurrentTime >= DH%NumberTimes) then
@@ -7968,7 +7973,7 @@ subroutine ext_ncd_get_next_time(DataHandle, DateStr, Status)
     Status = WRF_ERR_FATAL_BAD_FILE_STATUS
     write(msg,*) 'DH%FileStatus ',DH%FileStatus
     call wrf_debug ( FATAL , msg)
-    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 3198 
+    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 3203 
     call wrf_debug ( FATAL , msg)
   endif
   return
@@ -7986,21 +7991,21 @@ subroutine ext_ncd_get_previous_time(DataHandle, DateStr, Status)
 
   call GetDH(DataHandle,DH,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 3216
+    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 3221
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   if(DH%FileStatus == WRF_FILE_NOT_OPENED) then
     Status = WRF_WARN_FILE_NOT_OPENED
-    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 3222 
+    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 3227 
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_NOT_COMMITTED) then
     Status = WRF_WARN_DRYRUN_READ
-    write(msg,*) 'Warning DRYRUN READ in ',"wrf_io.F90",', line', 3226 
+    write(msg,*) 'Warning DRYRUN READ in ',"wrf_io.F90",', line', 3231 
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_WRITE) then
     Status = WRF_WARN_READ_WONLY_FILE
-    write(msg,*) 'Warning READ WRITE ONLY FILE in ',"wrf_io.F90",', line', 3230 
+    write(msg,*) 'Warning READ WRITE ONLY FILE in ',"wrf_io.F90",', line', 3235 
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_READ) then
     if(DH%CurrentTime.GT.0) then
@@ -8011,7 +8016,7 @@ subroutine ext_ncd_get_previous_time(DataHandle, DateStr, Status)
     Status = WRF_NO_ERR
   else
     Status = WRF_ERR_FATAL_BAD_FILE_STATUS
-    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 3241 
+    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 3246 
     call wrf_debug ( FATAL , msg)
   endif
   return
@@ -8032,21 +8037,21 @@ subroutine ext_ncd_get_next_var(DataHandle, VarName, Status)
 
   call GetDH(DataHandle,DH,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 3262
+    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 3267
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   if(DH%FileStatus == WRF_FILE_NOT_OPENED) then
     Status = WRF_WARN_FILE_NOT_OPENED
-    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 3268 
+    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 3273 
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_NOT_COMMITTED) then
     Status = WRF_WARN_DRYRUN_READ
-    write(msg,*) 'Warning DRYRUN READ in ',"wrf_io.F90",', line', 3272 
+    write(msg,*) 'Warning DRYRUN READ in ',"wrf_io.F90",', line', 3277 
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_WRITE) then
     Status = WRF_WARN_READ_WONLY_FILE
-    write(msg,*) 'Warning READ WRITE ONLY FILE in ',"wrf_io.F90",', line', 3276 
+    write(msg,*) 'Warning READ WRITE ONLY FILE in ',"wrf_io.F90",', line', 3281 
     call wrf_debug ( WARN , TRIM(msg))
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_READ .OR. DH%FileStatus == WRF_FILE_OPENED_FOR_UPDATE) then
 
@@ -8059,7 +8064,7 @@ subroutine ext_ncd_get_next_var(DataHandle, VarName, Status)
     Status  = WRF_NO_ERR
   else
     Status = WRF_ERR_FATAL_BAD_FILE_STATUS
-    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 3289 
+    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 3294 
     call wrf_debug ( FATAL , msg)
   endif
   return
@@ -8104,87 +8109,87 @@ subroutine ext_ncd_get_var_info(DataHandle,Name,NDim,MemoryOrder,Stagger,DomainS
 
   call GetDH(DataHandle,DH,Status)
   if(Status /= WRF_NO_ERR) then
-    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 3334
+    write(msg,*) 'Warning Status = ',Status,' in ',"wrf_io.F90",', line', 3339
     call wrf_debug ( WARN , TRIM(msg))
     return
   endif
   if(DH%FileStatus == WRF_FILE_NOT_OPENED) then
     Status = WRF_WARN_FILE_NOT_OPENED
-    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 3340 
+    write(msg,*) 'Warning FILE NOT OPENED in ',"wrf_io.F90",', line', 3345 
     call wrf_debug ( WARN , TRIM(msg))
     return
   elseif(DH%FileStatus == WRF_FILE_OPENED_NOT_COMMITTED) then
     Status = WRF_WARN_DRYRUN_READ
-    write(msg,*) 'Warning DRYRUN READ in ',"wrf_io.F90",', line', 3345 
+    write(msg,*) 'Warning DRYRUN READ in ',"wrf_io.F90",', line', 3350 
     call wrf_debug ( WARN , TRIM(msg))
     return
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_WRITE) then
     Status = WRF_WARN_READ_WONLY_FILE
-    write(msg,*) 'Warning READ WRITE ONLY FILE in ',"wrf_io.F90",', line', 3350 
+    write(msg,*) 'Warning READ WRITE ONLY FILE in ',"wrf_io.F90",', line', 3355 
     call wrf_debug ( WARN , TRIM(msg))
     return
   elseif(DH%FileStatus == WRF_FILE_OPENED_FOR_READ .OR. DH%FileStatus == WRF_FILE_OPENED_FOR_UPDATE) then
     stat = NF_INQ_VARID(DH%NCID,Name,VarID)
     call netcdf_err(stat,Status)
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 3357 
+      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 3362 
       call wrf_debug ( WARN , TRIM(msg))
       return
     endif
     stat = NF_INQ_VARTYPE(DH%NCID,VarID,XType)
     call netcdf_err(stat,Status)
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 3364 
+      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 3369 
       call wrf_debug ( WARN , TRIM(msg))
       return
     endif
     stat = NF_GET_ATT_INT(DH%NCID,VarID,'FieldType',WrfType)
     call netcdf_err(stat,Status)
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 3371 
+      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 3376 
       call wrf_debug ( WARN , TRIM(msg))
       return
     endif
     select case (XType)
       case (NF_BYTE)
         Status = WRF_WARN_BAD_DATA_TYPE
-        write(msg,*) 'Warning BYTE IS BAD DATA TYPE in ',"wrf_io.F90",', line', 3378 
+        write(msg,*) 'Warning BYTE IS BAD DATA TYPE in ',"wrf_io.F90",', line', 3383 
         call wrf_debug ( WARN , TRIM(msg))
         return
       case (NF_CHAR)
         Status = WRF_WARN_BAD_DATA_TYPE
-        write(msg,*) 'Warning CHAR IS BAD DATA TYPE in ',"wrf_io.F90",', line', 3383 
+        write(msg,*) 'Warning CHAR IS BAD DATA TYPE in ',"wrf_io.F90",', line', 3388 
         call wrf_debug ( WARN , TRIM(msg))
         return
       case (NF_SHORT)
         Status = WRF_WARN_BAD_DATA_TYPE
-        write(msg,*) 'Warning SHORT IS BAD DATA TYPE in ',"wrf_io.F90",', line', 3388 
+        write(msg,*) 'Warning SHORT IS BAD DATA TYPE in ',"wrf_io.F90",', line', 3393 
         call wrf_debug ( WARN , TRIM(msg))
         return
       case (NF_INT)
         if(WrfType /= WRF_INTEGER .and. WrfType /= WRF_LOGICAL) then
           Status = WRF_WARN_BAD_DATA_TYPE
-          write(msg,*) 'Warning BAD DATA TYPE in ',"wrf_io.F90",', line', 3394 
+          write(msg,*) 'Warning BAD DATA TYPE in ',"wrf_io.F90",', line', 3399 
           call wrf_debug ( WARN , TRIM(msg))
           return
         endif
       case (NF_FLOAT)
         if(WrfType /= WRF_REAL) then
           Status = WRF_WARN_BAD_DATA_TYPE
-          write(msg,*) 'Warning BAD DATA TYPE in ',"wrf_io.F90",', line', 3401 
+          write(msg,*) 'Warning BAD DATA TYPE in ',"wrf_io.F90",', line', 3406 
           call wrf_debug ( WARN , TRIM(msg))
           return
         endif
       case (NF_DOUBLE)
         if(WrfType /= WRF_DOUBLE) then
           Status = WRF_WARN_BAD_DATA_TYPE
-          write(msg,*) 'Warning BAD DATA TYPE in ',"wrf_io.F90",', line', 3408 
+          write(msg,*) 'Warning BAD DATA TYPE in ',"wrf_io.F90",', line', 3413 
           call wrf_debug ( WARN , TRIM(msg))
           return
         endif
       case default
         Status = WRF_WARN_DATA_TYPE_NOT_FOUND
-        write(msg,*) 'Warning DATA TYPE NOT FOUND in ',"wrf_io.F90",', line', 3414 
+        write(msg,*) 'Warning DATA TYPE NOT FOUND in ',"wrf_io.F90",', line', 3419 
         call wrf_debug ( WARN , TRIM(msg))
         return
     end select
@@ -8192,20 +8197,20 @@ subroutine ext_ncd_get_var_info(DataHandle,Name,NDim,MemoryOrder,Stagger,DomainS
     stat = NF_GET_ATT_TEXT(DH%NCID,VarID,'MemoryOrder',MemoryOrder)
     call netcdf_err(stat,Status)
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 3422 
+      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 3427 
       call wrf_debug ( WARN , TRIM(msg))
       return
     endif
     call GetDim(MemoryOrder,NDim,Status)
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'Warning BAD MEMORY ORDER ',TRIM(MemoryOrder),' in ',"wrf_io.F90",', line', 3428
+      write(msg,*) 'Warning BAD MEMORY ORDER ',TRIM(MemoryOrder),' in ',"wrf_io.F90",', line', 3433
       call wrf_debug ( WARN , TRIM(msg))
       return
     endif
     stat = NF_INQ_VARDIMID(DH%NCID,VarID,VDimIDs)
     call netcdf_err(stat,Status)
     if(Status /= WRF_NO_ERR) then
-      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 3435 
+      write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 3440 
       call wrf_debug ( WARN , TRIM(msg))
       return
     endif
@@ -8214,14 +8219,14 @@ subroutine ext_ncd_get_var_info(DataHandle,Name,NDim,MemoryOrder,Stagger,DomainS
       stat = NF_INQ_DIMLEN(DH%NCID,VDimIDs(j),DomainEnd(j))
       call netcdf_err(stat,Status)
       if(Status /= WRF_NO_ERR) then
-        write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 3444 
+        write(msg,*) 'NetCDF error in ',"wrf_io.F90",', line', 3449 
         call wrf_debug ( WARN , TRIM(msg))
         return
       endif
     enddo
   else
     Status = WRF_ERR_FATAL_BAD_FILE_STATUS
-    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 3451 
+    write(msg,*) 'Fatal error BAD FILE STATUS in ',"wrf_io.F90",', line', 3456 
     call wrf_debug ( FATAL , msg)
   endif
   return
