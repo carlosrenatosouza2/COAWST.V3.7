@@ -91,7 +91,7 @@
       real(m4) :: CouplingTime             ! single precision
       
       !CR:
-      integer  :: unid_arq = 1000
+      integer  :: unid_arq = 10000
       real(m8) :: t_entre_acpl_driver = 0.0, tmed_entre_acpl_driver = 0.0
 !
 !-----------------------------------------------------------------------
@@ -103,7 +103,7 @@
       CALL mpi_init (MyError)
       
       !CR:
-      t_entre_acpl_driver = t_entre_acpl_driver - MPI_WTime()
+      !t_entre_acpl_driver = t_entre_acpl_driver - MPI_WTime()
 
 !
 !  Get rank of the local process in the group associated with the
@@ -111,6 +111,9 @@
 !
       CALL mpi_comm_size (MPI_COMM_WORLD, Nnodes, MyError)
       CALL mpi_comm_rank (MPI_COMM_WORLD, MyRank, MyError)
+      !CR: linha do tempo:
+      t_entre_acpl_driver = MPI_WTime()
+      write(unid_arq+MyRank, "('inicio = ', f20.6)") t_entre_acpl_driver
 !
 !  Read in coupled model parameters from standard input.
 !
@@ -628,12 +631,10 @@
       CALL mpi_barrier (MPI_COMM_WORLD, MyError)
       CALL MCTWorld_clean ()
       !CR:
-      t_entre_acpl_driver = t_entre_acpl_driver + MPI_WTime()
-      call MPI_REDUCE(t_entre_acpl_driver,  tmed_entre_acpl_driver,  1, MPI_DOUBLE_PRECISION, MPI_SUM, 0, MPI_COMM_WORLD, MyError)
-      IF (MyRank.eq.0) THEN
-         tmed_entre_acpl_driver=tmed_entre_acpl_driver/Nnodes
-         write(unid_arq+MyRank, "('Driver time = ', f20.6)") tmed_entre_acpl_driver
-      endif
+      !t_entre_acpl_driver = t_entre_acpl_driver + MPI_WTime()
+      t_entre_acpl_driver = MPI_WTime()
+      write(unid_arq+MyRank, "('fim = ', f20.6)") t_entre_acpl_driver
+      
          
       CALL mpi_finalize (MyError)
 

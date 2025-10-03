@@ -8,31 +8,31 @@ echo $DIRHOME $WRFHOME
 nedit \
 ${DIRHOME}/Master/mct_driver.h \
 ${DIRHOME}/Build/master.f90 \
-${DIRHOME}/WRF/main/module_wrf_top.F \
-${DIRHOME}/WRF/main/module_wrf_top.f90 \
-${DIRHOME}/WRF/frame/module_integrate.F \
-${DIRHOME}/WRF/frame/module_integrate.f90 \
 ${DIRHOME}/WRF/frame/atm_coupler.F \
 ${DIRHOME}/WRF/frame/atm_coupler.f90 \
-${DIRHOME}/Lib/MCT/mct/m_Transfer.F90 \
-${DIRHOME}/Build/ocean_control.f90 \
-${DIRHOME}/Build/main3d.f90 \
-${DIRHOME}/Master/ocean_coupler.F \
 ${DIRHOME}/Master/mct_roms_wrf.h \
+${DIRHOME}/Master/ocean_coupler.F \
 ${DIRHOME}/Build/ocean_coupler.f90 \
-${DIRHOME}/Lib/MCT/mct/m_Transfer.F90 \
-${DIRHOME}/Projects/ATLSW12/wr_17022023-l/namelist.input \
-${DIRHOME}/Projects/ATLSW12/wr_17022023-l/ocean_ATLSW12.in \
-${DIRHOME}/Projects/ATLSW12/wr_17022023-l/coupling_ATLSW12.in \
 ${DIRHOME}/kit5_tempos_acoplamentos_waits.ksh &
 
 
+#${DIRHOME}/Master/ocean_coupler.F \
+#${DIRHOME}/Lib/MCT/mct/m_Transfer.F90 \
+#${DIRHOME}/Projects/ATLSW12/wr_17022023-l/namelist.input \
+#${DIRHOME}/Projects/ATLSW12/wr_17022023-l/ocean_ATLSW12.in \
+#${DIRHOME}/Projects/ATLSW12/wr_17022023-l/coupling_ATLSW12.in \
+#${DIRHOME}/Lib/MCT/mct/m_Transfer.F90 \
+#${DIRHOME}/Build/ocean_control.f90 \
+#${DIRHOME}/Build/main3d.f90 \
 
 
 
 
 
 
+
+#${DIRHOME}/WRF/main/module_wrf_top.F \
+#${DIRHOME}/WRF/main/module_wrf_top.f90 \
 
 #${DIRHOME}/Build/master.f90 \
 #${DIRHOME}/WRF/main/module_wrf_top.F \

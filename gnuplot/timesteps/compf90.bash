@@ -3,7 +3,8 @@
 #codename="graftimestep_egeon_24h_media"
 #codename="graftimestep_egeon_24h_media_comWait"
 #codename="graftimestep_egeon_24h_soRank0_comWait"
-codename="graftimestep_egeon_24h_soRank0_comWait_somaRanks"
+#codename="graftimestep_egeon_24h_soRank0_comWait_somaRanks"
+codename="linha-do-tempo"
 
 
 rm -f ${codename}.x
@@ -20,8 +21,6 @@ then
    echo "executando: ${codename}.x"
    time ./${codename}.x
    echo "executado"
-
-   
 else
    echo "deu ruim"
 fi

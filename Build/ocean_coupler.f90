@@ -847,11 +847,18 @@
       CALL MCT_isend (AV2_A(ng,ia)%ocn2atm_AV2,                         &
      &                Router_A(ng,ia)%ROMStoWRF, Tag)
       !CR: temporizando waits:
-      MCT_Waits_ntimes = MCT_Waits_ntimes + 1
-      t_MCT_Waits = -MPI_Wtime()
-      CALL MCT_waits (Router_A(ng,ia)%ROMStoWRF)
-      t_MCT_Waits = t_MCT_Waits + MPI_Wtime()
-      write(unid_arqws+MyRank, "(f20.6, i5)") t_MCT_Waits, MCT_Waits_ntimes
+      !MCT_Waits_ntimes = MCT_Waits_ntimes + 1
+      !t_MCT_Waits = -MPI_Wtime()
+      !CR: graf-linha-do-tempo:
+      t_MCT_Waits = MPI_Wtime()
+      write(unid_arqws+MyRank, "('antes_waits_ocn ', f20.6, i5)") t_MCT_Waits
+         CALL MCT_waits (Router_A(ng,ia)%ROMStoWRF)
+      !CR: graf-linha-do-tempo:
+      t_MCT_Waits = MPI_Wtime()
+      write(unid_arqws+MyRank, "('depois_waits_ocn ', f20.6, i5)") t_MCT_Waits
+      !CR: temporizando waits:
+      !t_MCT_Waits = t_MCT_Waits + MPI_Wtime()
+      !write(unid_arqws+MyRank, "(f20.6, i5)") t_MCT_Waits, MCT_Waits_ntimes
       IF (MyError.ne.0) THEN
         IF (Master) THEN
           WRITE (stdout,20) 'atmosphere model, MyError = ', MyError
@@ -1100,12 +1107,19 @@
      &                Router_A(ng,ia)%ROMStoWRF, Tag)
 !     Wait to make sure the WRF data has arrived.
       !CR: Temporizando wait:
-      MCT_Waitr_ntimes = MCT_Waitr_ntimes +1
-      t_MCT_Waitr = -MPI_Wtime()
+      !MCT_Waitr_ntimes = MCT_Waitr_ntimes +1
+      !t_MCT_Waitr = -MPI_Wtime()
+      !CR: graf-linha-do-tempo:
+      t_MCT_Waitr = MPI_Wtime()
+      write(unid_arqwr+MyRank, "('antes_waitr_ocn ',f20.6, i5)") t_MCT_Waitr
       CALL MCT_waitr (AV2_A(ng,ia)%atm2ocn_AV2,                         &
      &                Router_A(ng,ia)%ROMStoWRF)
-      t_MCT_Waitr = t_MCT_Waitr + MPI_Wtime()
-      write(unid_arqwr+MyRank, "(f20.6, i5)") t_MCT_Waitr, MCT_Waitr_ntimes
+      !CR: graf-linha-do-tempo:
+      t_MCT_Waitr = MPI_Wtime()
+      write(unid_arqwr+MyRank, "('depois_waitr_ocn ',f20.6, i5)") t_MCT_Waitr
+      !CR: Temporizando wait:
+      !t_MCT_Waitr = t_MCT_Waitr + MPI_Wtime()
+      !write(unid_arqwr+MyRank, "(f20.6, i5)") t_MCT_Waitr, MCT_Waitr_ntimes
       CALL MCT_MatVecMul(AV2_A(ng,ia)%atm2ocn_AV2,                      &
      &                   SMPlus_A(ng,ia)%A2OMatPlus,                    &
      &                   AttrVect_G(ng)%atm2ocn_AV)
@@ -1617,9 +1631,12 @@
               IF (MOD(iic(1)+offset,nOCNFATM(1,1)).eq.0) THEN
                 DO tile=first_tile(ng),last_tile(ng),+1
                   !CR: temporizando entre ciclos de acoplamentos;
-                  t_entre_acpl_ocnfatm_coupling = t_entre_acpl_ocnfatm_coupling + MPI_Wtime()
-                  write(unid_arq+MyRank, "(f20.6, i5)") t_entre_acpl_ocnfatm_coupling, ocnfatm_coupling_ntimes
-                  t_entre_acpl_ocnfatm_coupling = 0.0
+                  !t_entre_acpl_ocnfatm_coupling = t_entre_acpl_ocnfatm_coupling + MPI_Wtime()
+                  !write(unid_arq+MyRank, "(f20.6, i5)") t_entre_acpl_ocnfatm_coupling, ocnfatm_coupling_ntimes
+                  !t_entre_acpl_ocnfatm_coupling = 0.0
+                  !CR: graf-linha-do-tempo
+                  t_entre_acpl_ocnfatm_coupling = MPI_Wtime()
+                  write(unid_arq+MyRank, "('antes_cpl_ocn ', f20.6, i5)") t_entre_acpl_ocnfatm_coupling
                      CALL ocnfatm_coupling (ng, ia, tile)
                 END DO
               END IF
@@ -1637,8 +1654,12 @@
               IF (MOD(iic(1)+offset,nOCN2ATM(1,1)).eq.0) THEN
                 DO tile=first_tile(ng),last_tile(ng),+1
                   CALL ocn2atm_coupling (ng, ia, tile)
-                  t_entre_acpl_ocnfatm_coupling = - MPI_Wtime()
-                  ocnfatm_coupling_ntimes = ocnfatm_coupling_ntimes + 1
+                  !CR: temporizando entre ciclos de acoplamentos;
+                  !t_entre_acpl_ocnfatm_coupling = - MPI_Wtime()
+                  !ocnfatm_coupling_ntimes = ocnfatm_coupling_ntimes + 1
+                  !CR: graf-linha-do-tempo:
+                  t_entre_acpl_ocnfatm_coupling = MPI_Wtime()
+                  write(unid_arq+MyRank, "('depois_cpl_ocn ', f20.6, i5)") t_entre_acpl_ocnfatm_coupling
                 END DO
               END IF
             END DO

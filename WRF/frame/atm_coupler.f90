@@ -692,10 +692,13 @@
          CALL mpi_comm_size (ATM_COMM_WORLD, nprocs, MyError)
          
 
-         
-            t_entre_acpl_atm2ocn = t_entre_acpl_atm2ocn + MPI_Wtime()
-            write(unid_arq+MyRank, "(f20.6, i5)") t_entre_acpl_atm2ocn, atm2ocn_coupling_ntimes
-            t_entre_acpl_atm2ocn = 0.0_m8
+            
+            
+            
+            
+            
+            t_entre_acpl_atm2ocn = MPI_Wtime()
+            write(unid_arq+MyRank, "('antes_cpl_atm ', f20.6)") t_entre_acpl_atm2ocn
         DO io=1,Nocn_grids
           ia=1
                CALL atm2ocn_coupling(grid,ia,io)
@@ -721,8 +724,12 @@
             
           END DO
         END DO
-            t_entre_acpl_atm2ocn = - MPI_Wtime()
-            atm2ocn_coupling_ntimes = atm2ocn_coupling_ntimes +1
+            
+            
+            
+            
+            t_entre_acpl_atm2ocn = MPI_Wtime()
+            write(unid_arq+MyRank, "('depois_cpl_atm ', f20.6)") t_entre_acpl_atm2ocn
       END IF
 
       
@@ -844,8 +851,8 @@
       real, pointer :: AA(:)
       
       
-      integer  :: unid_arqis = 1000, MyCWorldRank
-      integer  :: unid_arqws = 40000, unid_arqwr = 50000, unid_arqwtotal = 60000
+      integer  :: MyCWorldRank
+      integer  :: unid_arqws = 40000, unid_arqwr = 50000
       integer  :: MCT_Waits_ntimes = 0
       real(m8) :: itime_MCT_ISend = 0.0_m8, ftime_MCT_ISend = 0.0_m8, min_itime_MCT_ISend = 0.0_m8, max_ftime_MCT_ISend = 0.0_m8
       real(m8) :: t_MCT_Waits = 0.0_m8
@@ -1084,11 +1091,14 @@
          
          
          
-         MCT_Waits_ntimes = MCT_Waits_ntimes + 1
-         t_MCT_Waits = -MPI_Wtime()
+         
+         
+         
+         t_MCT_Waits = MPI_Wtime()
+         write(unid_arqws+MyRank, "('antes_atm_waits ', f20.6)") t_MCT_Waits
       CALL MCT_waits (Router_O(ia,io)%WRFtoROMS)
-         t_MCT_Waits = t_MCT_Waits + MPI_Wtime()
-         write(unid_arqws+MyRank, "(f20.6, i5)") t_MCT_Waits, MCT_Waits_ntimes
+         t_MCT_Waits = MPI_Wtime()
+         write(unid_arqws+MyRank, "('depois_atm_waits ',f20.6, i5)") t_MCT_Waits
          
       IF (MYRANK.EQ.0) THEN
         WRITE (*,36) ' ## WRF grid ',ia,                                &
@@ -1188,7 +1198,7 @@
       
       
       
-      integer  :: unid_arqir = 1000, MyCWorldRank
+      integer  :: MyCWorldRank
       integer  :: unid_arqwr = 50000, MCT_Waitr_ntimes = 0
       real(m8) :: itime_MCT_IRecv = 0.0_m8, ftime_MCT_IRecv = 0.0_m8, min_itime_MCT_IRecv = 0.0_m8, max_ftime_MCT_IRecv = 0.0_m8
       real(m8) :: itime_MCT_Waitr = 0.0_m8, ftime_MCT_Waitr = 0.0_m8, min_itime_MCT_Waitr = 0.0_m8, max_ftime_MCT_Waitr = 0.0_m8
@@ -1239,12 +1249,15 @@
 
          
          
-         MCT_Waitr_ntimes = MCT_Waitr_ntimes +1
-         t_MCT_Waitr = -MPI_Wtime()
+         
+         
+         
+         t_MCT_Waitr = MPI_Wtime()
+         write(unid_arqwr+MyRank, "('antes_atm_waitr ', f20.6)") t_MCT_Waitr
           CALL MCT_waitr (AttrVect_O(ia,io)%ocn2atm_AV,                 &
      &                    Router_O(ia,io)%WRFtoROMS)
-         t_MCT_Waitr = t_MCT_Waitr + MPI_Wtime()
-          write(unid_arqwr+MyRank, "(f20.6, i5)") t_MCT_Waitr, MCT_Waitr_ntimes
+         t_MCT_Waitr = MPI_Wtime()
+          write(unid_arqwr+MyRank, "('depois_atm_waitr 'f20.6, i5)") t_MCT_Waitr
          
 
         IF (MYRANK.EQ.0) THEN
@@ -1300,11 +1313,11 @@
       END IF
       
       
-     
-     
-     
-     
-     
+      
+      
+      
+      
+      
      
       
       

@@ -307,9 +307,12 @@
               IF (MOD(iic(1)+offset,nOCNFATM(1,1)).eq.0) THEN
                 DO tile=first_tile(ng),last_tile(ng),+1
                   !CR: temporizando entre ciclos de acoplamentos;
-                  t_entre_acpl_ocnfatm_coupling = t_entre_acpl_ocnfatm_coupling + MPI_Wtime()
-                  write(unid_arq+MyRank, "(f20.6, i5)") t_entre_acpl_ocnfatm_coupling, ocnfatm_coupling_ntimes
-                  t_entre_acpl_ocnfatm_coupling = 0.0
+                  !t_entre_acpl_ocnfatm_coupling = t_entre_acpl_ocnfatm_coupling + MPI_Wtime()
+                  !write(unid_arq+MyRank, "(f20.6, i5)") t_entre_acpl_ocnfatm_coupling, ocnfatm_coupling_ntimes
+                  !t_entre_acpl_ocnfatm_coupling = 0.0
+                  !CR: graf-linha-do-tempo
+                  t_entre_acpl_ocnfatm_coupling = MPI_Wtime()
+                  write(unid_arq+MyRank, "('antes_cpl_ocn ', f20.6, i5)") t_entre_acpl_ocnfatm_coupling
                      CALL ocnfatm_coupling (ng, ia, tile)
                 END DO
               END IF
@@ -327,8 +330,12 @@
               IF (MOD(iic(1)+offset,nOCN2ATM(1,1)).eq.0) THEN
                 DO tile=first_tile(ng),last_tile(ng),+1
                   CALL ocn2atm_coupling (ng, ia, tile)
-                  t_entre_acpl_ocnfatm_coupling = - MPI_Wtime()
-                  ocnfatm_coupling_ntimes = ocnfatm_coupling_ntimes + 1
+                  !CR: temporizando entre ciclos de acoplamentos;
+                  !t_entre_acpl_ocnfatm_coupling = - MPI_Wtime()
+                  !ocnfatm_coupling_ntimes = ocnfatm_coupling_ntimes + 1
+                  !CR: graf-linha-do-tempo:
+                  t_entre_acpl_ocnfatm_coupling = MPI_Wtime()
+                  write(unid_arq+MyRank, "('depois_cpl_ocn ', f20.6, i5)") t_entre_acpl_ocnfatm_coupling
                 END DO
               END IF
             END DO
